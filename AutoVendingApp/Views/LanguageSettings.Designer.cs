@@ -50,7 +50,6 @@
             this.label3.Size = new System.Drawing.Size(193, 26);
             this.label3.TabIndex = 18;
             this.label3.Text = "Language Settings";
-            //this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel1
             // 
@@ -107,6 +106,7 @@
             this.radioJava.TabStop = true;
             this.radioJava.Text = "Java";
             this.radioJava.UseVisualStyleBackColor = true;
+            this.radioJava.Click += new System.EventHandler(this.radioLanguage_CheckedChanged);
             // 
             // radioEnglish
             // 
@@ -118,6 +118,7 @@
             this.radioEnglish.TabStop = true;
             this.radioEnglish.Text = "English";
             this.radioEnglish.UseVisualStyleBackColor = true;
+            this.radioEnglish.Click += new System.EventHandler(this.radioLanguage_CheckedChanged);
             // 
             // radioIndonesia
             // 
@@ -129,6 +130,7 @@
             this.radioIndonesia.TabStop = true;
             this.radioIndonesia.Text = "Indonesia";
             this.radioIndonesia.UseVisualStyleBackColor = true;
+            this.radioIndonesia.Click += new System.EventHandler(this.radioLanguage_CheckedChanged);
             // 
             // label1
             // 

@@ -19,16 +19,16 @@ namespace AutoVendingApp
         public Vending()
         {
             InitializeComponent();
-            ApplyLanguage();
-
-            LanguageManager.LanguageChanged += ApplyLanguage;
             InisialisasiKontrolUI();
             InisialisasiProduk();
+            ApplyLanguage();
+            LanguageManager.LanguageChanged += ApplyLanguage;
         }
 
         private void ApplyLanguage()
         {
             this.Text = LanguageManager.GetString("VendingForm_Title");
+            Title.Text = LanguageManager.GetString("VendingForm_Title");
             
         }
 
@@ -127,7 +127,18 @@ namespace AutoVendingApp
         private void button21_Click(object sender, EventArgs e)
         {
             LanguageSettings halamanBahasa = new LanguageSettings();
-            halamanBahasa.ShowDialog();
+            halamanBahasa.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            AdminSettings admin = new AdminSettings();
+            AdminSettings.Show();
         }
     }
 }

@@ -110,7 +110,7 @@
             this.button20 = new System.Windows.Forms.Button();
             this.panel33 = new System.Windows.Forms.Panel();
             this.hargaLabel20 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.Title = new System.Windows.Forms.Label();
             this.PanelStatus = new System.Windows.Forms.FlowLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.Status = new System.Windows.Forms.Label();
@@ -1021,15 +1021,16 @@
             this.hargaLabel20.TabIndex = 26;
             this.hargaLabel20.Text = "[Nama Produk]";
             // 
-            // label3
+            // Title
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.label3.Location = new System.Drawing.Point(310, 9);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(277, 26);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Welcome To Auto Vending!";
+            this.Title.AutoSize = true;
+            this.Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.Title.Location = new System.Drawing.Point(310, 9);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(277, 26);
+            this.Title.TabIndex = 2;
+            this.Title.Text = "Welcome To Auto Vending!";
+            this.Title.Click += new System.EventHandler(this.label3_Click);
             // 
             // PanelStatus
             // 
@@ -1094,6 +1095,7 @@
             this.button22.TabIndex = 2;
             this.button22.Text = "Access";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // label2
             // 
@@ -1361,7 +1363,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.PanelStatus);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Title);
             this.Controls.Add(this.ItemsVending);
             this.Name = "Vending";
             this.Text = "Vending";
@@ -1506,7 +1508,7 @@
         private System.Windows.Forms.Panel panel32;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label Title;
         private System.Windows.Forms.FlowLayoutPanel PanelStatus;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label Status;
