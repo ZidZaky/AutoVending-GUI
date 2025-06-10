@@ -330,6 +330,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(151, 100);
             this.panel6.TabIndex = 0;
+
             // 
             // hargaLabel3
             // 
