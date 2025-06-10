@@ -27,20 +27,10 @@ namespace AutoVendingApp
         {
             // Daftarkan semua tombol produk
             tombolProduk = new List<Button> {
-    button1, button2, button3, button4,
-    button5, button6, button7, button8,
-    button9, button10, button11, button12,
-    button13, button14, button15, button16,
-    button17, button18, button19, button20
-};
-
-            labelHarga = new List<Label> {
-    hargaLabel1, hargaLabel2, hargaLabel3, hargaLabel4,
-    hargaLabel5, hargaLabel6, hargaLabel7, hargaLabel8,
-    hargaLabel9, hargaLabel10, hargaLabel11, hargaLabel12,
-    hargaLabel13, hargaLabel14, hargaLabel15, hargaLabel16,
-    hargaLabel17, hargaLabel18, hargaLabel19, hargaLabel20
-};
+                button1, button2, button3, button4,
+                button5, button6, button7, button8,
+                button9, button10, button11, button12
+            };
         }
 
         private void InisialisasiProduk()
@@ -106,6 +96,71 @@ namespace AutoVendingApp
                 Status.Text = "Out of Service";
                 PanelStatus.ForeColor = Color.Red;
             }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel22_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label23_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label32_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
