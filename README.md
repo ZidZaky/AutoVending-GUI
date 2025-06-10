@@ -14,3 +14,14 @@ Bahasa Pemrograman: C#
 Framework: .NET Framework
 Platform: Windows Forms (WinForms)
 IDE: Visual Studio
+
+\\\
+Tutorial Git :
+git Clone https://github.com/ZidZaky/AutoVending-GUI.git
+*Silahkan Bisa Ubah Dulu*
+git checkout -b nama-branch-baru
+git add .
+git commit -m "Pesan"
+git push -u origin nama-branch-baru
+\\\
+untuk push selanjutnya "git push"
