@@ -33,63 +33,83 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.hargaLabel1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.hargaLabel2 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.hargaLabel3 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button4 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.hargaLabel4 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.hargaLabel5 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.hargaLabel6 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
             this.button7 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.hargaLabel7 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.hargaLabel8 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.hargaLabel9 = new System.Windows.Forms.Label();
             this.panel20 = new System.Windows.Forms.Panel();
             this.button10 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
+            this.hargaLabel10 = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.panel22 = new System.Windows.Forms.Panel();
             this.button11 = new System.Windows.Forms.Button();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.hargaLabel11 = new System.Windows.Forms.Label();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.hargaLabel12 = new System.Windows.Forms.Label();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.hargaLabel13 = new System.Windows.Forms.Label();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.hargaLabel14 = new System.Windows.Forms.Label();
+            this.panel22 = new System.Windows.Forms.Panel();
+            this.button15 = new System.Windows.Forms.Button();
             this.panel23 = new System.Windows.Forms.Panel();
+            this.hargaLabel15 = new System.Windows.Forms.Label();
             this.panel36 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
             this.panel37 = new System.Windows.Forms.Panel();
-            this.panel40 = new System.Windows.Forms.Panel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.button19 = new System.Windows.Forms.Button();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.panel32 = new System.Windows.Forms.Panel();
+            this.hargaLabel16 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
+            this.panel40 = new System.Windows.Forms.Panel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.hargaLabel17 = new System.Windows.Forms.Label();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.button18 = new System.Windows.Forms.Button();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.hargaLabel18 = new System.Windows.Forms.Label();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.button19 = new System.Windows.Forms.Button();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.hargaLabel19 = new System.Windows.Forms.Label();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
             this.panel33 = new System.Windows.Forms.Panel();
+            this.hargaLabel20 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.PanelStatus = new System.Windows.Forms.FlowLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
@@ -122,26 +142,6 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.hargaLabel1 = new System.Windows.Forms.Label();
-            this.hargaLabel2 = new System.Windows.Forms.Label();
-            this.hargaLabel3 = new System.Windows.Forms.Label();
-            this.hargaLabel4 = new System.Windows.Forms.Label();
-            this.hargaLabel5 = new System.Windows.Forms.Label();
-            this.hargaLabel6 = new System.Windows.Forms.Label();
-            this.hargaLabel7 = new System.Windows.Forms.Label();
-            this.hargaLabel8 = new System.Windows.Forms.Label();
-            this.hargaLabel9 = new System.Windows.Forms.Label();
-            this.hargaLabel10 = new System.Windows.Forms.Label();
-            this.hargaLabel11 = new System.Windows.Forms.Label();
-            this.hargaLabel12 = new System.Windows.Forms.Label();
-            this.hargaLabel16 = new System.Windows.Forms.Label();
-            this.hargaLabel15 = new System.Windows.Forms.Label();
-            this.hargaLabel14 = new System.Windows.Forms.Label();
-            this.hargaLabel13 = new System.Windows.Forms.Label();
-            this.hargaLabel17 = new System.Windows.Forms.Label();
-            this.hargaLabel18 = new System.Windows.Forms.Label();
-            this.hargaLabel19 = new System.Windows.Forms.Label();
-            this.hargaLabel20 = new System.Windows.Forms.Label();
             this.ItemsVending.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -251,6 +251,16 @@
             this.panel7.Size = new System.Drawing.Size(151, 100);
             this.panel7.TabIndex = 0;
             // 
+            // hargaLabel1
+            // 
+            this.hargaLabel1.AutoSize = true;
+            this.hargaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel1.Location = new System.Drawing.Point(17, 6);
+            this.hargaLabel1.Name = "hargaLabel1";
+            this.hargaLabel1.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel1.TabIndex = 24;
+            this.hargaLabel1.Text = "[Nama Produk]";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Menu;
@@ -281,6 +291,16 @@
             this.panel4.Size = new System.Drawing.Size(151, 100);
             this.panel4.TabIndex = 0;
             // 
+            // hargaLabel2
+            // 
+            this.hargaLabel2.AutoSize = true;
+            this.hargaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel2.Location = new System.Drawing.Point(21, 6);
+            this.hargaLabel2.Name = "hargaLabel2";
+            this.hargaLabel2.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel2.TabIndex = 25;
+            this.hargaLabel2.Text = "[Nama Produk]";
+            // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.SystemColors.Menu;
@@ -310,6 +330,17 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(151, 100);
             this.panel6.TabIndex = 0;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
+            // 
+            // hargaLabel3
+            // 
+            this.hargaLabel3.AutoSize = true;
+            this.hargaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel3.Location = new System.Drawing.Point(21, 6);
+            this.hargaLabel3.Name = "hargaLabel3";
+            this.hargaLabel3.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel3.TabIndex = 25;
+            this.hargaLabel3.Text = "[Nama Produk]";
             // 
             // panel8
             // 
@@ -341,6 +372,16 @@
             this.panel9.Size = new System.Drawing.Size(151, 100);
             this.panel9.TabIndex = 0;
             // 
+            // hargaLabel4
+            // 
+            this.hargaLabel4.AutoSize = true;
+            this.hargaLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel4.Location = new System.Drawing.Point(18, 6);
+            this.hargaLabel4.Name = "hargaLabel4";
+            this.hargaLabel4.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel4.TabIndex = 25;
+            this.hargaLabel4.Text = "[Nama Produk]";
+            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.SystemColors.Menu;
@@ -370,6 +411,16 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(151, 100);
             this.panel11.TabIndex = 0;
+            // 
+            // hargaLabel5
+            // 
+            this.hargaLabel5.AutoSize = true;
+            this.hargaLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel5.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel5.Name = "hargaLabel5";
+            this.hargaLabel5.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel5.TabIndex = 25;
+            this.hargaLabel5.Text = "[Nama Produk]";
             // 
             // panel12
             // 
@@ -401,6 +452,16 @@
             this.panel13.Size = new System.Drawing.Size(151, 100);
             this.panel13.TabIndex = 0;
             // 
+            // hargaLabel6
+            // 
+            this.hargaLabel6.AutoSize = true;
+            this.hargaLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel6.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel6.Name = "hargaLabel6";
+            this.hargaLabel6.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel6.TabIndex = 25;
+            this.hargaLabel6.Text = "[Nama Produk]";
+            // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.SystemColors.Menu;
@@ -430,6 +491,16 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(151, 100);
             this.panel15.TabIndex = 0;
+            // 
+            // hargaLabel7
+            // 
+            this.hargaLabel7.AutoSize = true;
+            this.hargaLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel7.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel7.Name = "hargaLabel7";
+            this.hargaLabel7.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel7.TabIndex = 25;
+            this.hargaLabel7.Text = "[Nama Produk]";
             // 
             // panel16
             // 
@@ -461,6 +532,16 @@
             this.panel17.Size = new System.Drawing.Size(151, 100);
             this.panel17.TabIndex = 0;
             // 
+            // hargaLabel8
+            // 
+            this.hargaLabel8.AutoSize = true;
+            this.hargaLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel8.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel8.Name = "hargaLabel8";
+            this.hargaLabel8.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel8.TabIndex = 25;
+            this.hargaLabel8.Text = "[Nama Produk]";
+            // 
             // panel18
             // 
             this.panel18.BackColor = System.Drawing.SystemColors.Menu;
@@ -490,6 +571,16 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(151, 100);
             this.panel19.TabIndex = 0;
+            // 
+            // hargaLabel9
+            // 
+            this.hargaLabel9.AutoSize = true;
+            this.hargaLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel9.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel9.Name = "hargaLabel9";
+            this.hargaLabel9.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel9.TabIndex = 26;
+            this.hargaLabel9.Text = "[Nama Produk]";
             // 
             // panel20
             // 
@@ -521,6 +612,16 @@
             this.panel21.Size = new System.Drawing.Size(151, 100);
             this.panel21.TabIndex = 0;
             // 
+            // hargaLabel10
+            // 
+            this.hargaLabel10.AutoSize = true;
+            this.hargaLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel10.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel10.Name = "hargaLabel10";
+            this.hargaLabel10.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel10.TabIndex = 26;
+            this.hargaLabel10.Text = "[Nama Produk]";
+            // 
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.SystemColors.Menu;
@@ -532,15 +633,15 @@
             this.panel26.Size = new System.Drawing.Size(157, 145);
             this.panel26.TabIndex = 4;
             // 
-            // button13
+            // button11
             // 
-            this.button13.Location = new System.Drawing.Point(3, 107);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(151, 33);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button11.Location = new System.Drawing.Point(3, 107);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(151, 33);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "button11";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel27
             // 
@@ -550,6 +651,16 @@
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(151, 100);
             this.panel27.TabIndex = 0;
+            // 
+            // hargaLabel11
+            // 
+            this.hargaLabel11.AutoSize = true;
+            this.hargaLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel11.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel11.Name = "hargaLabel11";
+            this.hargaLabel11.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel11.TabIndex = 26;
+            this.hargaLabel11.Text = "[Nama Produk]";
             // 
             // panel30
             // 
@@ -562,15 +673,15 @@
             this.panel30.Size = new System.Drawing.Size(157, 145);
             this.panel30.TabIndex = 6;
             // 
-            // button15
+            // button12
             // 
-            this.button15.Location = new System.Drawing.Point(3, 107);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(151, 33);
-            this.button15.TabIndex = 0;
-            this.button15.Text = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button12.Location = new System.Drawing.Point(3, 109);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(151, 33);
+            this.button12.TabIndex = 0;
+            this.button12.Text = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel31
             // 
@@ -580,6 +691,16 @@
             this.panel31.Name = "panel31";
             this.panel31.Size = new System.Drawing.Size(151, 100);
             this.panel31.TabIndex = 0;
+            // 
+            // hargaLabel12
+            // 
+            this.hargaLabel12.AutoSize = true;
+            this.hargaLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel12.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel12.Name = "hargaLabel12";
+            this.hargaLabel12.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel12.TabIndex = 26;
+            this.hargaLabel12.Text = "[Nama Produk]";
             // 
             // panel28
             // 
@@ -592,15 +713,15 @@
             this.panel28.Size = new System.Drawing.Size(157, 145);
             this.panel28.TabIndex = 5;
             // 
-            // button14
+            // button13
             // 
-            this.button14.Location = new System.Drawing.Point(3, 107);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(151, 33);
-            this.button14.TabIndex = 0;
-            this.button14.Text = "button14";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button13.Location = new System.Drawing.Point(3, 107);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(151, 33);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "button13";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel29
             // 
@@ -610,6 +731,16 @@
             this.panel29.Name = "panel29";
             this.panel29.Size = new System.Drawing.Size(151, 100);
             this.panel29.TabIndex = 0;
+            // 
+            // hargaLabel13
+            // 
+            this.hargaLabel13.AutoSize = true;
+            this.hargaLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel13.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel13.Name = "hargaLabel13";
+            this.hargaLabel13.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel13.TabIndex = 26;
+            this.hargaLabel13.Text = "[Nama Produk]";
             // 
             // panel24
             // 
@@ -622,15 +753,15 @@
             this.panel24.Size = new System.Drawing.Size(157, 145);
             this.panel24.TabIndex = 3;
             // 
-            // button12
+            // button14
             // 
-            this.button12.Location = new System.Drawing.Point(3, 109);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(151, 33);
-            this.button12.TabIndex = 0;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button14.Location = new System.Drawing.Point(3, 107);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(151, 33);
+            this.button14.TabIndex = 0;
+            this.button14.Text = "button14";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel25
             // 
@@ -640,6 +771,16 @@
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(151, 100);
             this.panel25.TabIndex = 0;
+            // 
+            // hargaLabel14
+            // 
+            this.hargaLabel14.AutoSize = true;
+            this.hargaLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel14.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel14.Name = "hargaLabel14";
+            this.hargaLabel14.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel14.TabIndex = 26;
+            this.hargaLabel14.Text = "[Nama Produk]";
             // 
             // panel22
             // 
@@ -652,15 +793,15 @@
             this.panel22.Size = new System.Drawing.Size(157, 145);
             this.panel22.TabIndex = 2;
             // 
-            // button11
+            // button15
             // 
-            this.button11.Location = new System.Drawing.Point(3, 107);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(151, 33);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button15.Location = new System.Drawing.Point(3, 107);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(151, 33);
+            this.button15.TabIndex = 0;
+            this.button15.Text = "button15";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel23
             // 
@@ -670,6 +811,16 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(151, 100);
             this.panel23.TabIndex = 0;
+            // 
+            // hargaLabel15
+            // 
+            this.hargaLabel15.AutoSize = true;
+            this.hargaLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel15.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel15.Name = "hargaLabel15";
+            this.hargaLabel15.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel15.TabIndex = 26;
+            this.hargaLabel15.Text = "[Nama Produk]";
             // 
             // panel36
             // 
@@ -682,16 +833,6 @@
             this.panel36.Size = new System.Drawing.Size(157, 145);
             this.panel36.TabIndex = 4;
             // 
-            // button18
-            // 
-            this.button18.Location = new System.Drawing.Point(3, 107);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(151, 33);
-            this.button18.TabIndex = 0;
-            this.button18.Text = "button18";
-            this.button18.UseVisualStyleBackColor = true;
-            this.button18.Click += new System.EventHandler(this.TombolProduk_Click);
-            // 
             // panel37
             // 
             this.panel37.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel37.BackgroundImage")));
@@ -700,6 +841,26 @@
             this.panel37.Name = "panel37";
             this.panel37.Size = new System.Drawing.Size(151, 100);
             this.panel37.TabIndex = 0;
+            // 
+            // hargaLabel16
+            // 
+            this.hargaLabel16.AutoSize = true;
+            this.hargaLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel16.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel16.Name = "hargaLabel16";
+            this.hargaLabel16.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel16.TabIndex = 26;
+            this.hargaLabel16.Text = "[Nama Produk]";
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(3, 107);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(151, 33);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "button16";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel40
             // 
@@ -712,15 +873,15 @@
             this.panel40.Size = new System.Drawing.Size(157, 145);
             this.panel40.TabIndex = 6;
             // 
-            // button20
+            // button17
             // 
-            this.button20.Location = new System.Drawing.Point(3, 107);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(151, 33);
-            this.button20.TabIndex = 0;
-            this.button20.Text = "button20";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button17.Location = new System.Drawing.Point(3, 107);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(151, 33);
+            this.button17.TabIndex = 0;
+            this.button17.Text = "button17";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel41
             // 
@@ -730,6 +891,16 @@
             this.panel41.Name = "panel41";
             this.panel41.Size = new System.Drawing.Size(151, 100);
             this.panel41.TabIndex = 0;
+            // 
+            // hargaLabel17
+            // 
+            this.hargaLabel17.AutoSize = true;
+            this.hargaLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel17.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel17.Name = "hargaLabel17";
+            this.hargaLabel17.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel17.TabIndex = 26;
+            this.hargaLabel17.Text = "[Nama Produk]";
             // 
             // panel38
             // 
@@ -742,15 +913,15 @@
             this.panel38.Size = new System.Drawing.Size(157, 145);
             this.panel38.TabIndex = 5;
             // 
-            // button19
+            // button18
             // 
-            this.button19.Location = new System.Drawing.Point(3, 107);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(151, 33);
-            this.button19.TabIndex = 0;
-            this.button19.Text = "button19";
-            this.button19.UseVisualStyleBackColor = true;
-            this.button19.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button18.Location = new System.Drawing.Point(3, 107);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(151, 33);
+            this.button18.TabIndex = 0;
+            this.button18.Text = "button18";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel39
             // 
@@ -760,6 +931,16 @@
             this.panel39.Name = "panel39";
             this.panel39.Size = new System.Drawing.Size(151, 100);
             this.panel39.TabIndex = 0;
+            // 
+            // hargaLabel18
+            // 
+            this.hargaLabel18.AutoSize = true;
+            this.hargaLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel18.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel18.Name = "hargaLabel18";
+            this.hargaLabel18.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel18.TabIndex = 26;
+            this.hargaLabel18.Text = "[Nama Produk]";
             // 
             // panel34
             // 
@@ -772,15 +953,15 @@
             this.panel34.Size = new System.Drawing.Size(157, 145);
             this.panel34.TabIndex = 3;
             // 
-            // button17
+            // button19
             // 
-            this.button17.Location = new System.Drawing.Point(3, 107);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(151, 33);
-            this.button17.TabIndex = 0;
-            this.button17.Text = "button17";
-            this.button17.UseVisualStyleBackColor = true;
-            this.button17.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button19.Location = new System.Drawing.Point(3, 107);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(151, 33);
+            this.button19.TabIndex = 0;
+            this.button19.Text = "button19";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel35
             // 
@@ -790,6 +971,16 @@
             this.panel35.Name = "panel35";
             this.panel35.Size = new System.Drawing.Size(151, 100);
             this.panel35.TabIndex = 0;
+            // 
+            // hargaLabel19
+            // 
+            this.hargaLabel19.AutoSize = true;
+            this.hargaLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel19.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel19.Name = "hargaLabel19";
+            this.hargaLabel19.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel19.TabIndex = 26;
+            this.hargaLabel19.Text = "[Nama Produk]";
             // 
             // panel32
             // 
@@ -802,15 +993,15 @@
             this.panel32.Size = new System.Drawing.Size(157, 145);
             this.panel32.TabIndex = 2;
             // 
-            // button16
+            // button20
             // 
-            this.button16.Location = new System.Drawing.Point(3, 107);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(151, 33);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "button16";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.TombolProduk_Click);
+            this.button20.Location = new System.Drawing.Point(3, 107);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(151, 33);
+            this.button20.TabIndex = 0;
+            this.button20.Text = "button20";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.TombolProduk_Click);
             // 
             // panel33
             // 
@@ -820,6 +1011,16 @@
             this.panel33.Name = "panel33";
             this.panel33.Size = new System.Drawing.Size(151, 100);
             this.panel33.TabIndex = 0;
+            // 
+            // hargaLabel20
+            // 
+            this.hargaLabel20.AutoSize = true;
+            this.hargaLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hargaLabel20.Location = new System.Drawing.Point(19, 7);
+            this.hargaLabel20.Name = "hargaLabel20";
+            this.hargaLabel20.Size = new System.Drawing.Size(113, 20);
+            this.hargaLabel20.TabIndex = 26;
+            this.hargaLabel20.Text = "[Nama Produk]";
             // 
             // label3
             // 
@@ -1145,206 +1346,6 @@
             this.label19.Size = new System.Drawing.Size(163, 24);
             this.label19.TabIndex = 25;
             this.label19.Text = "Fitur AutoVending";
-            // 
-            // hargaLabel1
-            // 
-            this.hargaLabel1.AutoSize = true;
-            this.hargaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel1.Location = new System.Drawing.Point(17, 6);
-            this.hargaLabel1.Name = "hargaLabel1";
-            this.hargaLabel1.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel1.TabIndex = 24;
-            this.hargaLabel1.Text = "[Nama Produk]";
-            // 
-            // hargaLabel2
-            // 
-            this.hargaLabel2.AutoSize = true;
-            this.hargaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel2.Location = new System.Drawing.Point(21, 6);
-            this.hargaLabel2.Name = "hargaLabel2";
-            this.hargaLabel2.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel2.TabIndex = 25;
-            this.hargaLabel2.Text = "[Nama Produk]";
-            // 
-            // hargaLabel3
-            // 
-            this.hargaLabel3.AutoSize = true;
-            this.hargaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel3.Location = new System.Drawing.Point(21, 6);
-            this.hargaLabel3.Name = "hargaLabel3";
-            this.hargaLabel3.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel3.TabIndex = 25;
-            this.hargaLabel3.Text = "[Nama Produk]";
-            // 
-            // hargaLabel4
-            // 
-            this.hargaLabel4.AutoSize = true;
-            this.hargaLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel4.Location = new System.Drawing.Point(18, 6);
-            this.hargaLabel4.Name = "hargaLabel4";
-            this.hargaLabel4.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel4.TabIndex = 25;
-            this.hargaLabel4.Text = "[Nama Produk]";
-            // 
-            // hargaLabel5
-            // 
-            this.hargaLabel5.AutoSize = true;
-            this.hargaLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel5.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel5.Name = "hargaLabel5";
-            this.hargaLabel5.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel5.TabIndex = 25;
-            this.hargaLabel5.Text = "[Nama Produk]";
-            // 
-            // hargaLabel6
-            // 
-            this.hargaLabel6.AutoSize = true;
-            this.hargaLabel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel6.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel6.Name = "hargaLabel6";
-            this.hargaLabel6.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel6.TabIndex = 25;
-            this.hargaLabel6.Text = "[Nama Produk]";
-            // 
-            // hargaLabel7
-            // 
-            this.hargaLabel7.AutoSize = true;
-            this.hargaLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel7.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel7.Name = "hargaLabel7";
-            this.hargaLabel7.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel7.TabIndex = 25;
-            this.hargaLabel7.Text = "[Nama Produk]";
-            // 
-            // hargaLabel8
-            // 
-            this.hargaLabel8.AutoSize = true;
-            this.hargaLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel8.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel8.Name = "hargaLabel8";
-            this.hargaLabel8.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel8.TabIndex = 25;
-            this.hargaLabel8.Text = "[Nama Produk]";
-            // 
-            // hargaLabel9
-            // 
-            this.hargaLabel9.AutoSize = true;
-            this.hargaLabel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel9.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel9.Name = "hargaLabel9";
-            this.hargaLabel9.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel9.TabIndex = 26;
-            this.hargaLabel9.Text = "[Nama Produk]";
-            // 
-            // hargaLabel10
-            // 
-            this.hargaLabel10.AutoSize = true;
-            this.hargaLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel10.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel10.Name = "hargaLabel10";
-            this.hargaLabel10.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel10.TabIndex = 26;
-            this.hargaLabel10.Text = "[Nama Produk]";
-            // 
-            // hargaLabel11
-            // 
-            this.hargaLabel11.AutoSize = true;
-            this.hargaLabel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel11.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel11.Name = "hargaLabel11";
-            this.hargaLabel11.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel11.TabIndex = 26;
-            this.hargaLabel11.Text = "[Nama Produk]";
-            // 
-            // hargaLabel12
-            // 
-            this.hargaLabel12.AutoSize = true;
-            this.hargaLabel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel12.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel12.Name = "hargaLabel12";
-            this.hargaLabel12.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel12.TabIndex = 26;
-            this.hargaLabel12.Text = "[Nama Produk]";
-            // 
-            // hargaLabel16
-            // 
-            this.hargaLabel16.AutoSize = true;
-            this.hargaLabel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel16.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel16.Name = "hargaLabel16";
-            this.hargaLabel16.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel16.TabIndex = 26;
-            this.hargaLabel16.Text = "[Nama Produk]";
-            // 
-            // hargaLabel15
-            // 
-            this.hargaLabel15.AutoSize = true;
-            this.hargaLabel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel15.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel15.Name = "hargaLabel15";
-            this.hargaLabel15.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel15.TabIndex = 26;
-            this.hargaLabel15.Text = "[Nama Produk]";
-            // 
-            // hargaLabel14
-            // 
-            this.hargaLabel14.AutoSize = true;
-            this.hargaLabel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel14.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel14.Name = "hargaLabel14";
-            this.hargaLabel14.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel14.TabIndex = 26;
-            this.hargaLabel14.Text = "[Nama Produk]";
-            // 
-            // hargaLabel13
-            // 
-            this.hargaLabel13.AutoSize = true;
-            this.hargaLabel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel13.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel13.Name = "hargaLabel13";
-            this.hargaLabel13.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel13.TabIndex = 26;
-            this.hargaLabel13.Text = "[Nama Produk]";
-            // 
-            // hargaLabel17
-            // 
-            this.hargaLabel17.AutoSize = true;
-            this.hargaLabel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel17.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel17.Name = "hargaLabel17";
-            this.hargaLabel17.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel17.TabIndex = 26;
-            this.hargaLabel17.Text = "[Nama Produk]";
-            // 
-            // hargaLabel18
-            // 
-            this.hargaLabel18.AutoSize = true;
-            this.hargaLabel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel18.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel18.Name = "hargaLabel18";
-            this.hargaLabel18.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel18.TabIndex = 26;
-            this.hargaLabel18.Text = "[Nama Produk]";
-            // 
-            // hargaLabel19
-            // 
-            this.hargaLabel19.AutoSize = true;
-            this.hargaLabel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel19.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel19.Name = "hargaLabel19";
-            this.hargaLabel19.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel19.TabIndex = 26;
-            this.hargaLabel19.Text = "[Nama Produk]";
-            // 
-            // hargaLabel20
-            // 
-            this.hargaLabel20.AutoSize = true;
-            this.hargaLabel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hargaLabel20.Location = new System.Drawing.Point(19, 7);
-            this.hargaLabel20.Name = "hargaLabel20";
-            this.hargaLabel20.Size = new System.Drawing.Size(113, 20);
-            this.hargaLabel20.TabIndex = 26;
-            this.hargaLabel20.Text = "[Nama Produk]";
             // 
             // Vending
             // 

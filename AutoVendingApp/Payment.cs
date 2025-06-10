@@ -38,5 +38,6 @@ namespace AutoVendingApp
 
             this.Close();
         }
+
     }
 }

@@ -113,6 +113,7 @@
     <EmbeddedResource Include="Vending.resx">
       <DependentUpon>Vending.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="languageConfig.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
