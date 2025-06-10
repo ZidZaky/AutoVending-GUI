@@ -330,7 +330,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(151, 100);
             this.panel6.TabIndex = 0;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // hargaLabel3
             // 
@@ -1113,6 +1112,7 @@
             this.button21.TabIndex = 0;
             this.button21.Text = "Change";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // label1
             // 

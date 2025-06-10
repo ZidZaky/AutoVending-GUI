@@ -15,21 +15,39 @@ namespace AutoVendingApp
         public AdminSettings()
         {
             InitializeComponent();
+            LoadTransactionHistory();
         }
 
-        private void label3_Click(object sender, EventArgs e)
+        private void LoadTransactionHistory()
         {
+            // Hapus data lama agar tidak duplikat saat dipanggil lagi
+            listView1.Items.Clear();
 
-        }
+            // ---- INI HANYA DATA CONTOH ----
+            // Nanti, Anda akan mengambil data ini dari database atau file log
+            var transactionList = new List<Transaction>
+    {
+        new Transaction { TransactionId = 1, ProductName = "Snack Kentang", Quantity = 1, TotalAmount = 5000 },
+        new Transaction { TransactionId = 2, ProductName = "Teh Kotak", Quantity = 2, TotalAmount = 7000 },
+        new Transaction { TransactionId = 3, ProductName = "Cokelat Susu", Quantity = 1, TotalAmount = 7000 }
+    };
+            // --------------------------------
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
+            // Looping melalui setiap data transaksi dan menambahkannya ke listview
+            foreach (var tx in transactionList)
+            {
+                // Buat baris baru (ListViewItem)
+                // Kolom pertama (ID Transaksi) dimasukkan saat pembuatan item
+                ListViewItem item = new ListViewItem(tx.TransactionId.ToString());
 
-        }
+                // Kolom-kolom berikutnya ditambahkan sebagai SubItems
+                item.SubItems.Add(tx.ProductName);
+                item.SubItems.Add(tx.Quantity.ToString());
+                item.SubItems.Add($"Rp {tx.TotalAmount:N0}"); // Format sebagai mata uang
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
+                // Tambahkan baris yang sudah jadi ke dalam ListView
+                listView1.Items.Add(item);
+            }
         }
     }
 }

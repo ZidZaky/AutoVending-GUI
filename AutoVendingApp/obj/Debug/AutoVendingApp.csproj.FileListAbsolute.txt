@@ -2,7 +2,6 @@ D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\AutoVendingApp.exe
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.MainApp.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
@@ -13,3 +12,7 @@ D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
+D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Json\languages.json
+D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
+D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
+D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
