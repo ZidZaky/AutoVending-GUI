@@ -60,10 +60,82 @@
             this.label22 = new System.Windows.Forms.Label();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label26 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
             this.hargaLabel9 = new System.Windows.Forms.Label();
             this.ItemsVending = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel41 = new System.Windows.Forms.Panel();
+            this.button20 = new System.Windows.Forms.Button();
+            this.panel42 = new System.Windows.Forms.Panel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.panel38 = new System.Windows.Forms.Panel();
+            this.button18 = new System.Windows.Forms.Button();
+            this.panel39 = new System.Windows.Forms.Panel();
+            this.label43 = new System.Windows.Forms.Label();
+            this.panel36 = new System.Windows.Forms.Panel();
+            this.button17 = new System.Windows.Forms.Button();
+            this.panel37 = new System.Windows.Forms.Panel();
+            this.label42 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
+            this.panel34 = new System.Windows.Forms.Panel();
+            this.button16 = new System.Windows.Forms.Button();
+            this.panel35 = new System.Windows.Forms.Panel();
+            this.label41 = new System.Windows.Forms.Label();
+            this.panel32 = new System.Windows.Forms.Panel();
+            this.button15 = new System.Windows.Forms.Button();
+            this.panel33 = new System.Windows.Forms.Panel();
+            this.label40 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label27 = new System.Windows.Forms.Label();
+            this.panel30 = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.panel31 = new System.Windows.Forms.Panel();
+            this.panel28 = new System.Windows.Forms.Panel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.panel29 = new System.Windows.Forms.Panel();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.panel27 = new System.Windows.Forms.Panel();
+            this.label37 = new System.Windows.Forms.Label();
+            this.panel24 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
+            this.panel25 = new System.Windows.Forms.Panel();
+            this.label36 = new System.Windows.Forms.Label();
+            this.panel20 = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.panel21 = new System.Windows.Forms.Panel();
+            this.label35 = new System.Windows.Forms.Label();
+            this.panel16 = new System.Windows.Forms.Panel();
+            this.button8 = new System.Windows.Forms.Button();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.panel14 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.panel15 = new System.Windows.Forms.Panel();
+            this.label33 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.JamOperasional = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
@@ -80,124 +152,52 @@
             this.label23 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label24 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label25 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label26 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label27 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label28 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel13 = new System.Windows.Forms.Panel();
-            this.label29 = new System.Windows.Forms.Label();
-            this.panel14 = new System.Windows.Forms.Panel();
-            this.button7 = new System.Windows.Forms.Button();
-            this.panel15 = new System.Windows.Forms.Panel();
-            this.label33 = new System.Windows.Forms.Label();
-            this.panel16 = new System.Windows.Forms.Panel();
-            this.button8 = new System.Windows.Forms.Button();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.panel20 = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.panel21 = new System.Windows.Forms.Panel();
-            this.label35 = new System.Windows.Forms.Label();
-            this.panel24 = new System.Windows.Forms.Panel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.panel25 = new System.Windows.Forms.Panel();
-            this.label36 = new System.Windows.Forms.Label();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
-            this.panel27 = new System.Windows.Forms.Panel();
-            this.label37 = new System.Windows.Forms.Label();
-            this.panel28 = new System.Windows.Forms.Panel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.panel29 = new System.Windows.Forms.Panel();
-            this.label38 = new System.Windows.Forms.Label();
-            this.panel30 = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.panel31 = new System.Windows.Forms.Panel();
-            this.label39 = new System.Windows.Forms.Label();
-            this.panel32 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.label40 = new System.Windows.Forms.Label();
-            this.panel34 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
-            this.panel35 = new System.Windows.Forms.Panel();
-            this.label41 = new System.Windows.Forms.Label();
-            this.panel36 = new System.Windows.Forms.Panel();
-            this.button17 = new System.Windows.Forms.Button();
-            this.panel37 = new System.Windows.Forms.Panel();
-            this.label42 = new System.Windows.Forms.Label();
-            this.panel38 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
-            this.panel39 = new System.Windows.Forms.Panel();
-            this.label43 = new System.Windows.Forms.Label();
-            this.panel41 = new System.Windows.Forms.Panel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.panel42 = new System.Windows.Forms.Panel();
-            this.label44 = new System.Windows.Forms.Label();
             this.PanelStatus.SuspendLayout();
             this.panel1.SuspendLayout();
             this.TombolPowerVending.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.panel18.SuspendLayout();
-            this.panel19.SuspendLayout();
-            this.ItemsVending.SuspendLayout();
-            this.panel22.SuspendLayout();
-            this.panel23.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel19.SuspendLayout();
+            this.ItemsVending.SuspendLayout();
+            this.panel41.SuspendLayout();
+            this.panel42.SuspendLayout();
+            this.panel38.SuspendLayout();
+            this.panel39.SuspendLayout();
+            this.panel36.SuspendLayout();
+            this.panel37.SuspendLayout();
             this.panel10.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
-            this.panel14.SuspendLayout();
-            this.panel15.SuspendLayout();
-            this.panel16.SuspendLayout();
-            this.panel17.SuspendLayout();
-            this.panel20.SuspendLayout();
-            this.panel21.SuspendLayout();
-            this.panel24.SuspendLayout();
-            this.panel25.SuspendLayout();
-            this.panel26.SuspendLayout();
-            this.panel27.SuspendLayout();
-            this.panel28.SuspendLayout();
-            this.panel29.SuspendLayout();
-            this.panel30.SuspendLayout();
-            this.panel31.SuspendLayout();
-            this.panel32.SuspendLayout();
-            this.panel33.SuspendLayout();
             this.panel34.SuspendLayout();
             this.panel35.SuspendLayout();
-            this.panel36.SuspendLayout();
-            this.panel37.SuspendLayout();
-            this.panel38.SuspendLayout();
-            this.panel39.SuspendLayout();
-            this.panel41.SuspendLayout();
-            this.panel42.SuspendLayout();
+            this.panel32.SuspendLayout();
+            this.panel33.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.panel30.SuspendLayout();
+            this.panel31.SuspendLayout();
+            this.panel28.SuspendLayout();
+            this.panel29.SuspendLayout();
+            this.panel26.SuspendLayout();
+            this.panel27.SuspendLayout();
+            this.panel24.SuspendLayout();
+            this.panel25.SuspendLayout();
+            this.panel20.SuspendLayout();
+            this.panel21.SuspendLayout();
+            this.panel16.SuspendLayout();
+            this.panel17.SuspendLayout();
+            this.panel14.SuspendLayout();
+            this.panel15.SuspendLayout();
+            this.panel22.SuspendLayout();
+            this.panel23.SuspendLayout();
             this.SuspendLayout();
             // 
             // label3
@@ -399,6 +399,86 @@
             resources.ApplyResources(this.panel18, "panel18");
             this.panel18.Name = "panel18";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.panel4);
+            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.panel3);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.panel6);
+            this.panel4.Controls.Add(this.button2);
+            this.panel4.Controls.Add(this.panel5);
+            resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.Name = "panel4";
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.button3);
+            this.panel6.Controls.Add(this.panel7);
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // panel7
+            // 
+            resources.ApplyResources(this.panel7, "panel7");
+            this.panel7.Controls.Add(this.label26);
+            this.panel7.Name = "panel7";
+            // 
+            // label26
+            // 
+            resources.ApplyResources(this.label26, "label26");
+            this.label26.Name = "label26";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel5
+            // 
+            resources.ApplyResources(this.panel5, "panel5");
+            this.panel5.Controls.Add(this.label25);
+            this.panel5.Name = "panel5";
+            // 
+            // label25
+            // 
+            resources.ApplyResources(this.label25, "label25");
+            this.label25.Name = "label25";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Controls.Add(this.label24);
+            this.panel3.Name = "panel3";
+            // 
+            // label24
+            // 
+            resources.ApplyResources(this.label24, "label24");
+            this.label24.Name = "label24";
+            // 
             // button9
             // 
             resources.ApplyResources(this.button9, "button9");
@@ -439,6 +519,397 @@
             this.ItemsVending.Controls.Add(this.panel14);
             this.ItemsVending.Cursor = System.Windows.Forms.Cursors.Default;
             this.ItemsVending.Name = "ItemsVending";
+            // 
+            // panel41
+            // 
+            this.panel41.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel41.Controls.Add(this.button20);
+            this.panel41.Controls.Add(this.panel42);
+            resources.ApplyResources(this.panel41, "panel41");
+            this.panel41.Name = "panel41";
+            // 
+            // button20
+            // 
+            resources.ApplyResources(this.button20, "button20");
+            this.button20.Name = "button20";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // panel42
+            // 
+            resources.ApplyResources(this.panel42, "panel42");
+            this.panel42.Controls.Add(this.label44);
+            this.panel42.Name = "panel42";
+            // 
+            // label44
+            // 
+            resources.ApplyResources(this.label44, "label44");
+            this.label44.Name = "label44";
+            // 
+            // panel38
+            // 
+            this.panel38.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel38.Controls.Add(this.button18);
+            this.panel38.Controls.Add(this.panel39);
+            resources.ApplyResources(this.panel38, "panel38");
+            this.panel38.Name = "panel38";
+            // 
+            // button18
+            // 
+            resources.ApplyResources(this.button18, "button18");
+            this.button18.Name = "button18";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // panel39
+            // 
+            resources.ApplyResources(this.panel39, "panel39");
+            this.panel39.Controls.Add(this.label43);
+            this.panel39.Name = "panel39";
+            // 
+            // label43
+            // 
+            resources.ApplyResources(this.label43, "label43");
+            this.label43.Name = "label43";
+            // 
+            // panel36
+            // 
+            this.panel36.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel36.Controls.Add(this.button17);
+            this.panel36.Controls.Add(this.panel37);
+            resources.ApplyResources(this.panel36, "panel36");
+            this.panel36.Name = "panel36";
+            // 
+            // button17
+            // 
+            resources.ApplyResources(this.button17, "button17");
+            this.button17.Name = "button17";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // panel37
+            // 
+            resources.ApplyResources(this.panel37, "panel37");
+            this.panel37.Controls.Add(this.label42);
+            this.panel37.Name = "panel37";
+            // 
+            // label42
+            // 
+            resources.ApplyResources(this.label42, "label42");
+            this.label42.Name = "label42";
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.button5);
+            this.panel10.Controls.Add(this.panel11);
+            resources.ApplyResources(this.panel10, "panel10");
+            this.panel10.Name = "panel10";
+            // 
+            // button5
+            // 
+            resources.ApplyResources(this.button5, "button5");
+            this.button5.Name = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // panel11
+            // 
+            resources.ApplyResources(this.panel11, "panel11");
+            this.panel11.Controls.Add(this.label28);
+            this.panel11.Name = "panel11";
+            // 
+            // label28
+            // 
+            resources.ApplyResources(this.label28, "label28");
+            this.label28.Name = "label28";
+            // 
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.button6);
+            this.panel12.Controls.Add(this.panel13);
+            resources.ApplyResources(this.panel12, "panel12");
+            this.panel12.Name = "panel12";
+            // 
+            // button6
+            // 
+            resources.ApplyResources(this.button6, "button6");
+            this.button6.Name = "button6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // panel13
+            // 
+            resources.ApplyResources(this.panel13, "panel13");
+            this.panel13.Controls.Add(this.label29);
+            this.panel13.Name = "panel13";
+            // 
+            // label29
+            // 
+            resources.ApplyResources(this.label29, "label29");
+            this.label29.Name = "label29";
+            // 
+            // panel34
+            // 
+            this.panel34.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel34.Controls.Add(this.button16);
+            this.panel34.Controls.Add(this.panel35);
+            resources.ApplyResources(this.panel34, "panel34");
+            this.panel34.Name = "panel34";
+            // 
+            // button16
+            // 
+            resources.ApplyResources(this.button16, "button16");
+            this.button16.Name = "button16";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // panel35
+            // 
+            resources.ApplyResources(this.panel35, "panel35");
+            this.panel35.Controls.Add(this.label41);
+            this.panel35.Name = "panel35";
+            // 
+            // label41
+            // 
+            resources.ApplyResources(this.label41, "label41");
+            this.label41.Name = "label41";
+            // 
+            // panel32
+            // 
+            this.panel32.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel32.Controls.Add(this.button15);
+            this.panel32.Controls.Add(this.panel33);
+            resources.ApplyResources(this.panel32, "panel32");
+            this.panel32.Name = "panel32";
+            // 
+            // button15
+            // 
+            resources.ApplyResources(this.button15, "button15");
+            this.button15.Name = "button15";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // panel33
+            // 
+            resources.ApplyResources(this.panel33, "panel33");
+            this.panel33.Controls.Add(this.label40);
+            this.panel33.Name = "panel33";
+            // 
+            // label40
+            // 
+            resources.ApplyResources(this.label40, "label40");
+            this.label40.Name = "label40";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.button4);
+            this.panel8.Controls.Add(this.panel9);
+            resources.ApplyResources(this.panel8, "panel8");
+            this.panel8.Name = "panel8";
+            // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // panel9
+            // 
+            resources.ApplyResources(this.panel9, "panel9");
+            this.panel9.Controls.Add(this.label27);
+            this.panel9.Name = "panel9";
+            // 
+            // label27
+            // 
+            resources.ApplyResources(this.label27, "label27");
+            this.label27.Name = "label27";
+            // 
+            // panel30
+            // 
+            this.panel30.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel30.Controls.Add(this.button14);
+            this.panel30.Controls.Add(this.panel31);
+            resources.ApplyResources(this.panel30, "panel30");
+            this.panel30.Name = "panel30";
+            // 
+            // button14
+            // 
+            resources.ApplyResources(this.button14, "button14");
+            this.button14.Name = "button14";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // panel31
+            // 
+            resources.ApplyResources(this.panel31, "panel31");
+            this.panel31.Controls.Add(this.panel28);
+            this.panel31.Controls.Add(this.label39);
+            this.panel31.Name = "panel31";
+            // 
+            // panel28
+            // 
+            this.panel28.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel28.Controls.Add(this.button13);
+            this.panel28.Controls.Add(this.panel29);
+            resources.ApplyResources(this.panel28, "panel28");
+            this.panel28.Name = "panel28";
+            // 
+            // button13
+            // 
+            resources.ApplyResources(this.button13, "button13");
+            this.button13.Name = "button13";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // panel29
+            // 
+            resources.ApplyResources(this.panel29, "panel29");
+            this.panel29.Controls.Add(this.label38);
+            this.panel29.Name = "panel29";
+            // 
+            // label38
+            // 
+            resources.ApplyResources(this.label38, "label38");
+            this.label38.Name = "label38";
+            // 
+            // label39
+            // 
+            resources.ApplyResources(this.label39, "label39");
+            this.label39.Name = "label39";
+            // 
+            // panel26
+            // 
+            this.panel26.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel26.Controls.Add(this.button12);
+            this.panel26.Controls.Add(this.panel27);
+            resources.ApplyResources(this.panel26, "panel26");
+            this.panel26.Name = "panel26";
+            // 
+            // button12
+            // 
+            resources.ApplyResources(this.button12, "button12");
+            this.button12.Name = "button12";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // panel27
+            // 
+            resources.ApplyResources(this.panel27, "panel27");
+            this.panel27.Controls.Add(this.label37);
+            this.panel27.Name = "panel27";
+            // 
+            // label37
+            // 
+            resources.ApplyResources(this.label37, "label37");
+            this.label37.Name = "label37";
+            // 
+            // panel24
+            // 
+            this.panel24.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel24.Controls.Add(this.button11);
+            this.panel24.Controls.Add(this.panel25);
+            resources.ApplyResources(this.panel24, "panel24");
+            this.panel24.Name = "panel24";
+            // 
+            // button11
+            // 
+            resources.ApplyResources(this.button11, "button11");
+            this.button11.Name = "button11";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // panel25
+            // 
+            resources.ApplyResources(this.panel25, "panel25");
+            this.panel25.Controls.Add(this.label36);
+            this.panel25.Name = "panel25";
+            // 
+            // label36
+            // 
+            resources.ApplyResources(this.label36, "label36");
+            this.label36.Name = "label36";
+            // 
+            // panel20
+            // 
+            this.panel20.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel20.Controls.Add(this.button10);
+            this.panel20.Controls.Add(this.panel21);
+            resources.ApplyResources(this.panel20, "panel20");
+            this.panel20.Name = "panel20";
+            // 
+            // button10
+            // 
+            resources.ApplyResources(this.button10, "button10");
+            this.button10.Name = "button10";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // panel21
+            // 
+            resources.ApplyResources(this.panel21, "panel21");
+            this.panel21.Controls.Add(this.label35);
+            this.panel21.Name = "panel21";
+            // 
+            // label35
+            // 
+            resources.ApplyResources(this.label35, "label35");
+            this.label35.Name = "label35";
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel16.Controls.Add(this.button8);
+            this.panel16.Controls.Add(this.panel17);
+            resources.ApplyResources(this.panel16, "panel16");
+            this.panel16.Name = "panel16";
+            // 
+            // button8
+            // 
+            resources.ApplyResources(this.button8, "button8");
+            this.button8.Name = "button8";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // panel17
+            // 
+            resources.ApplyResources(this.panel17, "panel17");
+            this.panel17.Controls.Add(this.label34);
+            this.panel17.Name = "panel17";
+            // 
+            // label34
+            // 
+            resources.ApplyResources(this.label34, "label34");
+            this.label34.Name = "label34";
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.button7);
+            this.panel14.Controls.Add(this.panel15);
+            resources.ApplyResources(this.panel14, "panel14");
+            this.panel14.Name = "panel14";
+            // 
+            // button7
+            // 
+            resources.ApplyResources(this.button7, "button7");
+            this.button7.Name = "button7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // panel15
+            // 
+            resources.ApplyResources(this.panel15, "panel15");
+            this.panel15.Controls.Add(this.label33);
+            this.panel15.Name = "panel15";
+            // 
+            // label33
+            // 
+            resources.ApplyResources(this.label33, "label33");
+            this.label33.Name = "label33";
             // 
             // label1
             // 
@@ -551,477 +1022,6 @@
             resources.ApplyResources(this.vScrollBar1, "vScrollBar1");
             this.vScrollBar1.Name = "vScrollBar1";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.panel3);
-            resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.Name = "panel2";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // panel3
-            // 
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Controls.Add(this.label24);
-            this.panel3.Name = "panel3";
-            // 
-            // label24
-            // 
-            resources.ApplyResources(this.label24, "label24");
-            this.label24.Name = "label24";
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.panel6);
-            this.panel4.Controls.Add(this.button2);
-            this.panel4.Controls.Add(this.panel5);
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
-            // 
-            // button2
-            // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // panel5
-            // 
-            resources.ApplyResources(this.panel5, "panel5");
-            this.panel5.Controls.Add(this.label25);
-            this.panel5.Name = "panel5";
-            // 
-            // label25
-            // 
-            resources.ApplyResources(this.label25, "label25");
-            this.label25.Name = "label25";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Controls.Add(this.button3);
-            this.panel6.Controls.Add(this.panel7);
-            resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.Name = "panel6";
-            // 
-            // button3
-            // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // panel7
-            // 
-            resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.Controls.Add(this.label26);
-            this.panel7.Name = "panel7";
-            // 
-            // label26
-            // 
-            resources.ApplyResources(this.label26, "label26");
-            this.label26.Name = "label26";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Controls.Add(this.button4);
-            this.panel8.Controls.Add(this.panel9);
-            resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.Name = "panel8";
-            // 
-            // button4
-            // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // panel9
-            // 
-            resources.ApplyResources(this.panel9, "panel9");
-            this.panel9.Controls.Add(this.label27);
-            this.panel9.Name = "panel9";
-            // 
-            // label27
-            // 
-            resources.ApplyResources(this.label27, "label27");
-            this.label27.Name = "label27";
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.button5);
-            this.panel10.Controls.Add(this.panel11);
-            resources.ApplyResources(this.panel10, "panel10");
-            this.panel10.Name = "panel10";
-            // 
-            // button5
-            // 
-            resources.ApplyResources(this.button5, "button5");
-            this.button5.Name = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // panel11
-            // 
-            resources.ApplyResources(this.panel11, "panel11");
-            this.panel11.Controls.Add(this.label28);
-            this.panel11.Name = "panel11";
-            // 
-            // label28
-            // 
-            resources.ApplyResources(this.label28, "label28");
-            this.label28.Name = "label28";
-            // 
-            // panel12
-            // 
-            this.panel12.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.button6);
-            this.panel12.Controls.Add(this.panel13);
-            resources.ApplyResources(this.panel12, "panel12");
-            this.panel12.Name = "panel12";
-            // 
-            // button6
-            // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // panel13
-            // 
-            resources.ApplyResources(this.panel13, "panel13");
-            this.panel13.Controls.Add(this.label29);
-            this.panel13.Name = "panel13";
-            // 
-            // label29
-            // 
-            resources.ApplyResources(this.label29, "label29");
-            this.label29.Name = "label29";
-            // 
-            // panel14
-            // 
-            this.panel14.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Controls.Add(this.button7);
-            this.panel14.Controls.Add(this.panel15);
-            resources.ApplyResources(this.panel14, "panel14");
-            this.panel14.Name = "panel14";
-            // 
-            // button7
-            // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
-            // panel15
-            // 
-            resources.ApplyResources(this.panel15, "panel15");
-            this.panel15.Controls.Add(this.label33);
-            this.panel15.Name = "panel15";
-            // 
-            // label33
-            // 
-            resources.ApplyResources(this.label33, "label33");
-            this.label33.Name = "label33";
-            // 
-            // panel16
-            // 
-            this.panel16.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel16.Controls.Add(this.button8);
-            this.panel16.Controls.Add(this.panel17);
-            resources.ApplyResources(this.panel16, "panel16");
-            this.panel16.Name = "panel16";
-            // 
-            // button8
-            // 
-            resources.ApplyResources(this.button8, "button8");
-            this.button8.Name = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // panel17
-            // 
-            resources.ApplyResources(this.panel17, "panel17");
-            this.panel17.Controls.Add(this.label34);
-            this.panel17.Name = "panel17";
-            // 
-            // label34
-            // 
-            resources.ApplyResources(this.label34, "label34");
-            this.label34.Name = "label34";
-            // 
-            // panel20
-            // 
-            this.panel20.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Controls.Add(this.button10);
-            this.panel20.Controls.Add(this.panel21);
-            resources.ApplyResources(this.panel20, "panel20");
-            this.panel20.Name = "panel20";
-            // 
-            // button10
-            // 
-            resources.ApplyResources(this.button10, "button10");
-            this.button10.Name = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // panel21
-            // 
-            resources.ApplyResources(this.panel21, "panel21");
-            this.panel21.Controls.Add(this.label35);
-            this.panel21.Name = "panel21";
-            // 
-            // label35
-            // 
-            resources.ApplyResources(this.label35, "label35");
-            this.label35.Name = "label35";
-            // 
-            // panel24
-            // 
-            this.panel24.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel24.Controls.Add(this.button11);
-            this.panel24.Controls.Add(this.panel25);
-            resources.ApplyResources(this.panel24, "panel24");
-            this.panel24.Name = "panel24";
-            // 
-            // button11
-            // 
-            resources.ApplyResources(this.button11, "button11");
-            this.button11.Name = "button11";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // panel25
-            // 
-            resources.ApplyResources(this.panel25, "panel25");
-            this.panel25.Controls.Add(this.label36);
-            this.panel25.Name = "panel25";
-            // 
-            // label36
-            // 
-            resources.ApplyResources(this.label36, "label36");
-            this.label36.Name = "label36";
-            // 
-            // panel26
-            // 
-            this.panel26.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel26.Controls.Add(this.button12);
-            this.panel26.Controls.Add(this.panel27);
-            resources.ApplyResources(this.panel26, "panel26");
-            this.panel26.Name = "panel26";
-            // 
-            // button12
-            // 
-            resources.ApplyResources(this.button12, "button12");
-            this.button12.Name = "button12";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // panel27
-            // 
-            resources.ApplyResources(this.panel27, "panel27");
-            this.panel27.Controls.Add(this.label37);
-            this.panel27.Name = "panel27";
-            // 
-            // label37
-            // 
-            resources.ApplyResources(this.label37, "label37");
-            this.label37.Name = "label37";
-            // 
-            // panel28
-            // 
-            this.panel28.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel28.Controls.Add(this.button13);
-            this.panel28.Controls.Add(this.panel29);
-            resources.ApplyResources(this.panel28, "panel28");
-            this.panel28.Name = "panel28";
-            // 
-            // button13
-            // 
-            resources.ApplyResources(this.button13, "button13");
-            this.button13.Name = "button13";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // panel29
-            // 
-            resources.ApplyResources(this.panel29, "panel29");
-            this.panel29.Controls.Add(this.label38);
-            this.panel29.Name = "panel29";
-            // 
-            // label38
-            // 
-            resources.ApplyResources(this.label38, "label38");
-            this.label38.Name = "label38";
-            // 
-            // panel30
-            // 
-            this.panel30.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel30.Controls.Add(this.button14);
-            this.panel30.Controls.Add(this.panel31);
-            resources.ApplyResources(this.panel30, "panel30");
-            this.panel30.Name = "panel30";
-            // 
-            // button14
-            // 
-            resources.ApplyResources(this.button14, "button14");
-            this.button14.Name = "button14";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // panel31
-            // 
-            resources.ApplyResources(this.panel31, "panel31");
-            this.panel31.Controls.Add(this.panel28);
-            this.panel31.Controls.Add(this.label39);
-            this.panel31.Name = "panel31";
-            // 
-            // label39
-            // 
-            resources.ApplyResources(this.label39, "label39");
-            this.label39.Name = "label39";
-            // 
-            // panel32
-            // 
-            this.panel32.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel32.Controls.Add(this.button15);
-            this.panel32.Controls.Add(this.panel33);
-            resources.ApplyResources(this.panel32, "panel32");
-            this.panel32.Name = "panel32";
-            // 
-            // button15
-            // 
-            resources.ApplyResources(this.button15, "button15");
-            this.button15.Name = "button15";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // panel33
-            // 
-            resources.ApplyResources(this.panel33, "panel33");
-            this.panel33.Controls.Add(this.label40);
-            this.panel33.Name = "panel33";
-            // 
-            // label40
-            // 
-            resources.ApplyResources(this.label40, "label40");
-            this.label40.Name = "label40";
-            // 
-            // panel34
-            // 
-            this.panel34.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel34.Controls.Add(this.button16);
-            this.panel34.Controls.Add(this.panel35);
-            resources.ApplyResources(this.panel34, "panel34");
-            this.panel34.Name = "panel34";
-            // 
-            // button16
-            // 
-            resources.ApplyResources(this.button16, "button16");
-            this.button16.Name = "button16";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
-            // panel35
-            // 
-            resources.ApplyResources(this.panel35, "panel35");
-            this.panel35.Controls.Add(this.label41);
-            this.panel35.Name = "panel35";
-            // 
-            // label41
-            // 
-            resources.ApplyResources(this.label41, "label41");
-            this.label41.Name = "label41";
-            // 
-            // panel36
-            // 
-            this.panel36.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel36.Controls.Add(this.button17);
-            this.panel36.Controls.Add(this.panel37);
-            resources.ApplyResources(this.panel36, "panel36");
-            this.panel36.Name = "panel36";
-            // 
-            // button17
-            // 
-            resources.ApplyResources(this.button17, "button17");
-            this.button17.Name = "button17";
-            this.button17.UseVisualStyleBackColor = true;
-            // 
-            // panel37
-            // 
-            resources.ApplyResources(this.panel37, "panel37");
-            this.panel37.Controls.Add(this.label42);
-            this.panel37.Name = "panel37";
-            // 
-            // label42
-            // 
-            resources.ApplyResources(this.label42, "label42");
-            this.label42.Name = "label42";
-            // 
-            // panel38
-            // 
-            this.panel38.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel38.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel38.Controls.Add(this.button18);
-            this.panel38.Controls.Add(this.panel39);
-            resources.ApplyResources(this.panel38, "panel38");
-            this.panel38.Name = "panel38";
-            // 
-            // button18
-            // 
-            resources.ApplyResources(this.button18, "button18");
-            this.button18.Name = "button18";
-            this.button18.UseVisualStyleBackColor = true;
-            // 
-            // panel39
-            // 
-            resources.ApplyResources(this.panel39, "panel39");
-            this.panel39.Controls.Add(this.label43);
-            this.panel39.Name = "panel39";
-            // 
-            // label43
-            // 
-            resources.ApplyResources(this.label43, "label43");
-            this.label43.Name = "label43";
-            // 
-            // panel41
-            // 
-            this.panel41.BackColor = System.Drawing.SystemColors.Menu;
-            this.panel41.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel41.Controls.Add(this.button20);
-            this.panel41.Controls.Add(this.panel42);
-            resources.ApplyResources(this.panel41, "panel41");
-            this.panel41.Name = "panel41";
-            // 
-            // button20
-            // 
-            resources.ApplyResources(this.button20, "button20");
-            this.button20.Name = "button20";
-            this.button20.UseVisualStyleBackColor = true;
-            // 
-            // panel42
-            // 
-            resources.ApplyResources(this.panel42, "panel42");
-            this.panel42.Controls.Add(this.label44);
-            this.panel42.Name = "panel42";
-            // 
-            // label44
-            // 
-            resources.ApplyResources(this.label44, "label44");
-            this.label44.Name = "label44";
-            // 
             // Vending
             // 
             resources.ApplyResources(this, "$this");
@@ -1049,66 +1049,66 @@
             this.flowLayoutPanel3.ResumeLayout(false);
             this.flowLayoutPanel3.PerformLayout();
             this.panel18.ResumeLayout(false);
-            this.panel19.ResumeLayout(false);
-            this.panel19.PerformLayout();
-            this.ItemsVending.ResumeLayout(false);
-            this.panel22.ResumeLayout(false);
-            this.panel23.ResumeLayout(false);
-            this.panel23.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel19.ResumeLayout(false);
+            this.panel19.PerformLayout();
+            this.ItemsVending.ResumeLayout(false);
+            this.panel41.ResumeLayout(false);
+            this.panel42.ResumeLayout(false);
+            this.panel42.PerformLayout();
+            this.panel38.ResumeLayout(false);
+            this.panel39.ResumeLayout(false);
+            this.panel39.PerformLayout();
+            this.panel36.ResumeLayout(false);
+            this.panel37.ResumeLayout(false);
+            this.panel37.PerformLayout();
             this.panel10.ResumeLayout(false);
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
-            this.panel14.ResumeLayout(false);
-            this.panel15.ResumeLayout(false);
-            this.panel15.PerformLayout();
-            this.panel16.ResumeLayout(false);
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            this.panel20.ResumeLayout(false);
-            this.panel21.ResumeLayout(false);
-            this.panel21.PerformLayout();
-            this.panel24.ResumeLayout(false);
-            this.panel25.ResumeLayout(false);
-            this.panel25.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel27.ResumeLayout(false);
-            this.panel27.PerformLayout();
-            this.panel28.ResumeLayout(false);
-            this.panel29.ResumeLayout(false);
-            this.panel29.PerformLayout();
-            this.panel30.ResumeLayout(false);
-            this.panel31.ResumeLayout(false);
-            this.panel31.PerformLayout();
-            this.panel32.ResumeLayout(false);
-            this.panel33.ResumeLayout(false);
-            this.panel33.PerformLayout();
             this.panel34.ResumeLayout(false);
             this.panel35.ResumeLayout(false);
             this.panel35.PerformLayout();
-            this.panel36.ResumeLayout(false);
-            this.panel37.ResumeLayout(false);
-            this.panel37.PerformLayout();
-            this.panel38.ResumeLayout(false);
-            this.panel39.ResumeLayout(false);
-            this.panel39.PerformLayout();
-            this.panel41.ResumeLayout(false);
-            this.panel42.ResumeLayout(false);
-            this.panel42.PerformLayout();
+            this.panel32.ResumeLayout(false);
+            this.panel33.ResumeLayout(false);
+            this.panel33.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
+            this.panel30.ResumeLayout(false);
+            this.panel31.ResumeLayout(false);
+            this.panel31.PerformLayout();
+            this.panel28.ResumeLayout(false);
+            this.panel29.ResumeLayout(false);
+            this.panel29.PerformLayout();
+            this.panel26.ResumeLayout(false);
+            this.panel27.ResumeLayout(false);
+            this.panel27.PerformLayout();
+            this.panel24.ResumeLayout(false);
+            this.panel25.ResumeLayout(false);
+            this.panel25.PerformLayout();
+            this.panel20.ResumeLayout(false);
+            this.panel21.ResumeLayout(false);
+            this.panel21.PerformLayout();
+            this.panel16.ResumeLayout(false);
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            this.panel14.ResumeLayout(false);
+            this.panel15.ResumeLayout(false);
+            this.panel15.PerformLayout();
+            this.panel22.ResumeLayout(false);
+            this.panel23.ResumeLayout(false);
+            this.panel23.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
