@@ -13,3 +13,18 @@ D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.MainApp.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
