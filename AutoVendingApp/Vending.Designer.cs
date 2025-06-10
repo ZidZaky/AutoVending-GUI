@@ -252,9 +252,17 @@
             // 
             // button21
             // 
+
             resources.ApplyResources(this.button21, "button21");
             this.button21.Name = "button21";
             this.button21.UseVisualStyleBackColor = true;
+            this.panel6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel6.BackgroundImage")));
+            this.panel6.Controls.Add(this.hargaLabel3);
+            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(151, 100);
+            this.panel6.TabIndex = 0;
+            //this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // TombolPowerVending
             // 
