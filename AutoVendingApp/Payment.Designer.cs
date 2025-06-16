@@ -180,7 +180,7 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Lakukan Pembayaran";
             // 
-            // flowLayoutPanel6
+            // label1
             // 
             this.flowLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.flowLayoutPanel6.BackColor = System.Drawing.SystemColors.Window;
@@ -193,7 +193,7 @@
             this.flowLayoutPanel6.Size = new System.Drawing.Size(489, 471);
             this.flowLayoutPanel6.TabIndex = 26;
             // 
-            // label16
+            // listBoxRincian
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
@@ -234,7 +234,6 @@
             this.flowLayoutPanel6.ResumeLayout(false);
             this.flowLayoutPanel6.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

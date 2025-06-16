@@ -1,26 +1,35 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutoVending.Core;
 
 namespace AutoVendingApp
 {
-    public partial class Vending: Form
+    public partial class Vending : Form
     {
-        private bool isMesinMenyala = true;
+        // ... (properti lain tetap sama) ...
+        private VendingState currentState;
         private List<Item> daftarProduk = new List<Item>();
+        private Dictionary<Item, int> keranjangBelanja = new Dictionary<Item, int>();
+        private bool isMesinMenyala = true;
         private List<Button> tombolProduk;
-        private List<Label> labelHarga;
+        private List<Label> labelHargaList;
+
         public Vending()
         {
             InitializeComponent();
             InisialisasiKontrolUI();
             InisialisasiProduk();
+            SetState(VendingState.Idle);
+        }
+
+        // ... (GetAllControls dan InisialisasiKontrolUI tetap sama) ...
+        private IEnumerable<Control> GetAllControls(Control container)
+        {
+            var controls = container.Controls.Cast<Control>();
+            return controls.SelectMany(ctrl => GetAllControls(ctrl)).Concat(controls);
         }
 
         private void InisialisasiKontrolUI()
@@ -39,62 +48,114 @@ namespace AutoVendingApp
             daftarProduk.Add(new Item { Id = 2, NamaProduk = "Teh Kotak", Harga = 3500, Stok = 15 });
             daftarProduk.Add(new Item { Id = 3, NamaProduk = "Cokelat Susu", Harga = 7000, Stok = 8 });
             daftarProduk.Add(new Item { Id = 4, NamaProduk = "Wafer Keju", Harga = 2000, Stok = 20 });
-
-
+            if (tombolProduk.Count == 0 || labelHargaList.Count == 0)
+            {
+                MessageBox.Show("Peringatan: Tidak ada Tombol atau Label produk yang ditemukan. Periksa nama kontrol di Form Designer.", "Inisialisasi Gagal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             for (int i = 0; i < daftarProduk.Count; i++)
             {
-                // Pastikan tidak mencoba mengakses slot yang tidak ada
                 if (i >= tombolProduk.Count) break;
-
                 Item produk = daftarProduk[i];
-
-                // Isi data ke kontrol UI yang sesuai
-                labelHarga[i].Text = $"Rp {produk.Harga:N0}"; // Format mata uang tanpa desimal
+                tombolProduk[i].Text = produk.NamaProduk;
                 tombolProduk[i].Tag = produk;
-                tombolProduk[i].Text = produk.NamaProduk; // Ubah teks tombol menjadi lebih relevan
+                if (i < labelHargaList.Count)
+                {
+                    labelHargaList[i].Text = $"Rp {produk.Harga:N0}";
+                }
             }
         }
-
         private void TombolProduk_Click(object sender, EventArgs e)
         {
-            
-            Button tombolYangDiklik = sender as Button;
-
-            if (tombolYangDiklik != null && tombolYangDiklik.Tag is Item)
+            if (currentState == VendingState.ProcessingPayment || !isMesinMenyala) return;
+            Button tombol = sender as Button;
+            if (tombol?.Tag is Item produkTerpilih)
             {
-                
-                Item itemTerpilih = tombolYangDiklik.Tag as Item;
-
-                Payment formBayar = new Payment(itemTerpilih);
-                formBayar.ShowDialog(); 
+                if (keranjangBelanja.ContainsKey(produkTerpilih))
+                {
+                    keranjangBelanja[produkTerpilih]++;
+                }
+                else
+                {
+                    keranjangBelanja.Add(produkTerpilih, 1);
+                }
+                SetState(VendingState.SelectingItems);
+                UpdateTampilanKeranjang();
+            }
+        }
+        private void buttonCheckout_Click(object sender, EventArgs e)
+        {
+            if (keranjangBelanja.Any())
+            {
+                SetState(VendingState.ProcessingPayment);
+                using (Payment formBayar = new Payment(keranjangBelanja))
+                {
+                    formBayar.ShowDialog();
+                    if (formBayar.TransaksiBerhasil)
+                    {
+                        foreach (var itemDiKeranjang in keranjangBelanja)
+                        {
+                            var itemDiDaftar = daftarProduk.FirstOrDefault(p => p.Id == itemDiKeranjang.Key.Id);
+                            if (itemDiDaftar != null)
+                            {
+                                itemDiDaftar.Stok -= itemDiKeranjang.Value;
+                            }
+                        }
+                    }
+                }
+                keranjangBelanja.Clear();
+                UpdateTampilanKeranjang();
+                SetState(VendingState.Idle);
             }
         }
 
-        private void TombolPower(object sender, EventArgs e)
+        private void SetState(VendingState newState)
         {
-            // Balikkan status mesin
-            // Jika sedang true (menyala), akan menjadi false (mati). Begitu juga sebaliknya.
-            isMesinMenyala = !isMesinMenyala;
+            currentState = newState;
 
-            // Terapkan status baru ke panel produk
-            ItemsVending.Enabled = isMesinMenyala;
-
-            // (Opsional) Beri feedback visual kepada pengguna
-            if (isMesinMenyala)
+            // --- BARIS BARU: Update teks pada label state ---
+            if (labelCurrentState != null)
             {
-                // Jika mesin menyala
-                labelPower.Text = "Turn Off";
-                TombolPowerVending.BackColor = Color.Red;
-                Status.Text = "Operational"; // Asumsi Anda punya label untuk status
-                PanelStatus.ForeColor = Color.Green;
+                labelCurrentState.Text = $"Current State: {currentState}";
             }
-            else
+            // ----------------------------------------------------
+
+            if (!isMesinMenyala)
             {
-                // Jika mesin mati
-                labelPower.Text = "Turn On";
-                TombolPowerVending.BackColor = Color.Green;
-                Status.Text = "Out of Service";
-                PanelStatus.ForeColor = Color.Red;
+                if (ItemsVending != null) ItemsVending.Enabled = false;
+                if (buttonCheckout != null) buttonCheckout.Enabled = false;
+                return;
+            }
+
+            switch (currentState)
+            {
+                case VendingState.Idle:
+                    if (ItemsVending != null) ItemsVending.Enabled = true;
+                    if (buttonCheckout != null) buttonCheckout.Enabled = false;
+                    break;
+                case VendingState.SelectingItems:
+                    if (ItemsVending != null) ItemsVending.Enabled = true;
+                    if (buttonCheckout != null) buttonCheckout.Enabled = true;
+                    break;
+                case VendingState.ProcessingPayment:
+                    if (ItemsVending != null) ItemsVending.Enabled = false;
+                    if (buttonCheckout != null) buttonCheckout.Enabled = false;
+                    break;
+            }
+        }
+
+        // ... (UpdateTampilanKeranjang tetap sama) ...
+        private void UpdateTampilanKeranjang()
+        {
+            if (listBoxCart == null || labelTotal == null) return;
+            listBoxCart.Items.Clear();
+            decimal total = 0;
+            foreach (var entry in keranjangBelanja)
+            {
+                Item produk = entry.Key;
+                int jumlah = entry.Value;
+                listBoxCart.Items.Add($"{produk.NamaProduk} (x{jumlah}) - Rp {produk.Harga * jumlah:N0}");
+                total += produk.Harga * jumlah;
             }
         }
 
