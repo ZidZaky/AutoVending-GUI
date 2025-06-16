@@ -21,6 +21,14 @@ namespace AutoVendingApp
             InitializeComponent();
             InisialisasiKontrolUI();
             InisialisasiProduk();
+            CurrencyEvents.CurrencyChanged += UpdateCurrencyDisplay;
+            UpdateCurrencyDisplay();
+        }
+
+        private void UpdateCurrencyDisplay()
+        {
+            InisialisasiProduk();
+
         }
 
         private void InisialisasiKontrolUI()
@@ -50,6 +58,9 @@ namespace AutoVendingApp
             daftarProduk.Add(new Item { Id = 3, NamaProduk = "Cokelat Susu", Harga = 7000, Stok = 8 });
             daftarProduk.Add(new Item { Id = 4, NamaProduk = "Wafer Keju", Harga = 2000, Stok = 20 });
 
+            string selectedCurrency = CurrencyAppState.SelectedCurrency;
+            string symbol = CurrencyManager.GetSymbol(selectedCurrency);
+
 
             for (int i = 0; i < daftarProduk.Count; i++)
             {
@@ -58,8 +69,11 @@ namespace AutoVendingApp
 
                 Item produk = daftarProduk[i];
 
+                // Konversi harga dari IDR ke mata uang terpilih
+                decimal hargaConverted = CurrencyManager.Convert("IDR", selectedCurrency, produk.Harga);
+
                 // Isi data ke kontrol UI yang sesuai
-                labelHarga[i].Text = $"Rp {produk.Harga:N0}"; // Format mata uang tanpa desimal
+                labelHarga[i].Text = $"{symbol} {hargaConverted:N2}"; // Format mata uang tanpa desimal
                 tombolProduk[i].Tag = produk;
                 tombolProduk[i].Text = produk.NamaProduk; // Ubah teks tombol menjadi lebih relevan
             }
@@ -106,6 +120,17 @@ namespace AutoVendingApp
                 Status.Text = "Out of Service";
                 PanelStatus.ForeColor = Color.Red;
             }
+        }
+
+        private void hargaLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            AdminSettings admin = new AdminSettings();
+            admin.Show();
         }
     }
 }

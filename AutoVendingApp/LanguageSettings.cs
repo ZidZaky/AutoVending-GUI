@@ -16,5 +16,10 @@ namespace AutoVendingApp
         {
             InitializeComponent();
         }
+
+        private void LanguageSettings_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

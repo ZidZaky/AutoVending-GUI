@@ -13,3 +13,23 @@ D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.MainApp.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\currency.json
+C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\JamOperational.json
