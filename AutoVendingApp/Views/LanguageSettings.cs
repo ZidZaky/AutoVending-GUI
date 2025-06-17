@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace AutoVendingApp
 {
-    public partial class LanguageSettings: Form
+    public partial class LanguageSettings : Form
     {
         public LanguageSettings()
         {
             InitializeComponent();
-            ApplyLanguage(); 
+            ApplyLanguage();
             LanguageManager.LanguageChanged += ApplyLanguage;
         }
 
         private void ApplyLanguage()
         {
-           
-            this.Text = LanguageManager.GetString("LanguageSettings_Title");                                                                   
+
+            this.Text = LanguageManager.GetString("LanguageSettings_Title");
         }
 
         private void buttonApplyLanguage_Click(object sender, EventArgs e)

@@ -1,0 +1,26 @@
+[
+    {
+        "Id": 1,
+        "NamaProduk": "Snack Kentang Jawa",
+        "Harga": 5000,
+        "Stok": 10
+    },
+    {
+        "Id": 2,
+        "NamaProduk": "Teh Kotak Lingkaren",
+        "Harga": 3500,
+        "Stok": 15
+    },
+    {
+        "Id": 3,
+        "NamaProduk": "Cokelat Susu Mahmuda",
+        "Harga": 7000,
+        "Stok": 8
+    },
+    {
+        "Id": 4,
+        "NamaProduk": "Wafer Keju Jawies",
+        "Harga": 2000,
+        "Stok": 20
+    }
+]

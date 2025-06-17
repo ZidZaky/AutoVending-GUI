@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
-    Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -34,14 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference
-      Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference
-      Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
+    <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
       <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -71,6 +68,9 @@
     <Compile Include="Views\AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\LoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Views\LoginAdmin.Designer.cs">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
     </Compile>
@@ -87,10 +87,8 @@
     <Compile Include="Views\Payment.Designer.cs">
       <DependentUpon>Payment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Transaction.cs" />
     <Compile Include="Views\Vending.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +138,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\products.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\Seblak.jpg" />
   </ItemGroup>
   <ItemGroup>

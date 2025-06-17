@@ -10,44 +10,146 @@ using System.Windows.Forms;
 
 namespace AutoVendingApp
 {
-    public partial class AdminSettings: Form
+    public partial class AdminSettings : Form
     {
         public AdminSettings()
         {
             InitializeComponent();
-            LoadTransactionHistory();
+            CurrencyManager.Load();
+            InitializeCurrencyRadioButtons();
         }
 
-        private void LoadTransactionHistory()
+        private void InitializeCurrencyRadioButtons()
         {
-            // Hapus data lama agar tidak duplikat saat dipanggil lagi
-            listView1.Items.Clear();
-
-            // ---- INI HANYA DATA CONTOH ----
-            // Nanti, Anda akan mengambil data ini dari database atau file log
-            var transactionList = new List<Transaction>
-    {
-        new Transaction { TransactionId = 1, ProductName = "Snack Kentang", Quantity = 1, TotalAmount = 5000 },
-        new Transaction { TransactionId = 2, ProductName = "Teh Kotak", Quantity = 2, TotalAmount = 7000 },
-        new Transaction { TransactionId = 3, ProductName = "Cokelat Susu", Quantity = 1, TotalAmount = 7000 }
-    };
-            // --------------------------------
-
-            // Looping melalui setiap data transaksi dan menambahkannya ke listview
-            foreach (var tx in transactionList)
+            // Set radio button checked based on current/default currency
+            string currentCurrency = CurrencyAppState.SelectedCurrency;
+            switch (currentCurrency)
             {
-                // Buat baris baru (ListViewItem)
-                // Kolom pertama (ID Transaksi) dimasukkan saat pembuatan item
-                ListViewItem item = new ListViewItem(tx.TransactionId.ToString());
-
-                // Kolom-kolom berikutnya ditambahkan sebagai SubItems
-                item.SubItems.Add(tx.ProductName);
-                item.SubItems.Add(tx.Quantity.ToString());
-                item.SubItems.Add($"Rp {tx.TotalAmount:N0}"); // Format sebagai mata uang
-
-                // Tambahkan baris yang sudah jadi ke dalam ListView
-                listView1.Items.Add(item);
+                case "IDR": radioIDR.Checked = true; break;
+                case "USD": radioUSD.Checked = true; break;
+                case "EUR": radioEUR.Checked = true; break;
+                case "JPY": radioYEN.Checked = true; break;
             }
+        }
+
+        private void SetCurrency(string currencyCode)
+        {
+            CurrencyAppState.SelectedCurrency = currencyCode;
+            CurrencyEvents.NotifyCurrencyChanged();
+
+            string symbol = CurrencyManager.GetSymbol(currencyCode);
+            double rate = CurrencyManager.GetRate(currencyCode);
+            string name = CurrencyManager.GetName(currencyCode);
+
+            Console.WriteLine($"Currency set: {name} ({symbol}) - Rate: {rate:N6}");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioUSD_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioUSD.Checked)
+                SetCurrency("USD");
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Status_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioIDR_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioIDR.Checked)
+                SetCurrency("IDR");
+        }
+
+        private void radioEUR_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioEUR.Checked)
+                SetCurrency("EUR");
+        }
+
+        private void radioYEN_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioYEN.Checked)
+                SetCurrency("JPY");
+        }
+
+    }
+
+    public static class CurrencyAppState
+    {
+        private static string _selectedCurrency;
+
+        public static string SelectedCurrency
+        {
+            get
+            {
+                // Pastikan CurrencyManager sudah di-load
+                if (string.IsNullOrEmpty(_selectedCurrency))
+                {
+                    // Tambahan pengecekan untuk menghindari NullReference jika _currencyData masih null
+                    try
+                    {
+                        _selectedCurrency = CurrencyManager.GetDefaultCurrency();
+                    }
+                    catch
+                    {
+                        _selectedCurrency = "IDR"; // fallback agar aplikasi tidak crash
+                    }
+                }
+
+                return _selectedCurrency;
+            }
+            set => _selectedCurrency = value;
+        }
+    }
+
+    public static class CurrencyEvents
+    {
+        public static event Action CurrencyChanged;
+
+        public static void NotifyCurrencyChanged()
+        {
+            CurrencyChanged?.Invoke();
         }
     }
 }

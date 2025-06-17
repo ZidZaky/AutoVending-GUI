@@ -7,7 +7,7 @@ namespace AutoVendingVend.Core
 {
     public class ProductService
     {
-        private readonly string filePath = "products.json";
+        private readonly string filePath = "Resources/products.json";
         public List<Item> GetProducts()
         {
             if (!File.Exists(filePath))

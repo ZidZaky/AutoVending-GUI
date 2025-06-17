@@ -31,18 +31,20 @@
             this.panel42 = new System.Windows.Forms.Panel();
             this.Bayar = new System.Windows.Forms.Button();
             this.panel43 = new System.Windows.Forms.Panel();
-            this.labelTotalBayar = new System.Windows.Forms.Label();
+            this.TotalBayar = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBoxQRCode = new System.Windows.Forms.PictureBox();
-            this.listBoxRincian = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelPaymentState = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listBoxRincian = new System.Windows.Forms.ListBox();
+            this.labelTotalBayar = new System.Windows.Forms.Label();
+            this.pictureBoxQRCode = new System.Windows.Forms.PictureBox();
             this.panel42.SuspendLayout();
             this.panel43.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQRCode)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQRCode)).BeginInit();
             this.SuspendLayout();
             // 
             // panel42
@@ -55,17 +57,17 @@
             this.panel42.Controls.Add(this.label4);
             this.panel42.Location = new System.Drawing.Point(12, 26);
             this.panel42.Name = "panel42";
-            this.panel42.Size = new System.Drawing.Size(417, 415);
+            this.panel42.Size = new System.Drawing.Size(417, 394);
             this.panel42.TabIndex = 16;
             // 
             // Bayar
             // 
             this.Bayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Bayar.Location = new System.Drawing.Point(85, 343);
+            this.Bayar.Location = new System.Drawing.Point(91, 321);
             this.Bayar.Name = "Bayar";
             this.Bayar.Size = new System.Drawing.Size(225, 45);
             this.Bayar.TabIndex = 27;
-            this.Bayar.Text = "Konfirmasi Pembayaran";
+            this.Bayar.Text = "Bayar";
             this.Bayar.UseVisualStyleBackColor = true;
             this.Bayar.Click += new System.EventHandler(this.buttonBayar_Click);
             // 
@@ -73,22 +75,23 @@
             // 
             this.panel43.BackColor = System.Drawing.SystemColors.Window;
             this.panel43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel43.Controls.Add(this.labelTotalBayar);
+            this.panel43.Controls.Add(this.panel1);
+            this.panel43.Controls.Add(this.TotalBayar);
             this.panel43.Controls.Add(this.label10);
-            this.panel43.Location = new System.Drawing.Point(3, 273);
+            this.panel43.Location = new System.Drawing.Point(3, 249);
             this.panel43.Name = "panel43";
             this.panel43.Size = new System.Drawing.Size(409, 49);
             this.panel43.TabIndex = 12;
             // 
-            // labelTotalBayar
+            // TotalBayar
             // 
-            this.labelTotalBayar.AutoSize = true;
-            this.labelTotalBayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.labelTotalBayar.Location = new System.Drawing.Point(187, 13);
-            this.labelTotalBayar.Name = "labelTotalBayar";
-            this.labelTotalBayar.Size = new System.Drawing.Size(125, 18);
-            this.labelTotalBayar.TabIndex = 14;
-            this.labelTotalBayar.Text = "Rp.[Total Harga],-";
+            this.TotalBayar.AutoSize = true;
+            this.TotalBayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.TotalBayar.Location = new System.Drawing.Point(187, 13);
+            this.TotalBayar.Name = "TotalBayar";
+            this.TotalBayar.Size = new System.Drawing.Size(125, 18);
+            this.TotalBayar.TabIndex = 14;
+            this.TotalBayar.Text = "Rp.[Total Harga],-";
             // 
             // label10
             // 
@@ -121,61 +124,83 @@
             this.label3.TabIndex = 14;
             this.label3.Text = "Lakukan Pembayaran";
             // 
-            // pictureBoxQRCode
-            // 
-            this.pictureBoxQRCode.Location = new System.Drawing.Point(450, 56);
-            this.pictureBoxQRCode.Name = "pictureBoxQRCode";
-            this.pictureBoxQRCode.Size = new System.Drawing.Size(363, 330);
-            this.pictureBoxQRCode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxQRCode.TabIndex = 17;
-            this.pictureBoxQRCode.TabStop = false;
-            // 
-            // listBoxRincian
-            // 
-            this.listBoxRincian.FormattingEnabled = true;
-            this.listBoxRincian.Location = new System.Drawing.Point(15, 29);
-            this.listBoxRincian.Name = "listBoxRincian";
-            this.listBoxRincian.Size = new System.Drawing.Size(387, 238);
-            this.listBoxRincian.TabIndex = 41;
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.labelPaymentState);
-            this.panel1.Location = new System.Drawing.Point(450, 392);
+            this.panel1.Controls.Add(this.labelTotalBayar);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Location = new System.Drawing.Point(-1, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(363, 49);
+            this.panel1.Size = new System.Drawing.Size(409, 49);
             this.panel1.TabIndex = 15;
             // 
             // labelPaymentState
             // 
             this.labelPaymentState.AutoSize = true;
             this.labelPaymentState.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.labelPaymentState.Location = new System.Drawing.Point(10, 9);
+            this.labelPaymentState.Location = new System.Drawing.Point(453, 348);
             this.labelPaymentState.Name = "labelPaymentState";
-            this.labelPaymentState.Size = new System.Drawing.Size(94, 18);
+            this.labelPaymentState.Size = new System.Drawing.Size(42, 18);
             this.labelPaymentState.TabIndex = 14;
-            this.labelPaymentState.Text = "VendingState";
+            this.labelPaymentState.Text = "State";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(8, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(104, 18);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Total Bayar :";
+            // 
+            // listBoxRincian
+            // 
+            this.listBoxRincian.FormattingEnabled = true;
+            this.listBoxRincian.Location = new System.Drawing.Point(15, 36);
+            this.listBoxRincian.Name = "listBoxRincian";
+            this.listBoxRincian.Size = new System.Drawing.Size(375, 199);
+            this.listBoxRincian.TabIndex = 28;
+            // 
+            // labelTotalBayar
+            // 
+            this.labelTotalBayar.AutoSize = true;
+            this.labelTotalBayar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.labelTotalBayar.Location = new System.Drawing.Point(127, 13);
+            this.labelTotalBayar.Name = "labelTotalBayar";
+            this.labelTotalBayar.Size = new System.Drawing.Size(39, 18);
+            this.labelTotalBayar.TabIndex = 27;
+            this.labelTotalBayar.Text = "Rp.0";
+            // 
+            // pictureBoxQRCode
+            // 
+            this.pictureBoxQRCode.Location = new System.Drawing.Point(450, 56);
+            this.pictureBoxQRCode.Name = "pictureBoxQRCode";
+            this.pictureBoxQRCode.Size = new System.Drawing.Size(314, 289);
+            this.pictureBoxQRCode.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxQRCode.TabIndex = 17;
+            this.pictureBoxQRCode.TabStop = false;
             // 
             // Payment
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 473);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(812, 432);
             this.Controls.Add(this.pictureBoxQRCode);
+            this.Controls.Add(this.labelPaymentState);
             this.Controls.Add(this.panel42);
             this.Controls.Add(this.label3);
             this.Name = "Payment";
             this.Text = "Payment";
+            this.Load += new System.EventHandler(this.Payment_Load);
             this.panel42.ResumeLayout(false);
             this.panel42.PerformLayout();
             this.panel43.ResumeLayout(false);
             this.panel43.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQRCode)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQRCode)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,14 +209,16 @@
         #endregion
         private System.Windows.Forms.Panel panel42;
         private System.Windows.Forms.Panel panel43;
-        private System.Windows.Forms.Label labelTotalBayar;
+        private System.Windows.Forms.Label TotalBayar;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button Bayar;
-        private System.Windows.Forms.PictureBox pictureBoxQRCode;
-        private System.Windows.Forms.ListBox listBoxRincian;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelPaymentState;
+        private System.Windows.Forms.ListBox listBoxRincian;
+        private System.Windows.Forms.Label labelTotalBayar;
+        private System.Windows.Forms.PictureBox pictureBoxQRCode;
     }
 }
