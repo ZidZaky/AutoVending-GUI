@@ -1400,6 +1400,7 @@
             this.label3.Size = new System.Drawing.Size(207, 26);
             this.label3.TabIndex = 18;
             this.label3.Text = "Tambahkan Product";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // flowLayoutPanel3
             // 

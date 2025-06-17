@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace AutoVendingApp
 {
-    public partial class AdminSettings: Form
+    public partial class AddProduct: Form
     {
-        public AdminSettings()
+        public AddProduct()
         {
             InitializeComponent();
         }
 
         private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
         {
 
         }

@@ -21,6 +21,22 @@ namespace AutoVendingApp
             InitializeComponent();
             InisialisasiKontrolUI();
             InisialisasiProduk();
+            ApplyLanguage();
+            LanguageManager.LanguageChanged += ApplyLanguage;
+        }
+
+        private void ApplyLanguage()
+        {
+            this.Text = LanguageManager.GetString("VendingForm_Title");
+            Title.Text = LanguageManager.GetString("VendingForm_Title");
+            
+        }
+
+        // PENTING: Unsubscribe dari event saat form ditutup untuk menghindari memory leak
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            LanguageManager.LanguageChanged -= ApplyLanguage;
+            base.OnFormClosed(e);
         }
 
         private void InisialisasiKontrolUI()
@@ -106,6 +122,23 @@ namespace AutoVendingApp
                 Status.Text = "Out of Service";
                 PanelStatus.ForeColor = Color.Red;
             }
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            LanguageSettings halamanBahasa = new LanguageSettings();
+            halamanBahasa.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            AdminSettings admin = new AdminSettings();
+            AdminSettings.Show();
         }
     }
 }

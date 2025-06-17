@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AutoVendingApp
 {
-    public partial class AddProduct: Form
+    public partial class LoginAdmin: Form
     {
-        public AddProduct()
+        public LoginAdmin()
         {
             InitializeComponent();
         }

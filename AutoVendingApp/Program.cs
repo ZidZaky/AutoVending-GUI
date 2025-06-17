@@ -14,6 +14,7 @@ namespace AutoVendingApp
         [STAThread]
         static void Main()
         {
+            LanguageManager.LoadLanguages();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Vending());
