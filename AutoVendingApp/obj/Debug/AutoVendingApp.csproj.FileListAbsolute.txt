@@ -14,6 +14,7 @@ D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Json\languages.json
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
 D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
@@ -37,6 +38,19 @@ D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoV
 D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
 D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
 D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
+=======
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
+<<<<<<< HEAD
+=======
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.dll
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\QRCoder.dll
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.pdb
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
+>>>>>>> c174b13 (main logic)
+>>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
@@ -47,6 +61,7 @@ C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GU
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
+<<<<<<< HEAD
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
 C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\products.json
@@ -97,3 +112,11 @@ C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\Au
 C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\currency.json
 C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\JamOperational.json
 >>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e
+=======
+<<<<<<< HEAD
+=======
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
+>>>>>>> c174b13 (main logic)
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
+C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
+>>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18
