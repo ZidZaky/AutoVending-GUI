@@ -117,268 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
-    <value>panel10</value>
-  </data>
-  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;panel14.Name" xml:space="preserve">
-    <value>panel14</value>
-  </data>
-  <data name="&gt;&gt;panel14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel14.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;panel16.Name" xml:space="preserve">
-    <value>panel16</value>
-  </data>
-  <data name="&gt;&gt;panel16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel16.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;panel18.Name" xml:space="preserve">
-    <value>panel18</value>
-  </data>
-  <data name="&gt;&gt;panel18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel18.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;panel20.Name" xml:space="preserve">
-    <value>panel20</value>
-  </data>
-  <data name="&gt;&gt;panel20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel20.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;panel26.Name" xml:space="preserve">
-    <value>panel26</value>
-  </data>
-  <data name="&gt;&gt;panel26.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel26.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel26.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;panel30.Name" xml:space="preserve">
-    <value>panel30</value>
-  </data>
-  <data name="&gt;&gt;panel30.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel30.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel30.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;panel28.Name" xml:space="preserve">
-    <value>panel28</value>
-  </data>
-  <data name="&gt;&gt;panel28.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel28.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel28.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;panel24.Name" xml:space="preserve">
-    <value>panel24</value>
-  </data>
-  <data name="&gt;&gt;panel24.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel24.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel24.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;panel22.Name" xml:space="preserve">
-    <value>panel22</value>
-  </data>
-  <data name="&gt;&gt;panel22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel22.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel22.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;panel36.Name" xml:space="preserve">
-    <value>panel36</value>
-  </data>
-  <data name="&gt;&gt;panel36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel36.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel36.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;panel40.Name" xml:space="preserve">
-    <value>panel40</value>
-  </data>
-  <data name="&gt;&gt;panel40.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel40.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel40.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;panel38.Name" xml:space="preserve">
-    <value>panel38</value>
-  </data>
-  <data name="&gt;&gt;panel38.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel38.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel38.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;panel34.Name" xml:space="preserve">
-    <value>panel34</value>
-  </data>
-  <data name="&gt;&gt;panel34.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel34.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel34.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;panel32.Name" xml:space="preserve">
-    <value>panel32</value>
-  </data>
-  <data name="&gt;&gt;panel32.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel32.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel32.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ItemsVending.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 38</value>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 109</value>
   </data>
-  <data name="ItemsVending.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 762</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ItemsVending.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;ItemsVending.Name" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;ItemsVending.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ItemsVending.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ItemsVending.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="button1.Text" xml:space="preserve">
+    <value>button1</value>
   </data>
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
@@ -390,6 +141,45 @@
     <value>panel2</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 6</value>
+  </data>
+  <data name="hargaLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="hargaLabel1.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel1.Name" xml:space="preserve">
+    <value>hargaLabel1</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel1.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel7.Name" xml:space="preserve">
@@ -425,92 +215,17 @@
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
-  </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Name" xml:space="preserve">
-    <value>hargaLabel1</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 6</value>
-  </data>
-  <data name="hargaLabel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="hargaLabel1.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Name" xml:space="preserve">
-    <value>hargaLabel1</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel1.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button2.Text" xml:space="preserve">
+    <value>button2</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
@@ -522,6 +237,45 @@
     <value>panel3</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="hargaLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel2.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel2.Name" xml:space="preserve">
+    <value>hargaLabel2</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel2.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel4.Name" xml:space="preserve">
@@ -557,92 +311,17 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Name" xml:space="preserve">
-    <value>hargaLabel2</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 6</value>
-  </data>
-  <data name="hargaLabel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel2.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel2.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Name" xml:space="preserve">
-    <value>hargaLabel2</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel2.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button3.Text" xml:space="preserve">
+    <value>button3</value>
   </data>
   <data name="&gt;&gt;button3.Name" xml:space="preserve">
     <value>button3</value>
@@ -654,6 +333,45 @@
     <value>panel5</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 6</value>
+  </data>
+  <data name="hargaLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel3.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel3.Name" xml:space="preserve">
+    <value>hargaLabel3</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel3.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel6.Name" xml:space="preserve">
@@ -689,92 +407,17 @@
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
+  <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Name" xml:space="preserve">
-    <value>hargaLabel3</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 6</value>
-  </data>
-  <data name="hargaLabel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel3.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel3.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Name" xml:space="preserve">
-    <value>hargaLabel3</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button4.Text" xml:space="preserve">
+    <value>button4</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
@@ -786,6 +429,45 @@
     <value>panel8</value>
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 6</value>
+  </data>
+  <data name="hargaLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel4.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel4.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel4.Name" xml:space="preserve">
+    <value>hargaLabel4</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel4.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel9.Name" xml:space="preserve">
@@ -821,92 +503,17 @@
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
+  <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Name" xml:space="preserve">
-    <value>hargaLabel4</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel4.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>18, 6</value>
-  </data>
-  <data name="hargaLabel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel4.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel4.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Name" xml:space="preserve">
-    <value>hargaLabel4</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel4.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button5.Text" xml:space="preserve">
+    <value>button5</value>
   </data>
   <data name="&gt;&gt;button5.Name" xml:space="preserve">
     <value>button5</value>
@@ -918,6 +525,45 @@
     <value>panel10</value>
   </data>
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel5.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel5.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel5.Name" xml:space="preserve">
+    <value>hargaLabel5</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel5.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel11.Name" xml:space="preserve">
@@ -953,92 +599,17 @@
   <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button5.TabIndex" type="System.Int32, mscorlib">
+  <data name="button6.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button5.Text" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Name" xml:space="preserve">
-    <value>button5</value>
-  </data>
-  <data name="&gt;&gt;button5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button5.Parent" xml:space="preserve">
-    <value>panel10</value>
-  </data>
-  <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Name" xml:space="preserve">
-    <value>hargaLabel5</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Parent" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
-    <value>panel10</value>
-  </data>
-  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel5.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel5.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel5.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Name" xml:space="preserve">
-    <value>hargaLabel5</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.Parent" xml:space="preserve">
-    <value>panel11</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel5.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button6.Text" xml:space="preserve">
+    <value>button6</value>
   </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
@@ -1050,6 +621,45 @@
     <value>panel12</value>
   </data>
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel6.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel6.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel6.Name" xml:space="preserve">
+    <value>hargaLabel6</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel6.Parent" xml:space="preserve">
+    <value>panel13</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel6.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel13.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel13.Name" xml:space="preserve">
@@ -1085,92 +695,17 @@
   <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button6.Text" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
-  </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Name" xml:space="preserve">
-    <value>hargaLabel6</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Parent" xml:space="preserve">
-    <value>panel13</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel13.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel13.Name" xml:space="preserve">
-    <value>panel13</value>
-  </data>
-  <data name="&gt;&gt;panel13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel13.Parent" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;panel13.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel6.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel6.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel6.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Name" xml:space="preserve">
-    <value>hargaLabel6</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.Parent" xml:space="preserve">
-    <value>panel13</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel6.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button7.Text" xml:space="preserve">
+    <value>button7</value>
   </data>
   <data name="&gt;&gt;button7.Name" xml:space="preserve">
     <value>button7</value>
@@ -1182,6 +717,45 @@
     <value>panel14</value>
   </data>
   <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel7.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel7.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel7.Name" xml:space="preserve">
+    <value>hargaLabel7</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel7.Parent" xml:space="preserve">
+    <value>panel15</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel15.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel15.Name" xml:space="preserve">
@@ -1217,92 +791,17 @@
   <data name="&gt;&gt;panel14.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+  <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button7.Text" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
-  </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>panel14</value>
-  </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Name" xml:space="preserve">
-    <value>hargaLabel7</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Parent" xml:space="preserve">
-    <value>panel15</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel15.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel15.Name" xml:space="preserve">
-    <value>panel15</value>
-  </data>
-  <data name="&gt;&gt;panel15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel15.Parent" xml:space="preserve">
-    <value>panel14</value>
-  </data>
-  <data name="&gt;&gt;panel15.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel7.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel7.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel7.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel7.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Name" xml:space="preserve">
-    <value>hargaLabel7</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.Parent" xml:space="preserve">
-    <value>panel15</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel7.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button8.Text" xml:space="preserve">
+    <value>button8</value>
   </data>
   <data name="&gt;&gt;button8.Name" xml:space="preserve">
     <value>button8</value>
@@ -1314,6 +813,45 @@
     <value>panel16</value>
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel8.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="hargaLabel8.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel8.Name" xml:space="preserve">
+    <value>hargaLabel8</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel8.Parent" xml:space="preserve">
+    <value>panel17</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel17.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel17.Name" xml:space="preserve">
@@ -1349,92 +887,17 @@
   <data name="&gt;&gt;panel16.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button8.TabIndex" type="System.Int32, mscorlib">
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button8.Text" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="&gt;&gt;button8.Name" xml:space="preserve">
-    <value>button8</value>
-  </data>
-  <data name="&gt;&gt;button8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button8.Parent" xml:space="preserve">
-    <value>panel16</value>
-  </data>
-  <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Name" xml:space="preserve">
-    <value>hargaLabel8</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Parent" xml:space="preserve">
-    <value>panel17</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel17.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel17.Name" xml:space="preserve">
-    <value>panel17</value>
-  </data>
-  <data name="&gt;&gt;panel17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel17.Parent" xml:space="preserve">
-    <value>panel16</value>
-  </data>
-  <data name="&gt;&gt;panel17.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel8.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel8.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel8.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="hargaLabel8.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Name" xml:space="preserve">
-    <value>hargaLabel8</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.Parent" xml:space="preserve">
-    <value>panel17</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel8.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button9.Text" xml:space="preserve">
+    <value>button9</value>
   </data>
   <data name="&gt;&gt;button9.Name" xml:space="preserve">
     <value>button9</value>
@@ -1446,6 +909,45 @@
     <value>panel18</value>
   </data>
   <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel9.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel9.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel9.Name" xml:space="preserve">
+    <value>hargaLabel9</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel9.Parent" xml:space="preserve">
+    <value>panel19</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel19.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel19.Name" xml:space="preserve">
@@ -1481,92 +983,17 @@
   <data name="&gt;&gt;panel18.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button9.Text" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
-  </data>
-  <data name="&gt;&gt;button9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
-    <value>panel18</value>
-  </data>
-  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Name" xml:space="preserve">
-    <value>hargaLabel9</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Parent" xml:space="preserve">
-    <value>panel19</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel19.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel19.Name" xml:space="preserve">
-    <value>panel19</value>
-  </data>
-  <data name="&gt;&gt;panel19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel19.Parent" xml:space="preserve">
-    <value>panel18</value>
-  </data>
-  <data name="&gt;&gt;panel19.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel9.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel9.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel9.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel9.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Name" xml:space="preserve">
-    <value>hargaLabel9</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.Parent" xml:space="preserve">
-    <value>panel19</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel9.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button10.Text" xml:space="preserve">
+    <value>button10</value>
   </data>
   <data name="&gt;&gt;button10.Name" xml:space="preserve">
     <value>button10</value>
@@ -1578,6 +1005,45 @@
     <value>panel20</value>
   </data>
   <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel10.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel10.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel10.Name" xml:space="preserve">
+    <value>hargaLabel10</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel10.Parent" xml:space="preserve">
+    <value>panel21</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel21.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel21.Name" xml:space="preserve">
@@ -1613,92 +1079,17 @@
   <data name="&gt;&gt;panel20.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 109</value>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
   </data>
-  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+  <data name="button11.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button10.Text" xml:space="preserve">
-    <value>button10</value>
-  </data>
-  <data name="&gt;&gt;button10.Name" xml:space="preserve">
-    <value>button10</value>
-  </data>
-  <data name="&gt;&gt;button10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
-    <value>panel20</value>
-  </data>
-  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Name" xml:space="preserve">
-    <value>hargaLabel10</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Parent" xml:space="preserve">
-    <value>panel21</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel21.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel21.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel21.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel21.Name" xml:space="preserve">
-    <value>panel21</value>
-  </data>
-  <data name="&gt;&gt;panel21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel21.Parent" xml:space="preserve">
-    <value>panel20</value>
-  </data>
-  <data name="&gt;&gt;panel21.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel10.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel10.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel10.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel10.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Name" xml:space="preserve">
-    <value>hargaLabel10</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.Parent" xml:space="preserve">
-    <value>panel21</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel10.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button11.Text" xml:space="preserve">
+    <value>button11</value>
   </data>
   <data name="&gt;&gt;button11.Name" xml:space="preserve">
     <value>button11</value>
@@ -1710,6 +1101,45 @@
     <value>panel26</value>
   </data>
   <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel11.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel11.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel11.Name" xml:space="preserve">
+    <value>hargaLabel11</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel11.Parent" xml:space="preserve">
+    <value>panel27</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel11.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel27.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel27.Name" xml:space="preserve">
@@ -1745,92 +1175,17 @@
   <data name="&gt;&gt;panel26.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 107</value>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 109</value>
   </data>
-  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button11.TabIndex" type="System.Int32, mscorlib">
+  <data name="button12.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button11.Text" xml:space="preserve">
-    <value>button11</value>
-  </data>
-  <data name="&gt;&gt;button11.Name" xml:space="preserve">
-    <value>button11</value>
-  </data>
-  <data name="&gt;&gt;button11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
-    <value>panel26</value>
-  </data>
-  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Name" xml:space="preserve">
-    <value>hargaLabel11</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Parent" xml:space="preserve">
-    <value>panel27</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel27.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel27.Name" xml:space="preserve">
-    <value>panel27</value>
-  </data>
-  <data name="&gt;&gt;panel27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel27.Parent" xml:space="preserve">
-    <value>panel26</value>
-  </data>
-  <data name="&gt;&gt;panel27.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel11.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel11.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel11.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Name" xml:space="preserve">
-    <value>hargaLabel11</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.Parent" xml:space="preserve">
-    <value>panel27</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel11.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button12.Text" xml:space="preserve">
+    <value>button12</value>
   </data>
   <data name="&gt;&gt;button12.Name" xml:space="preserve">
     <value>button12</value>
@@ -1842,6 +1197,45 @@
     <value>panel30</value>
   </data>
   <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel12.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel12.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel12.Name" xml:space="preserve">
+    <value>hargaLabel12</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel12.Parent" xml:space="preserve">
+    <value>panel31</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel31.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel31.Name" xml:space="preserve">
@@ -1877,92 +1271,17 @@
   <data name="&gt;&gt;panel30.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 109</value>
+  <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
   </data>
-  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button12.TabIndex" type="System.Int32, mscorlib">
+  <data name="button13.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button12.Text" xml:space="preserve">
-    <value>button12</value>
-  </data>
-  <data name="&gt;&gt;button12.Name" xml:space="preserve">
-    <value>button12</value>
-  </data>
-  <data name="&gt;&gt;button12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
-    <value>panel30</value>
-  </data>
-  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Name" xml:space="preserve">
-    <value>hargaLabel12</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Parent" xml:space="preserve">
-    <value>panel31</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel31.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel31.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel31.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel31.Name" xml:space="preserve">
-    <value>panel31</value>
-  </data>
-  <data name="&gt;&gt;panel31.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel31.Parent" xml:space="preserve">
-    <value>panel30</value>
-  </data>
-  <data name="&gt;&gt;panel31.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel12.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel12.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel12.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Name" xml:space="preserve">
-    <value>hargaLabel12</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.Parent" xml:space="preserve">
-    <value>panel31</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel12.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button13.Text" xml:space="preserve">
+    <value>button13</value>
   </data>
   <data name="&gt;&gt;button13.Name" xml:space="preserve">
     <value>button13</value>
@@ -1974,6 +1293,45 @@
     <value>panel28</value>
   </data>
   <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel13.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel13.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel13.Name" xml:space="preserve">
+    <value>hargaLabel13</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel13.Parent" xml:space="preserve">
+    <value>panel29</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel29.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel29.Name" xml:space="preserve">
@@ -2009,92 +1367,17 @@
   <data name="&gt;&gt;panel28.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
-  <data name="button13.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button13.TabIndex" type="System.Int32, mscorlib">
+  <data name="button14.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button13.Text" xml:space="preserve">
-    <value>button13</value>
-  </data>
-  <data name="&gt;&gt;button13.Name" xml:space="preserve">
-    <value>button13</value>
-  </data>
-  <data name="&gt;&gt;button13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button13.Parent" xml:space="preserve">
-    <value>panel28</value>
-  </data>
-  <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Name" xml:space="preserve">
-    <value>hargaLabel13</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Parent" xml:space="preserve">
-    <value>panel29</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel29.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel29.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel29.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel29.Name" xml:space="preserve">
-    <value>panel29</value>
-  </data>
-  <data name="&gt;&gt;panel29.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel29.Parent" xml:space="preserve">
-    <value>panel28</value>
-  </data>
-  <data name="&gt;&gt;panel29.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel13.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel13.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel13.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Name" xml:space="preserve">
-    <value>hargaLabel13</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.Parent" xml:space="preserve">
-    <value>panel29</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel13.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button14.Text" xml:space="preserve">
+    <value>button14</value>
   </data>
   <data name="&gt;&gt;button14.Name" xml:space="preserve">
     <value>button14</value>
@@ -2106,6 +1389,45 @@
     <value>panel24</value>
   </data>
   <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel14.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel14.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel14.Name" xml:space="preserve">
+    <value>hargaLabel14</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel14.Parent" xml:space="preserve">
+    <value>panel25</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel14.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel25.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel25.Name" xml:space="preserve">
@@ -2141,92 +1463,17 @@
   <data name="&gt;&gt;panel24.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="button14.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
-  <data name="button14.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button14.TabIndex" type="System.Int32, mscorlib">
+  <data name="button15.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button14.Text" xml:space="preserve">
-    <value>button14</value>
-  </data>
-  <data name="&gt;&gt;button14.Name" xml:space="preserve">
-    <value>button14</value>
-  </data>
-  <data name="&gt;&gt;button14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button14.Parent" xml:space="preserve">
-    <value>panel24</value>
-  </data>
-  <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Name" xml:space="preserve">
-    <value>hargaLabel14</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Parent" xml:space="preserve">
-    <value>panel25</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel25.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel25.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel25.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel25.Name" xml:space="preserve">
-    <value>panel25</value>
-  </data>
-  <data name="&gt;&gt;panel25.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel25.Parent" xml:space="preserve">
-    <value>panel24</value>
-  </data>
-  <data name="&gt;&gt;panel25.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel14.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel14.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel14.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Name" xml:space="preserve">
-    <value>hargaLabel14</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.Parent" xml:space="preserve">
-    <value>panel25</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel14.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button15.Text" xml:space="preserve">
+    <value>button15</value>
   </data>
   <data name="&gt;&gt;button15.Name" xml:space="preserve">
     <value>button15</value>
@@ -2238,6 +1485,45 @@
     <value>panel22</value>
   </data>
   <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel15.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel15.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel15.Name" xml:space="preserve">
+    <value>hargaLabel15</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel15.Parent" xml:space="preserve">
+    <value>panel23</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel15.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel23.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel23.Name" xml:space="preserve">
@@ -2273,137 +1559,23 @@
   <data name="&gt;&gt;panel22.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="button15.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 107</value>
-  </data>
-  <data name="button15.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 33</value>
-  </data>
-  <data name="button15.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button15.Text" xml:space="preserve">
-    <value>button15</value>
-  </data>
-  <data name="&gt;&gt;button15.Name" xml:space="preserve">
-    <value>button15</value>
-  </data>
-  <data name="&gt;&gt;button15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button15.Parent" xml:space="preserve">
-    <value>panel22</value>
-  </data>
-  <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Name" xml:space="preserve">
-    <value>hargaLabel15</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Parent" xml:space="preserve">
-    <value>panel23</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel23.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel23.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel23.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel23.Name" xml:space="preserve">
-    <value>panel23</value>
-  </data>
-  <data name="&gt;&gt;panel23.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel23.Parent" xml:space="preserve">
-    <value>panel22</value>
-  </data>
-  <data name="&gt;&gt;panel23.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel15.AutoSize" type="System.Boolean, mscorlib">
+  <data name="hargaLabel16.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="hargaLabel15.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="hargaLabel16.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt, style=Italic</value>
   </data>
-  <data name="hargaLabel15.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="hargaLabel16.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 7</value>
   </data>
-  <data name="hargaLabel15.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="hargaLabel16.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 20</value>
   </data>
-  <data name="hargaLabel15.TabIndex" type="System.Int32, mscorlib">
+  <data name="hargaLabel16.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
   </data>
-  <data name="hargaLabel15.Text" xml:space="preserve">
+  <data name="hargaLabel16.Text" xml:space="preserve">
     <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Name" xml:space="preserve">
-    <value>hargaLabel15</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.Parent" xml:space="preserve">
-    <value>panel23</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel15.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel37.Name" xml:space="preserve">
-    <value>panel37</value>
-  </data>
-  <data name="&gt;&gt;panel37.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel37.Parent" xml:space="preserve">
-    <value>panel36</value>
-  </data>
-  <data name="&gt;&gt;panel37.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button16.Name" xml:space="preserve">
-    <value>button16</value>
-  </data>
-  <data name="&gt;&gt;button16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button16.Parent" xml:space="preserve">
-    <value>panel36</value>
-  </data>
-  <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="panel36.Location" type="System.Drawing.Point, System.Drawing">
-    <value>492, 456</value>
-  </data>
-  <data name="panel36.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 145</value>
-  </data>
-  <data name="panel36.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;panel36.Name" xml:space="preserve">
-    <value>panel36</value>
-  </data>
-  <data name="&gt;&gt;panel36.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel36.Parent" xml:space="preserve">
-    <value>ItemsVending</value>
-  </data>
-  <data name="&gt;&gt;panel36.ZOrder" xml:space="preserve">
-    <value>15</value>
   </data>
   <data name="&gt;&gt;hargaLabel16.Name" xml:space="preserve">
     <value>hargaLabel16</value>
@@ -2438,36 +1610,6 @@
   <data name="&gt;&gt;panel37.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="hargaLabel16.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel16.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel16.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel16.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel16.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel16.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel16.Name" xml:space="preserve">
-    <value>hargaLabel16</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel16.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel16.Parent" xml:space="preserve">
-    <value>panel37</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel16.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="button16.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
@@ -2492,6 +1634,39 @@
   <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="panel36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 456</value>
+  </data>
+  <data name="panel36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 145</value>
+  </data>
+  <data name="panel36.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel36.Name" xml:space="preserve">
+    <value>panel36</value>
+  </data>
+  <data name="&gt;&gt;panel36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel36.Parent" xml:space="preserve">
+    <value>ItemsVending</value>
+  </data>
+  <data name="&gt;&gt;panel36.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 33</value>
+  </data>
+  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button17.Text" xml:space="preserve">
+    <value>button17</value>
+  </data>
   <data name="&gt;&gt;button17.Name" xml:space="preserve">
     <value>button17</value>
   </data>
@@ -2502,6 +1677,45 @@
     <value>panel40</value>
   </data>
   <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel17.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel17.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel17.Name" xml:space="preserve">
+    <value>hargaLabel17</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel17.Parent" xml:space="preserve">
+    <value>panel41</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel17.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel41.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel41.Name" xml:space="preserve">
@@ -2537,92 +1751,17 @@
   <data name="&gt;&gt;panel40.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="button17.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
-  <data name="button17.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button17.TabIndex" type="System.Int32, mscorlib">
+  <data name="button18.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button17.Text" xml:space="preserve">
-    <value>button17</value>
-  </data>
-  <data name="&gt;&gt;button17.Name" xml:space="preserve">
-    <value>button17</value>
-  </data>
-  <data name="&gt;&gt;button17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button17.Parent" xml:space="preserve">
-    <value>panel40</value>
-  </data>
-  <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Name" xml:space="preserve">
-    <value>hargaLabel17</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Parent" xml:space="preserve">
-    <value>panel41</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel41.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel41.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel41.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel41.Name" xml:space="preserve">
-    <value>panel41</value>
-  </data>
-  <data name="&gt;&gt;panel41.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel41.Parent" xml:space="preserve">
-    <value>panel40</value>
-  </data>
-  <data name="&gt;&gt;panel41.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel17.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel17.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel17.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel17.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel17.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel17.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Name" xml:space="preserve">
-    <value>hargaLabel17</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.Parent" xml:space="preserve">
-    <value>panel41</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel17.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button18.Text" xml:space="preserve">
+    <value>button18</value>
   </data>
   <data name="&gt;&gt;button18.Name" xml:space="preserve">
     <value>button18</value>
@@ -2634,6 +1773,45 @@
     <value>panel38</value>
   </data>
   <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel18.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel18.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel18.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel18.Name" xml:space="preserve">
+    <value>hargaLabel18</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel18.Parent" xml:space="preserve">
+    <value>panel39</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel18.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel39.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel39.Name" xml:space="preserve">
@@ -2669,92 +1847,17 @@
   <data name="&gt;&gt;panel38.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="button18.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
-  <data name="button18.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button18.TabIndex" type="System.Int32, mscorlib">
+  <data name="button19.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button18.Text" xml:space="preserve">
-    <value>button18</value>
-  </data>
-  <data name="&gt;&gt;button18.Name" xml:space="preserve">
-    <value>button18</value>
-  </data>
-  <data name="&gt;&gt;button18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button18.Parent" xml:space="preserve">
-    <value>panel38</value>
-  </data>
-  <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Name" xml:space="preserve">
-    <value>hargaLabel18</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Parent" xml:space="preserve">
-    <value>panel39</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel39.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel39.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel39.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel39.Name" xml:space="preserve">
-    <value>panel39</value>
-  </data>
-  <data name="&gt;&gt;panel39.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel39.Parent" xml:space="preserve">
-    <value>panel38</value>
-  </data>
-  <data name="&gt;&gt;panel39.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel18.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel18.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel18.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Name" xml:space="preserve">
-    <value>hargaLabel18</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.Parent" xml:space="preserve">
-    <value>panel39</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel18.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button19.Text" xml:space="preserve">
+    <value>button19</value>
   </data>
   <data name="&gt;&gt;button19.Name" xml:space="preserve">
     <value>button19</value>
@@ -2766,6 +1869,45 @@
     <value>panel34</value>
   </data>
   <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel19.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel19.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel19.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel19.Name" xml:space="preserve">
+    <value>hargaLabel19</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel19.Parent" xml:space="preserve">
+    <value>panel35</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel35.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel35.Name" xml:space="preserve">
@@ -2801,92 +1943,17 @@
   <data name="&gt;&gt;panel34.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="button19.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="button20.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 107</value>
   </data>
-  <data name="button19.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button20.Size" type="System.Drawing.Size, System.Drawing">
     <value>151, 33</value>
   </data>
-  <data name="button19.TabIndex" type="System.Int32, mscorlib">
+  <data name="button20.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="button19.Text" xml:space="preserve">
-    <value>button19</value>
-  </data>
-  <data name="&gt;&gt;button19.Name" xml:space="preserve">
-    <value>button19</value>
-  </data>
-  <data name="&gt;&gt;button19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button19.Parent" xml:space="preserve">
-    <value>panel34</value>
-  </data>
-  <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Name" xml:space="preserve">
-    <value>hargaLabel19</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Parent" xml:space="preserve">
-    <value>panel35</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel35.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel35.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel35.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel35.Name" xml:space="preserve">
-    <value>panel35</value>
-  </data>
-  <data name="&gt;&gt;panel35.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel35.Parent" xml:space="preserve">
-    <value>panel34</value>
-  </data>
-  <data name="&gt;&gt;panel35.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="hargaLabel19.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="hargaLabel19.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
-  </data>
-  <data name="hargaLabel19.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
-  </data>
-  <data name="hargaLabel19.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel19.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel19.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Name" xml:space="preserve">
-    <value>hargaLabel19</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.Parent" xml:space="preserve">
-    <value>panel35</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel19.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button20.Text" xml:space="preserve">
+    <value>button20</value>
   </data>
   <data name="&gt;&gt;button20.Name" xml:space="preserve">
     <value>button20</value>
@@ -2898,6 +1965,45 @@
     <value>panel32</value>
   </data>
   <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="hargaLabel20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hargaLabel20.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  </data>
+  <data name="hargaLabel20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 7</value>
+  </data>
+  <data name="hargaLabel20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 20</value>
+  </data>
+  <data name="hargaLabel20.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="hargaLabel20.Text" xml:space="preserve">
+    <value>[Nama Produk]</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel20.Name" xml:space="preserve">
+    <value>hargaLabel20</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel20.Parent" xml:space="preserve">
+    <value>panel33</value>
+  </data>
+  <data name="&gt;&gt;hargaLabel20.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="panel33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 100</value>
+  </data>
+  <data name="panel33.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;panel33.Name" xml:space="preserve">
@@ -2933,92 +2039,26 @@
   <data name="&gt;&gt;panel32.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
-  <data name="button20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 107</value>
+  <data name="ItemsVending.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 38</value>
   </data>
-  <data name="button20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 33</value>
+  <data name="ItemsVending.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 762</value>
   </data>
-  <data name="button20.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="button20.Text" xml:space="preserve">
-    <value>button20</value>
-  </data>
-  <data name="&gt;&gt;button20.Name" xml:space="preserve">
-    <value>button20</value>
-  </data>
-  <data name="&gt;&gt;button20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button20.Parent" xml:space="preserve">
-    <value>panel32</value>
-  </data>
-  <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Name" xml:space="preserve">
-    <value>hargaLabel20</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Parent" xml:space="preserve">
-    <value>panel33</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="panel33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="panel33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 100</value>
-  </data>
-  <data name="panel33.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;panel33.Name" xml:space="preserve">
-    <value>panel33</value>
-  </data>
-  <data name="&gt;&gt;panel33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel33.Parent" xml:space="preserve">
-    <value>panel32</value>
-  </data>
-  <data name="&gt;&gt;panel33.ZOrder" xml:space="preserve">
+  <data name="ItemsVending.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="hargaLabel20.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;ItemsVending.Name" xml:space="preserve">
+    <value>ItemsVending</value>
   </data>
-  <data name="hargaLabel20.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Italic</value>
+  <data name="&gt;&gt;ItemsVending.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="hargaLabel20.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 7</value>
+  <data name="&gt;&gt;ItemsVending.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="hargaLabel20.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 20</value>
-  </data>
-  <data name="hargaLabel20.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="hargaLabel20.Text" xml:space="preserve">
-    <value>[Nama Produk]</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Name" xml:space="preserve">
-    <value>hargaLabel20</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.Parent" xml:space="preserve">
-    <value>panel33</value>
-  </data>
-  <data name="&gt;&gt;hargaLabel20.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;ItemsVending.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3053,54 +2093,6 @@
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="PanelStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>PanelStatus</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;Status.Name" xml:space="preserve">
-    <value>Status</value>
-  </data>
-  <data name="&gt;&gt;Status.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Status.Parent" xml:space="preserve">
-    <value>PanelStatus</value>
-  </data>
-  <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="PanelStatus.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>TopDown</value>
-  </data>
-  <data name="PanelStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>683, 756</value>
-  </data>
-  <data name="PanelStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 42</value>
-  </data>
-  <data name="PanelStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;PanelStatus.Name" xml:space="preserve">
-    <value>PanelStatus</value>
-  </data>
-  <data name="&gt;&gt;PanelStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelStatus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;PanelStatus.ZOrder" xml:space="preserve">
-    <value>11</value>
   </data>
   <data name="label13.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3162,74 +2154,29 @@
   <data name="&gt;&gt;Status.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
+  <data name="PanelStatus.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
   </data>
-  <data name="&gt;&gt;label4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="PanelStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 756</value>
   </data>
-  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="PanelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 42</value>
   </data>
-  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="PanelStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
-  <data name="&gt;&gt;button22.Name" xml:space="preserve">
-    <value>button22</value>
+  <data name="&gt;&gt;PanelStatus.Name" xml:space="preserve">
+    <value>PanelStatus</value>
   </data>
-  <data name="&gt;&gt;button22.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;PanelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button22.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;button21.Name" xml:space="preserve">
-    <value>button21</value>
-  </data>
-  <data name="&gt;&gt;button21.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button21.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>683, 628</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 122</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PanelStatus.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;PanelStatus.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3336,6 +2283,27 @@
   <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 628</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 122</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3365,6 +2333,21 @@
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="labelPower.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 13</value>
+  </data>
+  <data name="labelPower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="labelPower.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="labelPower.Text" xml:space="preserve">
+    <value>Turn Off</value>
   </data>
   <data name="&gt;&gt;labelPower.Name" xml:space="preserve">
     <value>labelPower</value>
@@ -3399,83 +2382,8 @@
   <data name="&gt;&gt;TombolPowerVending.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="labelPower.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelPower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 13</value>
-  </data>
-  <data name="labelPower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 13</value>
-  </data>
-  <data name="labelPower.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="labelPower.Text" xml:space="preserve">
-    <value>Turn Off</value>
-  </data>
-  <data name="&gt;&gt;labelPower.Name" xml:space="preserve">
-    <value>labelPower</value>
-  </data>
-  <data name="&gt;&gt;labelPower.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelPower.Parent" xml:space="preserve">
-    <value>TombolPowerVending</value>
-  </data>
-  <data name="&gt;&gt;labelPower.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="flowLayoutPanel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>flowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;JamOperasional.Name" xml:space="preserve">
-    <value>JamOperasional</value>
-  </data>
-  <data name="&gt;&gt;JamOperasional.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;JamOperasional.Parent" xml:space="preserve">
-    <value>flowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;JamOperasional.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="flowLayoutPanel2.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>TopDown</value>
-  </data>
-  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>683, 38</value>
-  </data>
-  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 61</value>
-  </data>
-  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel2.Name" xml:space="preserve">
-    <value>flowLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>7</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3537,6 +2445,30 @@
   <data name="&gt;&gt;JamOperasional.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="flowLayoutPanel2.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 38</value>
+  </data>
+  <data name="flowLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 61</value>
+  </data>
+  <data name="flowLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Name" xml:space="preserve">
+    <value>flowLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3566,90 +2498,6 @@
   </data>
   <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="&gt;&gt;label7.Name" xml:space="preserve">
-    <value>label7</value>
-  </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label8.Name" xml:space="preserve">
-    <value>label8</value>
-  </data>
-  <data name="&gt;&gt;label8.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label9.Name" xml:space="preserve">
-    <value>label9</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label10.Name" xml:space="preserve">
-    <value>label10</value>
-  </data>
-  <data name="&gt;&gt;label10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>684, 193</value>
-  </data>
-  <data name="flowLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 94</value>
-  </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>5</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3786,6 +2634,30 @@
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 193</value>
+  </data>
+  <data name="flowLayoutPanel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 94</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
   <data name="label19.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3867,54 +2739,6 @@
   <data name="flowLayoutPanel3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
-  </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>flowLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;MachineState.Name" xml:space="preserve">
-    <value>MachineState</value>
-  </data>
-  <data name="&gt;&gt;MachineState.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MachineState.Parent" xml:space="preserve">
-    <value>flowLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;MachineState.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="flowLayoutPanel3.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
-    <value>TopDown</value>
-  </data>
-  <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>683, 105</value>
-  </data>
-  <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 42</value>
-  </data>
-  <data name="flowLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel3.Name" xml:space="preserve">
-    <value>flowLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3980,6 +2804,30 @@
   </data>
   <data name="&gt;&gt;MachineState.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="flowLayoutPanel3.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flowLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>683, 105</value>
+  </data>
+  <data name="flowLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 42</value>
+  </data>
+  <data name="flowLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Name" xml:space="preserve">
+    <value>flowLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="buttonCheckout.Location" type="System.Drawing.Point, System.Drawing">
     <value>773, 551</value>

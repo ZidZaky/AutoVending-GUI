@@ -29,7 +29,7 @@ namespace AutoVendingApp
 
     public static class CurrencyManager
     {
-        private static readonly string currencyFilePath = "Json/currency.json";
+        private static readonly string currencyFilePath = "Resources/currency.json";
         private static CurrencyData _currencyData;
 
         public static void Load()

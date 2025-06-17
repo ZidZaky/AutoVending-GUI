@@ -141,6 +141,9 @@
     <Content Include="Resources\products.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\currency.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\Seblak.jpg" />
   </ItemGroup>
   <ItemGroup>

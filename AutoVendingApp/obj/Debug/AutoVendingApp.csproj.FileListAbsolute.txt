@@ -116,3 +116,4 @@ D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\A
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\products.json
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\currency.json

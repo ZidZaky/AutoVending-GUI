@@ -800,6 +800,7 @@
             resources.ApplyResources(this.button22, "button22");
             this.button22.Name = "button22";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.buttonAdminSettings_Click);
             // 
             // label2
             // 

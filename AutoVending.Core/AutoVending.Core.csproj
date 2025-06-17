@@ -50,6 +50,8 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CurrencyAppState.cs" />
+    <Compile Include="CurrencyEvents.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductService.cs" />
