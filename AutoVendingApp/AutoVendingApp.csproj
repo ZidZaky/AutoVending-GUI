@@ -61,7 +61,8 @@
     <Compile Include="Views\AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\LoginAdmin.cs">
+    <Compile Include="Views\LoginAdmin.cs"></Compile>
+    <Compile Include="LanguageSettings.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Views\LoginAdmin.Designer.cs">
@@ -122,6 +123,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="packages.config" />
+    <None Include="languageConfig.json" />
+    <None Include="products.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -140,6 +145,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ee26ae7821b89dd5f76f078c7aed6f89.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoVendingVend.Core\AutoVendingVend.Core.csproj">
+      <Project>{e15fc132-6024-48b5-8bf4-1729525c7642}</Project>
+      <Name>AutoVendingVend.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

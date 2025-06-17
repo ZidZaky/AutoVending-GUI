@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutoVendingVend.Core;
 
 namespace AutoVendingApp
 {
@@ -16,9 +17,12 @@ namespace AutoVendingApp
         private List<Item> daftarProduk = new List<Item>();
         private List<Button> tombolProduk;
         private List<Label> labelHarga;
+
+        private readonly ProductService productService;
         public Vending()
         {
             InitializeComponent();
+            this.productService = new ProductService();
             InisialisasiKontrolUI();
             InisialisasiProduk();
             ApplyLanguage();
@@ -41,43 +45,35 @@ namespace AutoVendingApp
 
         private void InisialisasiKontrolUI()
         {
-            // Daftarkan semua tombol produk
+            // Inisialisasi manual dari file Vending.cs lama Anda
             tombolProduk = new List<Button> {
-    button1, button2, button3, button4,
-    button5, button6, button7, button8,
-    button9, button10, button11, button12,
-    button13, button14, button15, button16,
-    button17, button18, button19, button20
-};
+                button1, button2, button3, button4, button5, button6, button7, button8,
+                button9, button10, button11, button12, button13, button14, button15,
+                button16, button17, button18, button19, button20
+            };
 
             labelHarga = new List<Label> {
-    hargaLabel1, hargaLabel2, hargaLabel3, hargaLabel4,
-    hargaLabel5, hargaLabel6, hargaLabel7, hargaLabel8,
-    hargaLabel9, hargaLabel10, hargaLabel11, hargaLabel12,
-    hargaLabel13, hargaLabel14, hargaLabel15, hargaLabel16,
-    hargaLabel17, hargaLabel18, hargaLabel19, hargaLabel20
-};
+                hargaLabel1, hargaLabel2, hargaLabel3, hargaLabel4, hargaLabel5, hargaLabel6,
+                hargaLabel7, hargaLabel8, hargaLabel9, hargaLabel10, hargaLabel11, hargaLabel12,
+                hargaLabel13, hargaLabel14, hargaLabel15, hargaLabel16, hargaLabel17,
+                hargaLabel18, hargaLabel19, hargaLabel20
+            };
         }
 
         private void InisialisasiProduk()
         {
-            daftarProduk.Add(new Item { Id = 1, NamaProduk = "Snack Kentang", Harga = 5000, Stok = 10 });
-            daftarProduk.Add(new Item { Id = 2, NamaProduk = "Teh Kotak", Harga = 3500, Stok = 15 });
-            daftarProduk.Add(new Item { Id = 3, NamaProduk = "Cokelat Susu", Harga = 7000, Stok = 8 });
-            daftarProduk.Add(new Item { Id = 4, NamaProduk = "Wafer Keju", Harga = 2000, Stok = 20 });
+          
+            this.daftarProduk = productService.GetProducts();
 
 
             for (int i = 0; i < daftarProduk.Count; i++)
             {
-                // Pastikan tidak mencoba mengakses slot yang tidak ada
                 if (i >= tombolProduk.Count) break;
 
                 Item produk = daftarProduk[i];
-
-                // Isi data ke kontrol UI yang sesuai
-                labelHarga[i].Text = $"Rp {produk.Harga:N0}"; // Format mata uang tanpa desimal
+                labelHarga[i].Text = $"Rp {produk.Harga:N0}";
                 tombolProduk[i].Tag = produk;
-                tombolProduk[i].Text = produk.NamaProduk; // Ubah teks tombol menjadi lebih relevan
+                tombolProduk[i].Text = produk.NamaProduk;
             }
         }
 
