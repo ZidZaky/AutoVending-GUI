@@ -61,7 +61,7 @@
     <Compile Include="Views\AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\LoginAdmin.cs"></Compile>
+    <Compile Include="Item.cs" />
     <Compile Include="LanguageSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,14 +120,7 @@
     <EmbeddedResource Include="Views\Vending.resx">
       <DependentUpon>Vending.cs</DependentUpon>
     </EmbeddedResource>
-    <Content Include="Json\languages.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <None Include="packages.config" />
     <None Include="languageConfig.json" />
-    <None Include="products.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
