@@ -17,7 +17,7 @@ namespace AutoVendingApp
             LanguageManager.LoadLanguages();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Vending());
+            Application.Run(new AddProduct());
         }
     }
 }

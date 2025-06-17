@@ -330,7 +330,11 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(151, 100);
             this.panel6.TabIndex = 0;
+<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
 
+=======
+            //this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
+>>>>>>> ecb6e72c63f00001af6a1d4d659d4f2e6a44d9eb:AutoVendingApp/Vending.Designer.cs
             // 
             // hargaLabel3
             // 
