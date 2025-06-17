@@ -36,14 +36,11 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-=======
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="QRCoder, Version=1.6.0.0, Culture=neutral, PublicKeyToken=c4ed5b9ae8358a28, processorArchitecture=MSIL">
       <HintPath>..\packages\QRCoder.1.6.0\lib\net40\QRCoder.dll</HintPath>
     </Reference>
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,14 +67,9 @@
     <Compile Include="Views\AdminSettings.Designer.cs">
       <DependentUpon>AdminSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="Item.cs" />
-    <Compile Include="LanguageSettings.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Views\LoginAdmin.Designer.cs">
       <DependentUpon>LoginAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Item.cs" />
     <Compile Include="Managers\LanguageManager.cs" />
     <Compile Include="Views\LanguageSettings.cs">
       <SubType>Form</SubType>
@@ -91,7 +83,7 @@
     <Compile Include="Views\Payment.Designer.cs">
       <DependentUpon>Payment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Product.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Models\Transaction.cs" />
@@ -129,7 +121,6 @@
     <EmbeddedResource Include="Views\Vending.resx">
       <DependentUpon>Vending.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="languageConfig.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -151,15 +142,9 @@
     <None Include="Resources\ee26ae7821b89dd5f76f078c7aed6f89.jpg" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <ProjectReference Include="..\AutoVendingVend.Core\AutoVendingVend.Core.csproj">
-      <Project>{e15fc132-6024-48b5-8bf4-1729525c7642}</Project>
-      <Name>AutoVendingVend.Core</Name>
-=======
     <ProjectReference Include="..\AutoVending.Core\AutoVending.Core.csproj">
       <Project>{1c1a64da-c7af-4390-9325-ac6604bf341a}</Project>
       <Name>AutoVending.Core</Name>
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

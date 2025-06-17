@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Vending));
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.ItemsVending = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -112,9 +111,7 @@
             this.panel33 = new System.Windows.Forms.Panel();
             this.hargaLabel20 = new System.Windows.Forms.Label();
             this.Title = new System.Windows.Forms.Label();
-=======
             this.label3 = new System.Windows.Forms.Label();
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             this.PanelStatus = new System.Windows.Forms.FlowLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.Status = new System.Windows.Forms.Label();
@@ -284,10 +281,6 @@
             this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
             this.SuspendLayout();
-            // 
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
-            // ItemsVending
-            // 
             this.ItemsVending.BackColor = System.Drawing.SystemColors.Window;
             this.ItemsVending.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ItemsVending.Controls.Add(this.panel2);
@@ -437,17 +430,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(201, 123);
             this.panel6.TabIndex = 0;
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
-
-=======
-            //this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
->>>>>>> ecb6e72c63f00001af6a1d4d659d4f2e6a44d9eb:AutoVendingApp/Vending.Designer.cs
-=======
->>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e:AutoVendingApp/Vending.Designer.cs
-            // 
-            // hargaLabel3
-            // 
             this.hargaLabel3.AutoSize = true;
             this.hargaLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hargaLabel3.Location = new System.Drawing.Point(28, 7);
@@ -1208,7 +1190,6 @@
             // 
             // Title
             // 
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.Title.Location = new System.Drawing.Point(310, 9);
@@ -1217,7 +1198,6 @@
             this.Title.TabIndex = 2;
             this.Title.Text = "Welcome To Auto Vending!";
             this.Title.Click += new System.EventHandler(this.label3_Click);
-=======
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.label3.Location = new System.Drawing.Point(413, 11);
@@ -1226,22 +1206,15 @@
             this.label3.Size = new System.Drawing.Size(342, 31);
             this.label3.TabIndex = 2;
             this.label3.Text = "Welcome To Auto Vending!";
->>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e:AutoVendingApp/Vending.Designer.cs
-=======
-            // label3
-            // 
+
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
-            // 
-            // PanelStatus
-            // 
+
             resources.ApplyResources(this.PanelStatus, "PanelStatus");
             this.PanelStatus.BackColor = System.Drawing.SystemColors.Window;
             this.PanelStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PanelStatus.Controls.Add(this.label13);
             this.PanelStatus.Controls.Add(this.Status);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.PanelStatus.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.PanelStatus.Location = new System.Drawing.Point(911, 930);
             this.PanelStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1270,7 +1243,6 @@
             this.Status.Size = new System.Drawing.Size(95, 20);
             this.Status.TabIndex = 1;
             this.Status.Text = "Operational";
-=======
             this.PanelStatus.Name = "PanelStatus";
             // 
             // label13
@@ -1282,7 +1254,6 @@
             // 
             resources.ApplyResources(this.Status, "Status");
             this.Status.Name = "Status";
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             // 
             // panel1
             // 
@@ -1291,7 +1262,6 @@
             this.panel1.Controls.Add(this.button22);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.button21);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.panel1.Location = new System.Drawing.Point(911, 773);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
@@ -1317,7 +1287,6 @@
             this.button22.Size = new System.Drawing.Size(100, 28);
             this.button22.TabIndex = 2;
             this.button22.Text = "Access";
-=======
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
@@ -1330,13 +1299,11 @@
             // 
             resources.ApplyResources(this.button22, "button22");
             this.button22.Name = "button22";
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             this.button22.UseVisualStyleBackColor = true;
             this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // label2
             // 
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(21, 20);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -1366,7 +1333,6 @@
             this.label1.Size = new System.Drawing.Size(113, 31);
             this.label1.TabIndex = 18;
             this.label1.Text = "Settings";
-=======
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
@@ -1383,30 +1349,25 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(201, 123);
             this.panel6.TabIndex = 0;
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             // 
             // TombolPowerVending
             // 
             this.TombolPowerVending.BackColor = System.Drawing.Color.Red;
             this.TombolPowerVending.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TombolPowerVending.Controls.Add(this.labelPower);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.TombolPowerVending.Location = new System.Drawing.Point(1067, 930);
             this.TombolPowerVending.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TombolPowerVending.Name = "TombolPowerVending";
             this.TombolPowerVending.Size = new System.Drawing.Size(67, 51);
             this.TombolPowerVending.TabIndex = 19;
-=======
             resources.ApplyResources(this.TombolPowerVending, "TombolPowerVending");
             this.TombolPowerVending.Name = "TombolPowerVending";
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             this.TombolPowerVending.Click += new System.EventHandler(this.TombolPower);
             // 
             // labelPower
             // 
             resources.ApplyResources(this.labelPower, "labelPower");
             this.labelPower.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.labelPower.Location = new System.Drawing.Point(1, 16);
             this.labelPower.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPower.Name = "labelPower";
@@ -1461,7 +1422,6 @@
             this.label6.Size = new System.Drawing.Size(151, 31);
             this.label6.TabIndex = 23;
             this.label6.Text = "User Guide";
-=======
             this.labelPower.Name = "labelPower";
             this.labelPower.Click += new System.EventHandler(this.TombolPower);
             // 
@@ -1475,7 +1435,6 @@
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             this.label6.Click += new System.EventHandler(this.label6_Click);
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             // 
             // flowLayoutPanel1
             // 
@@ -1486,7 +1445,6 @@
             this.flowLayoutPanel1.Controls.Add(this.label9);
             this.flowLayoutPanel1.Controls.Add(this.label10);
             this.flowLayoutPanel1.Controls.Add(this.label12);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.flowLayoutPanel1.Location = new System.Drawing.Point(911, 183);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -1543,7 +1501,6 @@
             this.label12.Size = new System.Drawing.Size(187, 32);
             this.label12.TabIndex = 8;
             this.label12.Text = "5. Ambil Produk, Dan Selamat Menikmati!";
-=======
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
@@ -1572,7 +1529,6 @@
             // 
             resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             // 
             // flowLayoutPanel3
             // 
@@ -1586,7 +1542,6 @@
             this.flowLayoutPanel3.Controls.Add(this.label20);
             this.flowLayoutPanel3.Controls.Add(this.label21);
             this.flowLayoutPanel3.Controls.Add(this.label22);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.flowLayoutPanel3.Location = new System.Drawing.Point(909, 409);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
@@ -1690,7 +1645,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1151, 999);
-=======
             resources.ApplyResources(this.flowLayoutPanel3, "flowLayoutPanel3");
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel3_Paint);
@@ -2387,22 +2341,18 @@
             this.ControlBox = false;
             this.Controls.Add(this.panel22);
             this.Controls.Add(this.hScrollBar1);
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.TombolPowerVending);
             this.Controls.Add(this.panel1);
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
             this.Controls.Add(this.PanelStatus);
             this.Controls.Add(this.Title);
             this.Controls.Add(this.ItemsVending);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-=======
             this.Controls.Add(this.label3);
             this.Controls.Add(this.PanelStatus);
             this.Controls.Add(this.ItemsVending);
             this.Controls.Add(this.label1);
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
             this.Name = "Vending";
             this.PanelStatus.ResumeLayout(false);
             this.PanelStatus.PerformLayout();
@@ -2481,7 +2431,6 @@
         }
 
         #endregion
-<<<<<<< HEAD:AutoVendingApp/Views/Vending.Designer.cs
 
         private System.Windows.Forms.FlowLayoutPanel ItemsVending;
         private System.Windows.Forms.Panel panel2;
@@ -2545,9 +2494,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel panel33;
         private System.Windows.Forms.Label Title;
-=======
         private System.Windows.Forms.Label label3;
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Vending.Designer.cs
         private System.Windows.Forms.FlowLayoutPanel PanelStatus;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label Status;
