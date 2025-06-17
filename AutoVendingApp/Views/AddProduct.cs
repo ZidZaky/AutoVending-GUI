@@ -74,12 +74,10 @@ namespace AutoVendingApp
             SetState(FormState.Idle);
         }
 
-<<<<<<< HEAD:AutoVendingApp/Views/AddProduct.cs
         private void label3_Click(object sender, EventArgs e)
         {
 
         }
-=======
         private void InitializeDataGridView() //untuk meng-select data berdasarkan selection di DataDridView Produk
         {
             dgvProduk.DataSource = _products;
@@ -463,6 +461,5 @@ namespace AutoVendingApp
         }
         private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e) { }
         private void dgvProduk_CellContentClick(object sender, DataGridViewCellEventArgs e) { }
->>>>>>> ecb6e72c63f00001af6a1d4d659d4f2e6a44d9eb:AutoVendingApp/AddProduct.cs
     }
 }

@@ -55,6 +55,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Managers\CurrencyManager.cs" />
     <Compile Include="Views\AddProduct.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-<<<<<<< HEAD:AutoVendingApp/Views/Payment.cs
 using AutoVendingVend.Core;
-=======
 using AutoVending.Core;
-using QRCoder;
->>>>>>> 224619eb593afbcc33eb706b892f17f198df2b18:AutoVendingApp/Payment.cs
 
 namespace AutoVendingApp
 {

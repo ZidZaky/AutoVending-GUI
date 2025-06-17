@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using AutoVending.Core;
 using AutoVendingVend.Core;
 
 namespace AutoVendingApp
 {
-    public partial class Vending: Form
+    public partial class Vending : Form
     {
         private bool isMesinMenyala = true;
         private List<Item> daftarProduk = new List<Item>();
@@ -25,22 +26,6 @@ namespace AutoVendingApp
             this.productService = new ProductService();
             InisialisasiKontrolUI();
             InisialisasiProduk();
-            ApplyLanguage();
-            LanguageManager.LanguageChanged += ApplyLanguage;
-        }
-
-        private void ApplyLanguage()
-        {
-            this.Text = LanguageManager.GetString("VendingForm_Title");
-            Title.Text = LanguageManager.GetString("VendingForm_Title");
-            
-        }
-
-        // PENTING: Unsubscribe dari event saat form ditutup untuk menghindari memory leak
-        protected override void OnFormClosed(FormClosedEventArgs e)
-        {
-            LanguageManager.LanguageChanged -= ApplyLanguage;
-            base.OnFormClosed(e);
             CurrencyEvents.CurrencyChanged += UpdateCurrencyDisplay;
             UpdateCurrencyDisplay();
         }
@@ -70,8 +55,10 @@ namespace AutoVendingApp
 
         private void InisialisasiProduk()
         {
-          
-            this.daftarProduk = productService.GetProducts();
+            daftarProduk.Add(new Item { Id = 1, NamaProduk = "Snack Kentang", Harga = 5000, Stok = 10 });
+            daftarProduk.Add(new Item { Id = 2, NamaProduk = "Teh Kotak", Harga = 3500, Stok = 15 });
+            daftarProduk.Add(new Item { Id = 3, NamaProduk = "Cokelat Susu", Harga = 7000, Stok = 8 });
+            daftarProduk.Add(new Item { Id = 4, NamaProduk = "Wafer Keju", Harga = 2000, Stok = 20 });
 
             string selectedCurrency = CurrencyAppState.SelectedCurrency;
             string symbol = CurrencyManager.GetSymbol(selectedCurrency);
@@ -79,10 +66,10 @@ namespace AutoVendingApp
 
             for (int i = 0; i < daftarProduk.Count; i++)
             {
+                // Pastikan tidak mencoba mengakses slot yang tidak ada
                 if (i >= tombolProduk.Count) break;
 
                 Item produk = daftarProduk[i];
-                labelHarga[i].Text = $"Rp {produk.Harga:N0}";
 
                 // Konversi harga dari IDR ke mata uang terpilih
                 decimal hargaConverted = CurrencyManager.Convert("IDR", selectedCurrency, produk.Harga);
@@ -90,22 +77,22 @@ namespace AutoVendingApp
                 // Isi data ke kontrol UI yang sesuai
                 labelHarga[i].Text = $"{symbol} {hargaConverted:N2}"; // Format mata uang tanpa desimal
                 tombolProduk[i].Tag = produk;
-                tombolProduk[i].Text = produk.NamaProduk;
+                tombolProduk[i].Text = produk.NamaProduk; // Ubah teks tombol menjadi lebih relevan
             }
         }
 
         private void TombolProduk_Click(object sender, EventArgs e)
         {
-            
+
             Button tombolYangDiklik = sender as Button;
 
             if (tombolYangDiklik != null && tombolYangDiklik.Tag is Item)
             {
-                
+
                 Item itemTerpilih = tombolYangDiklik.Tag as Item;
 
-                Payment formBayar = new Payment(itemTerpilih);
-                formBayar.ShowDialog(); 
+                //Payment formBayar = new Payment(itemTerpilih);
+                //formBayar.ShowDialog();
             }
         }
 
@@ -137,23 +124,12 @@ namespace AutoVendingApp
             }
         }
 
-        private void button21_Click(object sender, EventArgs e)
-        {
-            LanguageSettings halamanBahasa = new LanguageSettings();
-            halamanBahasa.Show();
-        }
-
-        private void label3_Click(object sender, EventArgs e) { }
-        private void hargaLabel4_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button22_Click(object sender, EventArgs e)
         {
             AdminSettings admin = new AdminSettings();
-            AdminSettings.Show();
             admin.Show();
         }
+
+
     }
 }

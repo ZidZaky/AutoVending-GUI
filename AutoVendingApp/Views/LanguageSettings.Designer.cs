@@ -65,8 +65,6 @@
             this.panel1.Size = new System.Drawing.Size(461, 151);
             this.panel1.TabIndex = 19;
             // 
-<<<<<<< HEAD:AutoVendingApp/Views/LanguageSettings.Designer.cs
-=======
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
@@ -114,7 +112,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Bahasa Yang Tersedia";
             // 
->>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e:AutoVendingApp/LanguageSettings.Designer.cs
             // flowLayoutPanel4
             // 
             this.flowLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
@@ -123,12 +120,9 @@
             this.flowLayoutPanel4.Controls.Add(this.label13);
             this.flowLayoutPanel4.Controls.Add(this.Status);
             this.flowLayoutPanel4.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-<<<<<<< HEAD:AutoVendingApp/Views/LanguageSettings.Designer.cs
             this.flowLayoutPanel4.Location = new System.Drawing.Point(219, 62);
-=======
             this.flowLayoutPanel4.Location = new System.Drawing.Point(351, 153);
             this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
->>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e:AutoVendingApp/LanguageSettings.Designer.cs
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(147, 59);
             this.flowLayoutPanel4.TabIndex = 20;
@@ -205,12 +199,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD:AutoVendingApp/Views/LanguageSettings.Designer.cs
             this.ClientSize = new System.Drawing.Size(373, 180);
-=======
             this.ClientSize = new System.Drawing.Size(555, 239);
             this.Controls.Add(this.flowLayoutPanel4);
->>>>>>> 932b8f98f7d285bc35496e7296747f823e2e5b8e:AutoVendingApp/LanguageSettings.Designer.cs
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
