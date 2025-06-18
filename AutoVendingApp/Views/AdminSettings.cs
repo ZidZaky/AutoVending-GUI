@@ -113,6 +113,11 @@ namespace AutoVendingApp
                 SetCurrency("JPY");
         }
 
+        private void AddProduct_Click(object sender, EventArgs e)
+        {
+            AddProduct addProductForm = new AddProduct();
+            addProductForm.Show();
+        }
     }
 
     public static class CurrencyAppState

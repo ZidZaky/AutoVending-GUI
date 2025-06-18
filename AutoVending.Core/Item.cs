@@ -2,8 +2,6 @@
 
 namespace AutoVending.Core
 {
-    // Kelas ini sekarang menjadi bagian dari library inti
-    // dan bisa digunakan di seluruh solusi (solution).
     public class Item
     {
         public int Id { get; set; }
@@ -11,7 +9,16 @@ namespace AutoVending.Core
         public decimal Harga { get; set; }
         public int Stok { get; set; }
 
-        // Override Equals dan GetHashCode agar perbandingan objek di Dictionary/List berfungsi dengan baik.
+        // --- TAMBAHKAN KONSTRUKTOR INI ---
+        public Item(int id, string namaProduk, decimal harga, int stok)
+        {
+            Id = id;
+            NamaProduk = namaProduk;
+            Harga = harga;
+            Stok = stok;
+        }
+        // --- Akhir penambahan konstruktor ---
+
         public override bool Equals(object obj)
         {
             return obj is Item item && Id == item.Id;

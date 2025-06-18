@@ -58,6 +58,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.btnSave = new System.Windows.Forms.Button();
+            this.AddProduct = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -85,7 +86,7 @@
             this.radioYEN.Location = new System.Drawing.Point(20, 120);
             this.radioYEN.Margin = new System.Windows.Forms.Padding(4);
             this.radioYEN.Name = "radioYEN";
-            this.radioYEN.Size = new System.Drawing.Size(56, 20);
+            this.radioYEN.Size = new System.Drawing.Size(57, 21);
             this.radioYEN.TabIndex = 4;
             this.radioYEN.TabStop = true;
             this.radioYEN.Text = "YEN";
@@ -98,7 +99,7 @@
             this.radioEUR.Location = new System.Drawing.Point(20, 92);
             this.radioEUR.Margin = new System.Windows.Forms.Padding(4);
             this.radioEUR.Name = "radioEUR";
-            this.radioEUR.Size = new System.Drawing.Size(57, 20);
+            this.radioEUR.Size = new System.Drawing.Size(58, 21);
             this.radioEUR.TabIndex = 3;
             this.radioEUR.TabStop = true;
             this.radioEUR.Text = "EUR";
@@ -111,7 +112,7 @@
             this.radioIDR.Location = new System.Drawing.Point(20, 35);
             this.radioIDR.Margin = new System.Windows.Forms.Padding(4);
             this.radioIDR.Name = "radioIDR";
-            this.radioIDR.Size = new System.Drawing.Size(47, 20);
+            this.radioIDR.Size = new System.Drawing.Size(48, 21);
             this.radioIDR.TabIndex = 2;
             this.radioIDR.TabStop = true;
             this.radioIDR.Text = "RP";
@@ -124,7 +125,7 @@
             this.radioUSD.Location = new System.Drawing.Point(20, 63);
             this.radioUSD.Margin = new System.Windows.Forms.Padding(4);
             this.radioUSD.Name = "radioUSD";
-            this.radioUSD.Size = new System.Drawing.Size(57, 20);
+            this.radioUSD.Size = new System.Drawing.Size(58, 21);
             this.radioUSD.TabIndex = 1;
             this.radioUSD.TabStop = true;
             this.radioUSD.Text = "USD";
@@ -255,7 +256,7 @@
             this.label6.Location = new System.Drawing.Point(177, 59);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(14, 16);
+            this.label6.Size = new System.Drawing.Size(16, 17);
             this.label6.TabIndex = 5;
             this.label6.Text = "_";
             // 
@@ -265,7 +266,7 @@
             this.label5.Location = new System.Drawing.Point(212, 42);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 16);
+            this.label5.Size = new System.Drawing.Size(84, 17);
             this.label5.TabIndex = 4;
             this.label5.Text = "Waktu Akhir";
             // 
@@ -275,7 +276,7 @@
             this.label4.Location = new System.Drawing.Point(20, 42);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 16);
+            this.label4.Size = new System.Drawing.Size(85, 17);
             this.label4.TabIndex = 3;
             this.label4.Text = "Waktu Mulai";
             // 
@@ -400,11 +401,22 @@
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
+            // AddProduct
+            // 
+            this.AddProduct.Location = new System.Drawing.Point(499, 403);
+            this.AddProduct.Name = "AddProduct";
+            this.AddProduct.Size = new System.Drawing.Size(108, 23);
+            this.AddProduct.TabIndex = 23;
+            this.AddProduct.Text = "Add Product";
+            this.AddProduct.UseVisualStyleBackColor = true;
+            this.AddProduct.Click += new System.EventHandler(this.AddProduct_Click);
+            // 
             // AdminSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 444);
+            this.Controls.Add(this.AddProduct);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.btnBack);
@@ -463,5 +475,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn waktuTransaksi;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.RadioButton radioYEN;
+        private System.Windows.Forms.Button AddProduct;
     }
 }
