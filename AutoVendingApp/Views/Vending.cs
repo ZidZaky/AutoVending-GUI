@@ -91,10 +91,6 @@ namespace AutoVendingApp
         {
             // Memuat data produk dari service (prinsip Code Reuse yang benar)
             this.daftarProduk = productService.GetProducts();
-            daftarProduk.Add(new Item { Id = 5, NamaProduk = "Snack Kentang", Harga = 5000, Stok = 10 });
-            daftarProduk.Add(new Item { Id = 6, NamaProduk = "Teh Kotak", Harga = 3500, Stok = 15 });
-            daftarProduk.Add(new Item { Id = 7, NamaProduk = "Cokelat Susu", Harga = 7000, Stok = 8 });
-            daftarProduk.Add(new Item { Id = 8, NamaProduk = "Wafer Keju", Harga = 2000, Stok = 20 });
 
             string selectedCurrency = CurrencyAppState.SelectedCurrency;
             string symbol = CurrencyManager.GetSymbol(selectedCurrency);
