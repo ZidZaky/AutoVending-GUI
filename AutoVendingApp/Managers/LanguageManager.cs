@@ -14,7 +14,7 @@ namespace AutoVendingApp
         public static event Action LanguageChanged;
 
  
-        public static void LoadLanguages(string filePath = "Json/languages.json")
+        public static void LoadLanguages(string filePath = "Resources/languages.json")
         {
             try
             {

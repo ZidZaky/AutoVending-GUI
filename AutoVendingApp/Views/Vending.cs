@@ -29,7 +29,8 @@ namespace AutoVendingApp
             InitializeComponent();
 
             this.productService = new ProductService();
-
+            ApplyLanguage();
+            LanguageManager.LanguageChanged += ApplyLanguage;
             InisialisasiKontrolUI();
             InisialisasiProduk(); // Memuat data produk pertama kali
             SetState(VendingState.Idle);
@@ -38,6 +39,28 @@ namespace AutoVendingApp
             // DARI VERSI BARU ANDA: Berlangganan event perubahan mata uang
             // Pastikan Anda memiliki class `CurrencyEvents`
             // CurrencyEvents.CurrencyChanged += HandleCurrencyChange;
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            LanguageManager.LanguageChanged -= ApplyLanguage;
+            base.OnFormClosed(e);
+        }
+
+        private void ApplyLanguage()
+        {
+            
+            this.Text = LanguageManager.GetString("VendingForm_Title");
+            WelcomeMessage.Text = LanguageManager.GetString("WelcomeMessage");
+            UserGuideTitle.Text = LanguageManager.GetString("UserGuideTitle");
+            OperationalTitle.Text = LanguageManager.GetString("OperationalTitle");
+            SettingsLabel.Text = LanguageManager.GetString("SettingsTitle");
+            button21.Text = LanguageManager.GetString("LanguageButton");
+            label19.Text = LanguageManager.GetString("CartLabel");
+            buttonCheckout.Text = LanguageManager.GetString("PaymentButton");
+            labelTotal.Text = LanguageManager.GetString("TotalPaymentLabel");
+
+
         }
 
         private void UpdateCurrencyDisplay()
@@ -127,7 +150,26 @@ namespace AutoVendingApp
                     formBayar.ShowDialog();
                     if (formBayar.TransaksiBerhasil)
                     {
-                        // Logika pengurangan stok, dll.
+                        // === TAMBAHKAN BLOK KODE INI ===
+                        // Membuat transaksi baru setelah pembayaran sukses
+                        var transactionService = new TransactionService();
+                        var newTransaction = new Transaction
+                        {
+                            Id = Guid.NewGuid(),
+                            Timestamp = DateTime.Now,
+                            Items = keranjangBelanja.Select(kvp => new TransactionItem
+                            {
+                                ProductName = kvp.Key.NamaProduk,
+                                Quantity = kvp.Value,
+                                PricePerItem = kvp.Key.Harga
+                            }).ToList(),
+                            TotalPrice = keranjangBelanja.Sum(kvp => kvp.Key.Harga * kvp.Value),
+                            Currency = CurrencyAppState.SelectedCurrency // Simpan mata uang saat itu
+                        };
+                        transactionService.AddTransaction(newTransaction);
+                        // ===================================
+
+                        // ... sisa kode (pengurangan stok, dll) ...
                     }
                 }
                 keranjangBelanja.Clear();
@@ -201,8 +243,15 @@ namespace AutoVendingApp
         // Logika TOMBOL ADMIN SETTINGS
         private void buttonAdminSettings_Click(object sender, EventArgs e)
         {
-            AdminSettings admin = new AdminSettings();
+            LoginAdmin admin = new LoginAdmin();
             admin.Show();
         }
+
+        private void buttonLanguage_Click(object sender, EventArgs e)
+        {
+            LanguageSettings settingsForm = new LanguageSettings();
+            settingsForm.ShowDialog(); // Menggunakan ShowDialog() agar form utama menunggu
+        }
+
     }
 }

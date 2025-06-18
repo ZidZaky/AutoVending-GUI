@@ -23,6 +23,8 @@ namespace AutoVendingApp
         {
 
             this.Text = LanguageManager.GetString("LanguageSettings_Title");
+            label3.Text = LanguageManager.GetString("Language_Title");
+            labelPilihBahasa.Text = LanguageManager.GetString("labelPilihBahasa");
         }
 
         private void buttonApplyLanguage_Click(object sender, EventArgs e)

@@ -36,7 +36,7 @@
             this.radioJava = new System.Windows.Forms.RadioButton();
             this.radioEnglish = new System.Windows.Forms.RadioButton();
             this.radioIndonesia = new System.Windows.Forms.RadioButton();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelPilihBahasa = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
@@ -57,7 +57,7 @@
             this.panel1.Controls.Add(this.radioJava);
             this.panel1.Controls.Add(this.radioEnglish);
             this.panel1.Controls.Add(this.radioIndonesia);
-            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.labelPilihBahasa);
             this.panel1.Location = new System.Drawing.Point(12, 43);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(346, 123);
@@ -132,15 +132,15 @@
             this.radioIndonesia.UseVisualStyleBackColor = true;
             this.radioIndonesia.Click += new System.EventHandler(this.radioLanguage_CheckedChanged);
             // 
-            // label1
+            // labelPilihBahasa
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(153, 17);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bahasa Yang Tersedia";
+            this.labelPilihBahasa.AutoSize = true;
+            this.labelPilihBahasa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.labelPilihBahasa.Location = new System.Drawing.Point(12, 9);
+            this.labelPilihBahasa.Name = "labelPilihBahasa";
+            this.labelPilihBahasa.Size = new System.Drawing.Size(153, 17);
+            this.labelPilihBahasa.TabIndex = 0;
+            this.labelPilihBahasa.Text = "Bahasa Yang Tersedia";
             // 
             // LanguageSettings
             // 
@@ -167,7 +167,7 @@
         private System.Windows.Forms.RadioButton radioJava;
         private System.Windows.Forms.RadioButton radioEnglish;
         private System.Windows.Forms.RadioButton radioIndonesia;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelPilihBahasa;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label Status;

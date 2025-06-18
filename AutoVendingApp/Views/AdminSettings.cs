@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AutoVending.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,8 +16,33 @@ namespace AutoVendingApp
         public AdminSettings()
         {
             InitializeComponent();
+            LoadTransactionHistory();
             CurrencyManager.Load();
             InitializeCurrencyRadioButtons();
+        }
+
+        private void LoadTransactionHistory()
+        {
+            // Asumsi Anda punya DataGridView bernama 'dataGridViewHistory' di desain
+            var service = new TransactionService();
+            var transactions = service.GetAllTransactions();
+
+            // Kosongkan tabel sebelum mengisi
+            dataGridViewHistory.Rows.Clear();
+
+            // Urutkan dari yang terbaru ke terlama
+            foreach (var trx in transactions.OrderByDescending(t => t.Timestamp))
+            {
+                // Gabungkan nama produk menjadi satu string
+                string productDetails = string.Join(", ", trx.Items.Select(item => $"{item.ProductName} (x{item.Quantity})"));
+
+                // Tambahkan baris baru ke tabel
+                dataGridViewHistory.Rows.Add(
+                    trx.Timestamp.ToString("dd-MM-yyyy HH:mm"), // Kolom 1: Waktu
+                    productDetails,                             // Kolom 2: Detail Produk
+                    trx.TotalPrice.ToString("N0")               // Kolom 3: Total
+                );
+            }
         }
 
         private void InitializeCurrencyRadioButtons()
@@ -115,41 +141,4 @@ namespace AutoVendingApp
 
     }
 
-    public static class CurrencyAppState
-    {
-        private static string _selectedCurrency;
-
-        public static string SelectedCurrency
-        {
-            get
-            {
-                // Pastikan CurrencyManager sudah di-load
-                if (string.IsNullOrEmpty(_selectedCurrency))
-                {
-                    // Tambahan pengecekan untuk menghindari NullReference jika _currencyData masih null
-                    try
-                    {
-                        _selectedCurrency = CurrencyManager.GetDefaultCurrency();
-                    }
-                    catch
-                    {
-                        _selectedCurrency = "IDR"; // fallback agar aplikasi tidak crash
-                    }
-                }
-
-                return _selectedCurrency;
-            }
-            set => _selectedCurrency = value;
-        }
-    }
-
-    public static class CurrencyEvents
-    {
-        public static event Action CurrencyChanged;
-
-        public static void NotifyCurrencyChanged()
-        {
-            CurrencyChanged?.Invoke();
-        }
-    }
 }

@@ -110,33 +110,30 @@
             this.button20 = new System.Windows.Forms.Button();
             this.panel33 = new System.Windows.Forms.Panel();
             this.hargaLabel20 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.PanelStatus = new System.Windows.Forms.FlowLayoutPanel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.Status = new System.Windows.Forms.Label();
+            this.WelcomeMessage = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.SettingsLabel = new System.Windows.Forms.Label();
             this.TombolPowerVending = new System.Windows.Forms.Panel();
             this.labelPower = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label11 = new System.Windows.Forms.Label();
+            this.OperationalTitle = new System.Windows.Forms.Label();
             this.JamOperasional = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.UserGuideTitle = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.UserGuide_1 = new System.Windows.Forms.Label();
+            this.UserGuide_2 = new System.Windows.Forms.Label();
+            this.UserGuide_3 = new System.Windows.Forms.Label();
+            this.UserGuide_4 = new System.Windows.Forms.Label();
+            this.UserGuide_5 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.listBoxCart = new System.Windows.Forms.ListBox();
             this.labelTotal = new System.Windows.Forms.Label();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.StatusMachine = new System.Windows.Forms.Label();
             this.MachineState = new System.Windows.Forms.Label();
             this.buttonCheckout = new System.Windows.Forms.Button();
             this.ItemsVending.SuspendLayout();
@@ -180,7 +177,6 @@
             this.panel35.SuspendLayout();
             this.panel32.SuspendLayout();
             this.panel33.SuspendLayout();
-            this.PanelStatus.SuspendLayout();
             this.panel1.SuspendLayout();
             this.TombolPowerVending.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -756,29 +752,10 @@
             resources.ApplyResources(this.hargaLabel20, "hargaLabel20");
             this.hargaLabel20.Name = "hargaLabel20";
             // 
-            // label3
+            // WelcomeMessage
             // 
-            resources.ApplyResources(this.label3, "label3");
-            this.label3.Name = "label3";
-            // 
-            // PanelStatus
-            // 
-            resources.ApplyResources(this.PanelStatus, "PanelStatus");
-            this.PanelStatus.BackColor = System.Drawing.SystemColors.Window;
-            this.PanelStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PanelStatus.Controls.Add(this.label13);
-            this.PanelStatus.Controls.Add(this.Status);
-            this.PanelStatus.Name = "PanelStatus";
-            // 
-            // label13
-            // 
-            resources.ApplyResources(this.label13, "label13");
-            this.label13.Name = "label13";
-            // 
-            // Status
-            // 
-            resources.ApplyResources(this.Status, "Status");
-            this.Status.Name = "Status";
+            resources.ApplyResources(this.WelcomeMessage, "WelcomeMessage");
+            this.WelcomeMessage.Name = "WelcomeMessage";
             // 
             // panel1
             // 
@@ -812,11 +789,12 @@
             resources.ApplyResources(this.button21, "button21");
             this.button21.Name = "button21";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.buttonLanguage_Click);
             // 
-            // label1
+            // SettingsLabel
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.SettingsLabel, "SettingsLabel");
+            this.SettingsLabel.Name = "SettingsLabel";
             // 
             // TombolPowerVending
             // 
@@ -839,60 +817,60 @@
             resources.ApplyResources(this.flowLayoutPanel2, "flowLayoutPanel2");
             this.flowLayoutPanel2.BackColor = System.Drawing.SystemColors.Window;
             this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel2.Controls.Add(this.label11);
+            this.flowLayoutPanel2.Controls.Add(this.OperationalTitle);
             this.flowLayoutPanel2.Controls.Add(this.JamOperasional);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             // 
-            // label11
+            // OperationalTitle
             // 
-            resources.ApplyResources(this.label11, "label11");
-            this.label11.Name = "label11";
+            resources.ApplyResources(this.OperationalTitle, "OperationalTitle");
+            this.OperationalTitle.Name = "OperationalTitle";
             // 
             // JamOperasional
             // 
             resources.ApplyResources(this.JamOperasional, "JamOperasional");
             this.JamOperasional.Name = "JamOperasional";
             // 
-            // label6
+            // UserGuideTitle
             // 
-            resources.ApplyResources(this.label6, "label6");
-            this.label6.Name = "label6";
+            resources.ApplyResources(this.UserGuideTitle, "UserGuideTitle");
+            this.UserGuideTitle.Name = "UserGuideTitle";
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel1.Controls.Add(this.label7);
-            this.flowLayoutPanel1.Controls.Add(this.label8);
-            this.flowLayoutPanel1.Controls.Add(this.label9);
-            this.flowLayoutPanel1.Controls.Add(this.label10);
-            this.flowLayoutPanel1.Controls.Add(this.label12);
+            this.flowLayoutPanel1.Controls.Add(this.UserGuide_1);
+            this.flowLayoutPanel1.Controls.Add(this.UserGuide_2);
+            this.flowLayoutPanel1.Controls.Add(this.UserGuide_3);
+            this.flowLayoutPanel1.Controls.Add(this.UserGuide_4);
+            this.flowLayoutPanel1.Controls.Add(this.UserGuide_5);
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
-            // label7
+            // UserGuide_1
             // 
-            resources.ApplyResources(this.label7, "label7");
-            this.label7.Name = "label7";
+            resources.ApplyResources(this.UserGuide_1, "UserGuide_1");
+            this.UserGuide_1.Name = "UserGuide_1";
             // 
-            // label8
+            // UserGuide_2
             // 
-            resources.ApplyResources(this.label8, "label8");
-            this.label8.Name = "label8";
+            resources.ApplyResources(this.UserGuide_2, "UserGuide_2");
+            this.UserGuide_2.Name = "UserGuide_2";
             // 
-            // label9
+            // UserGuide_3
             // 
-            resources.ApplyResources(this.label9, "label9");
-            this.label9.Name = "label9";
+            resources.ApplyResources(this.UserGuide_3, "UserGuide_3");
+            this.UserGuide_3.Name = "UserGuide_3";
             // 
-            // label10
+            // UserGuide_4
             // 
-            resources.ApplyResources(this.label10, "label10");
-            this.label10.Name = "label10";
+            resources.ApplyResources(this.UserGuide_4, "UserGuide_4");
+            this.UserGuide_4.Name = "UserGuide_4";
             // 
-            // label12
+            // UserGuide_5
             // 
-            resources.ApplyResources(this.label12, "label12");
-            this.label12.Name = "label12";
+            resources.ApplyResources(this.UserGuide_5, "UserGuide_5");
+            this.UserGuide_5.Name = "UserGuide_5";
             // 
             // label19
             // 
@@ -915,14 +893,14 @@
             resources.ApplyResources(this.flowLayoutPanel3, "flowLayoutPanel3");
             this.flowLayoutPanel3.BackColor = System.Drawing.SystemColors.Window;
             this.flowLayoutPanel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.flowLayoutPanel3.Controls.Add(this.label5);
+            this.flowLayoutPanel3.Controls.Add(this.StatusMachine);
             this.flowLayoutPanel3.Controls.Add(this.MachineState);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             // 
-            // label5
+            // StatusMachine
             // 
-            resources.ApplyResources(this.label5, "label5");
-            this.label5.Name = "label5";
+            resources.ApplyResources(this.StatusMachine, "StatusMachine");
+            this.StatusMachine.Name = "StatusMachine";
             // 
             // MachineState
             // 
@@ -946,13 +924,12 @@
             this.Controls.Add(this.flowLayoutPanel3);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.UserGuideTitle);
             this.Controls.Add(this.flowLayoutPanel2);
             this.Controls.Add(this.TombolPowerVending);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.SettingsLabel);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.PanelStatus);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.WelcomeMessage);
             this.Controls.Add(this.ItemsVending);
             this.Name = "Vending";
             this.ItemsVending.ResumeLayout(false);
@@ -1016,8 +993,6 @@
             this.panel32.ResumeLayout(false);
             this.panel33.ResumeLayout(false);
             this.panel33.PerformLayout();
-            this.PanelStatus.ResumeLayout(false);
-            this.PanelStatus.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.TombolPowerVending.ResumeLayout(false);
@@ -1096,28 +1071,25 @@
         private System.Windows.Forms.Panel panel32;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel panel33;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.FlowLayoutPanel PanelStatus;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label Status;
+        private System.Windows.Forms.Label WelcomeMessage;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label SettingsLabel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Panel TombolPowerVending;
         private System.Windows.Forms.Label labelPower;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label OperationalTitle;
         private System.Windows.Forms.Label JamOperasional;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label UserGuideTitle;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label UserGuide_1;
+        private System.Windows.Forms.Label UserGuide_2;
+        private System.Windows.Forms.Label UserGuide_3;
+        private System.Windows.Forms.Label UserGuide_4;
+        private System.Windows.Forms.Label UserGuide_5;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label hargaLabel1;
         private System.Windows.Forms.Label hargaLabel2;
@@ -1142,7 +1114,7 @@
         private System.Windows.Forms.ListBox listBoxCart;
         private System.Windows.Forms.Label labelTotal;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label StatusMachine;
         private System.Windows.Forms.Label MachineState;
         private System.Windows.Forms.Button buttonCheckout;
     }
