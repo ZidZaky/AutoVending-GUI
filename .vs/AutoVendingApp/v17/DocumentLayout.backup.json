@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\autovending.core\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|solutionrelative:autovending.core\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\paymenttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\paymenttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\autovendingapp\\views\\vending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|solutionrelative:autovendingapp\\views\\vending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\vendingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\vendingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\autovending.core\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|solutionrelative:autovending.core\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\addproducttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\addproducttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\adminsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\adminsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\autovendingapp\\views\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|solutionrelative:autovendingapp\\views\\addproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\unittest\\languagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\languagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\autovendingapp\\views\\vending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|solutionrelative:autovendingapp\\views\\vending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\autovendingapp\\views\\vending.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AF0F1D2-BD1A-443D-81C5-1F46B49F5B61}|AutoVendingApp\\AutoVendingApp.csproj|solutionrelative:autovendingapp\\views\\vending.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\autovending.core\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1A64DA-C7AF-4390-9325-AC6604BF341A}|AutoVending.Core\\AutoVending.Core.csproj|solutionrelative:autovending.core\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,87 +46,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\IProductService.cs",
-              "RelativeDocumentMoniker": "AutoVending.Core\\IProductService.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\IProductService.cs",
-              "RelativeToolTip": "AutoVending.Core\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\Item.cs",
+              "RelativeDocumentMoniker": "AutoVending.Core\\Item.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\Item.cs",
+              "RelativeToolTip": "AutoVending.Core\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:38:14.861Z",
+              "WhenOpened": "2025-06-18T08:48:38.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VendingTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\VendingTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\VendingTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\VendingTest.cs",
+              "RelativeToolTip": "UnitTest\\VendingTest.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:45:10.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProductTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AddProductTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AddProductTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AddProductTest.cs",
+              "RelativeToolTip": "UnitTest\\AddProductTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:45:09.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminSettings.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AdminSettings.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AdminSettings.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AdminSettings.cs",
+              "RelativeToolTip": "UnitTest\\AdminSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T08:45:08.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AddProduct.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\AddProduct.cs",
-              "RelativeDocumentMoniker": "AutoVendingApp\\Views\\AddProduct.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\AddProduct.cs",
-              "RelativeToolTip": "AutoVendingApp\\Views\\AddProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Title": "LanguageSettings.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\LanguageSettings.cs",
+              "RelativeDocumentMoniker": "UnitTest\\LanguageSettings.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\LanguageSettings.cs",
+              "RelativeToolTip": "UnitTest\\LanguageSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:35:36.444Z"
+              "WhenOpened": "2025-06-18T08:45:08.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "UnitTest\\UnitTest1.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\UnitTest1.cs",
-              "RelativeToolTip": "UnitTest\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PaymentTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\PaymentTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\PaymentTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\PaymentTest.cs",
+              "RelativeToolTip": "UnitTest\\PaymentTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:35:03.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\ProductService.cs",
-              "RelativeDocumentMoniker": "AutoVending.Core\\ProductService.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVending.Core\\ProductService.cs",
-              "RelativeToolTip": "AutoVending.Core\\ProductService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAcwA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T08:19:55.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vending.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.cs",
-              "RelativeDocumentMoniker": "AutoVendingApp\\Views\\Vending.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.cs",
-              "RelativeToolTip": "AutoVendingApp\\Views\\Vending.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAD4vykAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T10:45:26.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Vending.Designer.cs",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.Designer.cs",
-              "RelativeDocumentMoniker": "AutoVendingApp\\Views\\Vending.Designer.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.Designer.cs",
-              "RelativeToolTip": "AutoVendingApp\\Views\\Vending.Designer.cs",
-              "ViewState": "AgIAACsEAAAAAAAAAAAuwGAEAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T05:57:28.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vending.cs [Design]",
-              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.cs",
-              "RelativeDocumentMoniker": "AutoVendingApp\\Views\\Vending.cs",
-              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\AutoVendingApp\\Views\\Vending.cs [Design]",
-              "RelativeToolTip": "AutoVendingApp\\Views\\Vending.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T09:26:36.604Z"
+              "WhenOpened": "2025-06-18T08:45:07.35Z",
+              "EditorCaption": ""
             }
           ]
         }
