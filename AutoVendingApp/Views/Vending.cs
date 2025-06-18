@@ -3,11 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-// --- using dari kedua versi digabungkan ---
-// PERINGATAN: Memiliki dua 'Core' library bisa menyebabkan kebingungan.
-// Sebaiknya di masa depan disatukan menjadi satu.
-using AutoVending.Core;
-using AutoVendingVend.Core;
+using AutoVending.Core; 
 
 namespace AutoVendingApp
 {
@@ -18,27 +14,39 @@ namespace AutoVendingApp
         private List<Item> daftarProduk; // Hanya deklarasi, akan diisi dari service
         private Dictionary<Item, int> keranjangBelanja = new Dictionary<Item, int>();
         private bool isMesinMenyala = true;
-        private readonly ProductService productService;
+        public readonly IProductService productService;
 
         // === KONTROL UI ===
         private List<Button> tombolProduk;
         private List<Label> labelHarga;
 
+        public Vending(IProductService productService)
+        {
+            // Inisialisasi komponen UI tidak dipanggil di sini agar tidak error saat test
+            // InitializeComponent(); 
+
+            // Inisialisasi data yang dibutuhkan
+            this.keranjangBelanja = new Dictionary<Item, int>();
+            this.productService = productService; // Gunakan service yang disuntikkan
+
+            // Inisialisasi state awal
+            this.isMesinMenyala = true;
+            SetState(VendingState.Idle);
+        }
+
         public Vending()
         {
             InitializeComponent();
 
+            // Buat instance default, tapi sebaiknya gunakan interface
             this.productService = new ProductService();
             ApplyLanguage();
             LanguageManager.LanguageChanged += ApplyLanguage;
             InisialisasiKontrolUI();
-            InisialisasiProduk(); // Memuat data produk pertama kali
+            InisialisasiProduk();
             SetState(VendingState.Idle);
             CurrencyEvents.CurrencyChanged += UpdateCurrencyDisplay;
             UpdateCurrencyDisplay();
-            // DARI VERSI BARU ANDA: Berlangganan event perubahan mata uang
-            // Pastikan Anda memiliki class `CurrencyEvents`
-            // CurrencyEvents.CurrencyChanged += HandleCurrencyChange;
         }
 
         protected override void OnFormClosed(FormClosedEventArgs e)
@@ -122,17 +130,33 @@ namespace AutoVendingApp
             Button tombol = sender as Button;
             if (tombol?.Tag is Item produkTerpilih)
             {
-                if (keranjangBelanja.ContainsKey(produkTerpilih))
-                {
-                    keranjangBelanja[produkTerpilih]++;
-                }
-                else
-                {
-                    keranjangBelanja.Add(produkTerpilih, 1);
-                }
+                // Panggil method logika yang baru
+                TambahProdukKeKeranjang(produkTerpilih);
+
                 SetState(VendingState.SelectingItems);
                 UpdateTampilanKeranjang();
             }
+        }
+
+        // TAMBAHKAN METHOD PUBLIK BARU INI (Untuk diuji)
+        public void TambahProdukKeKeranjang(Item produk)
+        {
+            if (produk == null) return;
+
+            if (keranjangBelanja.ContainsKey(produk))
+            {
+                keranjangBelanja[produk]++;
+            }
+            else
+            {
+                keranjangBelanja.Add(produk, 1);
+            }
+        }
+
+        // TAMBAHKAN JUGA METHOD INI untuk memeriksa isi keranjang saat testing
+        public IReadOnlyDictionary<Item, int> GetKeranjangBelanja()
+        {
+            return keranjangBelanja;
         }
 
         // Logika untuk CHECKOUT

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoVendingApp", "AutoVendi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoVending.Core", "AutoVending.Core\AutoVending.Core.csproj", "{1C1A64DA-C7AF-4390-9325-AC6604BF341A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1C1A64DA-C7AF-4390-9325-AC6604BF341A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1A64DA-C7AF-4390-9325-AC6604BF341A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1A64DA-C7AF-4390-9325-AC6604BF341A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

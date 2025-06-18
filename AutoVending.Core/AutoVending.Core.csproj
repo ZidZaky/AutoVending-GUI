@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="CurrencyAppState.cs" />
     <Compile Include="CurrencyEvents.cs" />
+    <Compile Include="IProductService.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,94 +1,22 @@
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.exe
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Json\languages.json
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-D:\Semester_6\Konstruksi PL - FWP\KonstruksiPerangkatLunak-04-05\AutoVendingApp\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\languages.json
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LoginAdmin.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
-D:\Semester_6\Konstruksi PL - FWP\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.dll
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\QRCoder.dll
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.pdb
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.MainApp.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\products.json
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingVend.Core.dll
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingVend.Core.pdb
-C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.MainApp.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\currency.json
-C:\Coding\Konstruksi Perangkat Lunak\AutoVending-GUI\AutoVendingApp\bin\Debug\Json\JamOperational.json
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\products.json
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\currency.json
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\languages.json
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.dll
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\QRCoder.dll
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\UnitTest.dll
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.pdb
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\UnitTest.pdb
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
+D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
@@ -102,38 +30,3 @@ D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\A
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
 D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.dll
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\QRCoder.dll
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.pdb
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\products.json
-D:\Semester_6\Konstruksi PL - FWP\UAS\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\currency.json
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\currency.json
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe.config
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.exe
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVendingApp.pdb
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.dll
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.dll
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\QRCoder.dll
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\AutoVending.Core.pdb
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\Newtonsoft.Json.xml
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.AssemblyReference.cache
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AddProduct.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.AdminSettings.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LanguageSettings.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.LoginAdmin.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Payment.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Properties.Resources.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.Vending.resources
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.GenerateResource.cache
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.csproj.CoreCompileInputs.cache
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.pdb
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\bin\Debug\Resources\products.json
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVendingApp.exe.config
-D:\KULIAH\KONSTRUKSI SOFTWARE\AutoVending-GUI\AutoVendingApp\obj\Debug\AutoVend.85A68B5F.Up2Date

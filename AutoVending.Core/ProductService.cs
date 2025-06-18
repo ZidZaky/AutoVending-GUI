@@ -4,9 +4,9 @@ using AutoVending.Core;
 using Newtonsoft.Json;
 using System.Linq; // Tambahkan ini untuk .Max()
 
-namespace AutoVendingVend.Core
+namespace AutoVending.Core
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         private readonly string filePath = "Resources/products.json";
 
