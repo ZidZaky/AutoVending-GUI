@@ -9,27 +9,21 @@ namespace AutoVendingApp
 {
     public partial class Vending : Form
     {
-        // === STATE & DATA (Gabungan dari semua fitur) ===
         private VendingState currentState;
-        private List<Item> daftarProduk; // Hanya deklarasi, akan diisi dari service
+        private List<Item> daftarProduk;
         private Dictionary<Item, int> keranjangBelanja = new Dictionary<Item, int>();
         private bool isMesinMenyala = true;
         public readonly IProductService productService;
 
-        // === KONTROL UI ===
         private List<Button> tombolProduk;
         private List<Label> labelHarga;
 
         public Vending(IProductService productService)
         {
-            // Inisialisasi komponen UI tidak dipanggil di sini agar tidak error saat test
-            // InitializeComponent(); 
-
-            // Inisialisasi data yang dibutuhkan
+           
             this.keranjangBelanja = new Dictionary<Item, int>();
-            this.productService = productService; // Gunakan service yang disuntikkan
+            this.productService = productService; 
 
-            // Inisialisasi state awal
             this.isMesinMenyala = true;
             SetState(VendingState.Idle);
         }
@@ -38,7 +32,6 @@ namespace AutoVendingApp
         {
             InitializeComponent();
 
-            // Buat instance default, tapi sebaiknya gunakan interface
             this.productService = new ProductService();
             ApplyLanguage();
             LanguageManager.LanguageChanged += ApplyLanguage;
@@ -79,7 +72,6 @@ namespace AutoVendingApp
 
         private void InisialisasiKontrolUI()
         {
-            // Menggunakan inisialisasi manual sesuai preferensi Anda
             tombolProduk = new List<Button> {
                 button1, button2, button3, button4, button5, button6, button7, button8,
                 button9, button10, button11, button12, button13, button14, button15,
@@ -94,10 +86,8 @@ namespace AutoVendingApp
             };
         }
 
-        // Inisialisasi produk sekarang HANYA memuat data dari service
         private void InisialisasiProduk()
         {
-            // Memuat data produk dari service (prinsip Code Reuse yang benar)
             this.daftarProduk = productService.GetProducts();
 
             string selectedCurrency = CurrencyAppState.SelectedCurrency;
@@ -106,23 +96,19 @@ namespace AutoVendingApp
 
             for (int i = 0; i < daftarProduk.Count; i++)
             {
-                // Pastikan tidak mencoba mengakses slot yang tidak ada
                 if (i >= tombolProduk.Count) break;
 
                 Item produk = daftarProduk[i];
 
-                // Konversi harga dari IDR ke mata uang terpilih
                 decimal hargaConverted = CurrencyManager.Convert("IDR", selectedCurrency, produk.Harga);
 
-                // Isi data ke kontrol UI yang sesuai
-                labelHarga[i].Text = $"{symbol} {hargaConverted:N2}"; // Format mata uang tanpa desimal
+                labelHarga[i].Text = $"{symbol} {hargaConverted:N2}";
                 tombolProduk[i].Tag = produk;
-                tombolProduk[i].Text = produk.NamaProduk; // Ubah teks tombol menjadi lebih relevan
+                tombolProduk[i].Text = produk.NamaProduk;
             }
         }
 
 
-        // Logika klik produk untuk MENAMBAH KE KERANJANG
         private void TombolProduk_Click(object sender, EventArgs e)
         {
             if (currentState == VendingState.ProcessingPayment || !isMesinMenyala) return;
@@ -130,7 +116,6 @@ namespace AutoVendingApp
             Button tombol = sender as Button;
             if (tombol?.Tag is Item produkTerpilih)
             {
-                // Panggil method logika yang baru
                 TambahProdukKeKeranjang(produkTerpilih);
 
                 SetState(VendingState.SelectingItems);
@@ -138,7 +123,6 @@ namespace AutoVendingApp
             }
         }
 
-        // TAMBAHKAN METHOD PUBLIK BARU INI (Untuk diuji)
         public void TambahProdukKeKeranjang(Item produk)
         {
             if (produk == null) return;
@@ -153,13 +137,11 @@ namespace AutoVendingApp
             }
         }
 
-        // TAMBAHKAN JUGA METHOD INI untuk memeriksa isi keranjang saat testing
         public IReadOnlyDictionary<Item, int> GetKeranjangBelanja()
         {
             return keranjangBelanja;
         }
 
-        // Logika untuk CHECKOUT
         private void buttonCheckout_Click(object sender, EventArgs e)
         {
             if (keranjangBelanja.Any())
@@ -170,8 +152,6 @@ namespace AutoVendingApp
                     formBayar.ShowDialog();
                     if (formBayar.TransaksiBerhasil)
                     {
-                        // === TAMBAHKAN BLOK KODE INI ===
-                        // Membuat transaksi baru setelah pembayaran sukses
                         var transactionService = new TransactionService();
                         var newTransaction = new Transaction
                         {
@@ -184,12 +164,10 @@ namespace AutoVendingApp
                                 PricePerItem = kvp.Key.Harga
                             }).ToList(),
                             TotalPrice = keranjangBelanja.Sum(kvp => kvp.Key.Harga * kvp.Value),
-                            Currency = CurrencyAppState.SelectedCurrency // Simpan mata uang saat itu
+                            Currency = CurrencyAppState.SelectedCurrency
                         };
                         transactionService.AddTransaction(newTransaction);
-                        // ===================================
-
-                        // ... sisa kode (pengurangan stok, dll) ...
+                      
                     }
                 }
                 keranjangBelanja.Clear();
@@ -198,13 +176,17 @@ namespace AutoVendingApp
             }
         }
 
-        // STATE MACHINE
         private void SetState(VendingState newState)
         {
             currentState = newState;
 
+            if (MachineState != null)
+            {
+                MachineState.Text = newState.ToString();
+            }
             if (!isMesinMenyala)
             {
+                MachineState.Text = "offline";
                 if (ItemsVending != null) ItemsVending.Enabled = false;
                 if (buttonCheckout != null) buttonCheckout.Enabled = false;
                 return;
@@ -227,7 +209,6 @@ namespace AutoVendingApp
             }
         }
 
-        // Method untuk UPDATE TAMPILAN KERANJANG
         private void UpdateTampilanKeranjang()
         {
             if (listBoxCart == null || labelTotal == null) return;
@@ -244,23 +225,14 @@ namespace AutoVendingApp
             labelTotal.Text = $"Total: Rp {total:N0}";
         }
 
-        // Logika TOMBOL POWER
         private void TombolPower(object sender, EventArgs e)
         {
             isMesinMenyala = !isMesinMenyala;
             SetState(currentState);
 
-            if (isMesinMenyala)
-            {
-                // ... (logika visual untuk power on)
-            }
-            else
-            {
-                // ... (logika visual untuk power off)
-            }
         }
 
-        // Logika TOMBOL ADMIN SETTINGS
+        
         private void buttonAdminSettings_Click(object sender, EventArgs e)
         {
             LoginAdmin admin = new LoginAdmin();
@@ -270,7 +242,7 @@ namespace AutoVendingApp
         private void buttonLanguage_Click(object sender, EventArgs e)
         {
             LanguageSettings settingsForm = new LanguageSettings();
-            settingsForm.ShowDialog(); // Menggunakan ShowDialog() agar form utama menunggu
+            settingsForm.ShowDialog();
         }
 
     }

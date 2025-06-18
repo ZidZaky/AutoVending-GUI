@@ -24,14 +24,10 @@ namespace UnitTest
         [TestMethod]
         public void TambahProdukKeKeranjang_ProdukBaru_HarusMenambahkanProdukDenganJumlahSatu()
         {
-            // ARRANGE
-            // Menggunakan constructor Item(id, nama, harga, stok)
-            var produkTes = new Item(1, "Coca Cola", 5000, 10); // <-- PERBAIKAN
+            var produkTes = new Item(1, "Coca Cola", 5000, 10);
 
-            // ACT
             vendingForm.TambahProdukKeKeranjang(produkTes);
 
-            // ASSERT
             var keranjang = vendingForm.GetKeranjangBelanja();
             Assert.AreEqual(1, keranjang.Count, "Seharusnya ada 1 jenis item di keranjang.");
             Assert.IsTrue(keranjang.ContainsKey(produkTes), "Produk tes seharusnya ada di dalam keranjang.");
@@ -41,14 +37,11 @@ namespace UnitTest
         [TestMethod]
         public void TambahProdukKeKeranjang_ProdukYangSamaDuaKali_HarusMenambahJumlahProdukMenjadiDua()
         {
-            // ARRANGE
-            var produkTes = new Item(1, "Coca Cola", 5000, 10); // <-- PERBAIKAN
+            var produkTes = new Item(1, "Coca Cola", 5000, 10);
 
-            // ACT
             vendingForm.TambahProdukKeKeranjang(produkTes);
             vendingForm.TambahProdukKeKeranjang(produkTes);
 
-            // ASSERT
             var keranjang = vendingForm.GetKeranjangBelanja();
             Assert.AreEqual(1, keranjang.Count, "Seharusnya tetap ada 1 JENIS item di keranjang.");
             Assert.AreEqual(2, keranjang[produkTes], "Jumlah produk seharusnya menjadi 2.");
@@ -57,15 +50,12 @@ namespace UnitTest
         [TestMethod]
         public void TambahProdukKeKeranjang_DuaProdukBerbeda_HarusAdaDuaJenisItemDiKeranjang()
         {
-            // ARRANGE
-            var produkTes1 = new Item(1, "Coca Cola", 5000, 10); // <-- PERBAIKAN
-            var produkTes2 = new Item(2, "Pepsi", 4500, 5);    // <-- PERBAIKAN
+            var produkTes1 = new Item(1, "Coca Cola", 5000, 10); 
+            var produkTes2 = new Item(2, "Pepsi", 4500, 5);   
 
-            // ACT
             vendingForm.TambahProdukKeKeranjang(produkTes1);
             vendingForm.TambahProdukKeKeranjang(produkTes2);
 
-            // ASSERT
             var keranjang = vendingForm.GetKeranjangBelanja();
             Assert.AreEqual(2, keranjang.Count, "Seharusnya ada 2 jenis item di keranjang.");
             Assert.AreEqual(1, keranjang[produkTes1], "Jumlah Coca Cola seharusnya 1.");
@@ -75,13 +65,9 @@ namespace UnitTest
         [TestMethod]
         public void TambahProdukKeKeranjang_InputProdukNull_KeranjangHarusTetapKosong()
         {
-            // ARRANGE
-            // Tidak ada perubahan di sini
-
-            // ACT
+          
             vendingForm.TambahProdukKeKeranjang(null);
 
-            // ASSERT
             var keranjang = vendingForm.GetKeranjangBelanja();
             Assert.AreEqual(0, keranjang.Count, "Keranjang seharusnya tetap kosong jika produk yang ditambahkan null.");
         }

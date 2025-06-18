@@ -47,14 +47,12 @@ namespace AutoVendingApp
 
         private void radioLanguage_CheckedChanged(object sender, EventArgs e)
         {
-            // Pastikan ada radio button yang terpilih sebelum melakukan apa-apa
             RadioButton terpilih = sender as RadioButton;
             if (terpilih == null || !terpilih.Checked)
             {
-                return; // Keluar jika event ini dipicu oleh radio button yang menjadi tidak aktif
+                return;
             }
 
-            // Cek radio button mana yang sekarang sedang aktif
             if (radioIndonesia.Checked)
             {
                 LanguageManager.SetLanguage("id");

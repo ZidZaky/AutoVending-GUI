@@ -13,7 +13,12 @@ namespace AutoVendingApp
 
         public static event Action LanguageChanged;
 
- 
+        public static void LoadLanguagesForTest(Dictionary<string, Dictionary<string, string>> testLanguages)
+        {
+            _languages = testLanguages;
+            _currentLanguage = "id";
+        }
+
         public static void LoadLanguages(string filePath = "Resources/languages.json")
         {
             try

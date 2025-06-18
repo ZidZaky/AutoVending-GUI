@@ -50,6 +50,11 @@ namespace AutoVendingApp
             }
         }
 
+        public static void LoadForTest(CurrencyData testData)
+        {
+            _currencyData = testData;
+        }
+
         public static string GetSymbol(string code) =>
             _currencyData.Currencies.ContainsKey(code) ? _currencyData.Currencies[code].Symbol : "";
 

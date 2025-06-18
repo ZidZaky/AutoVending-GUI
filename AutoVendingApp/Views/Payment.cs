@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using AutoVending.Core; // Pastikan namespace Core Anda benar
+using AutoVending.Core;
 using QRCoder;
 
 namespace AutoVendingApp
@@ -18,37 +18,29 @@ namespace AutoVendingApp
         {
             InitializeComponent();
             this.keranjangBelanja = keranjang;
-
-            // --- BAGIAN BARU UNTUK BAHASA ---
-            // 1. Terapkan bahasa saat form pertama kali dimuat
             ApplyLanguage();
-            // 2. Berlangganan (subscribe) event agar form ini tahu jika ada perubahan bahasa
             LanguageManager.LanguageChanged += ApplyLanguage;
-            // ---------------------------------
         }
 
-        // Penting: Berhenti berlangganan saat form ditutup untuk mencegah memory leak
+        public Payment(Dictionary<Item, int> keranjang, bool isTest)
+        {
+            
+            this.keranjangBelanja = keranjang;
+        }
+
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             LanguageManager.LanguageChanged -= ApplyLanguage;
             base.OnFormClosed(e);
         }
 
-        /// <summary>
-        /// Method ini bertugas untuk mengambil semua teks dari LanguageManager
-        /// dan menerapkannya ke kontrol-kontrol di form Payment.
-        /// </summary>
         private void ApplyLanguage()
         {
-            // Mengambil teks terjemahan menggunakan kunci dari file JSON
             this.Text = LanguageManager.GetString("PaymentForm_Title");
-
-            // Asumsi kontrol Anda memiliki nama-nama berikut di Desain Form.
-            // Sesuaikan jika perlu.
             labelCart.Text = LanguageManager.GetString("labelCart");
-            label_totalBayar.Text = LanguageManager.GetString("label_totalBayar"); // label10 adalah "Total Bayar:"
+            label_totalBayar.Text = LanguageManager.GetString("label_totalBayar");
             Bayar.Text = LanguageManager.GetString("Button_KonfirmasiPembayaran");
-            labelQRPembayaran.Text = LanguageManager.GetString("labelQRPembayaran"); // label3 adalah "Lakukan Pembayaran"
+            labelQRPembayaran.Text = LanguageManager.GetString("labelQRPembayaran");
         }
 
         private void Payment_Load(object sender, EventArgs e)
@@ -58,18 +50,21 @@ namespace AutoVendingApp
                 labelPaymentState.Text = "Current State: ProcessingPayment";
             }
 
-            HitungTotal();
+            totalPembayaran = HitungTotal();
+
             TampilkanDetailPembayaran();
             GenerateQRCode();
         }
-
-        private void HitungTotal()
+        public decimal HitungTotal()
         {
-            totalPembayaran = 0;
+            decimal total = 0;
+            if (keranjangBelanja == null) return 0;
+
             foreach (var entry in keranjangBelanja)
             {
-                totalPembayaran += entry.Key.Harga * entry.Value;
+                total += entry.Key.Harga * entry.Value;
             }
+            return total;
         }
 
         private void TampilkanDetailPembayaran()
@@ -84,7 +79,6 @@ namespace AutoVendingApp
             }
             if (labelTotalBayar != null)
             {
-                // Bagian ini hanya menampilkan angkanya saja
                 labelTotalBayar.Text = $"Rp {totalPembayaran:N0}";
             }
         }
@@ -109,7 +103,6 @@ namespace AutoVendingApp
             this.Close();
         }
 
-        // Event handler kosong yang mungkin dibuat oleh designer bisa diabaikan atau dihapus
         private void label5_Click(object sender, EventArgs e) { }
         private void label4_Click(object sender, EventArgs e) { }
     }
