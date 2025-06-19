@@ -36,20 +36,15 @@
             this.title_MataUang = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridViewHistory = new System.Windows.Forms.DataGridView();
+            this.idTransaksi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namaProduk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.banyakProduk = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.listView1 = new System.Windows.Forms.ListView();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label13 = new System.Windows.Forms.Label();
             this.Status = new System.Windows.Forms.Label();
-            this.idTransaksi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namaProduk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.banyakProduk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            //this.btnBack = new System.Windows.Forms.Button();
-            //this.panel4 = new System.Windows.Forms.Panel();
-            //this.comboBox1 = new System.Windows.Forms.ComboBox();
-            //this.label8 = new System.Windows.Forms.Label();
-            this.btnSave = new System.Windows.Forms.Button();
             this.AddProduct = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -75,7 +70,6 @@
             this.radioYEN.Location = new System.Drawing.Point(15, 98);
             this.radioYEN.Name = "radioYEN";
             this.radioYEN.Size = new System.Drawing.Size(47, 17);
-            this.radioYEN.Size = new System.Drawing.Size(57, 21);
             this.radioYEN.TabIndex = 4;
             this.radioYEN.TabStop = true;
             this.radioYEN.Text = "YEN";
@@ -88,7 +82,6 @@
             this.radioEUR.Location = new System.Drawing.Point(15, 75);
             this.radioEUR.Name = "radioEUR";
             this.radioEUR.Size = new System.Drawing.Size(48, 17);
-            this.radioEUR.Size = new System.Drawing.Size(58, 21);
             this.radioEUR.TabIndex = 3;
             this.radioEUR.TabStop = true;
             this.radioEUR.Text = "EUR";
@@ -101,7 +94,6 @@
             this.radioIDR.Location = new System.Drawing.Point(15, 28);
             this.radioIDR.Name = "radioIDR";
             this.radioIDR.Size = new System.Drawing.Size(40, 17);
-            this.radioIDR.Size = new System.Drawing.Size(48, 21);
             this.radioIDR.TabIndex = 2;
             this.radioIDR.TabStop = true;
             this.radioIDR.Text = "RP";
@@ -114,7 +106,6 @@
             this.radioUSD.Location = new System.Drawing.Point(15, 51);
             this.radioUSD.Name = "radioUSD";
             this.radioUSD.Size = new System.Drawing.Size(48, 17);
-            this.radioUSD.Size = new System.Drawing.Size(58, 21);
             this.radioUSD.TabIndex = 1;
             this.radioUSD.TabStop = true;
             this.radioUSD.Text = "USD";
@@ -151,13 +142,35 @@
             this.namaProduk,
             this.banyakProduk});
             this.dataGridViewHistory.Location = new System.Drawing.Point(-53, 37);
-            this.dataGridViewHistory.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridViewHistory.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridViewHistory.Name = "dataGridViewHistory";
             this.dataGridViewHistory.RowHeadersWidth = 51;
             this.dataGridViewHistory.RowTemplate.Height = 24;
             this.dataGridViewHistory.Size = new System.Drawing.Size(470, 236);
             this.dataGridViewHistory.TabIndex = 21;
             this.dataGridViewHistory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // idTransaksi
+            // 
+            this.idTransaksi.HeaderText = "Tanggal";
+            this.idTransaksi.MinimumWidth = 6;
+            this.idTransaksi.Name = "idTransaksi";
+            this.idTransaksi.ReadOnly = true;
+            this.idTransaksi.Width = 125;
+            // 
+            // namaProduk
+            // 
+            this.namaProduk.HeaderText = "List Produk";
+            this.namaProduk.MinimumWidth = 6;
+            this.namaProduk.Name = "namaProduk";
+            this.namaProduk.Width = 125;
+            // 
+            // banyakProduk
+            // 
+            this.banyakProduk.HeaderText = "Total Bayar";
+            this.banyakProduk.MinimumWidth = 6;
+            this.banyakProduk.Name = "banyakProduk";
+            this.banyakProduk.Width = 125;
             // 
             // listView1
             // 
@@ -190,79 +203,6 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Admin Dashboard";
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // panel3
-            // 
-            //this.panel3.Controls.Add(this.label6);
-            //this.panel3.Controls.Add(this.label5);
-            //this.panel3.Controls.Add(this.label4);
-            //this.panel3.Controls.Add(this.textWaktuAkhir);
-            //this.panel3.Controls.Add(this.textWaktuMulai);
-            //this.panel3.Controls.Add(this.label2);
-            //this.panel3.Location = new System.Drawing.Point(16, 296);
-            //this.panel3.Margin = new System.Windows.Forms.Padding(4);
-            //this.panel3.Name = "panel3";
-            //this.panel3.Size = new System.Drawing.Size(461, 101);
-            //this.panel3.TabIndex = 18;
-            //this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
-            // 
-            // label6
-            // 
-            //this.label6.AutoSize = true;
-            //this.label6.Location = new System.Drawing.Point(177, 59);
-            //this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            //this.label6.Name = "label6";
-            //this.label6.Size = new System.Drawing.Size(16, 17);
-            //this.label6.TabIndex = 5;
-            //this.label6.Text = "_";
-            // 
-            // label5
-            // 
-            //this.label5.AutoSize = true;
-            //this.label5.Location = new System.Drawing.Point(212, 42);
-            //this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            //this.label5.Name = "label5";
-            //this.label5.Size = new System.Drawing.Size(84, 17);
-            //this.label5.TabIndex = 4;
-            //this.label5.Text = "Waktu Akhir";
-            // 
-            // label4
-            // 
-            //this.label4.AutoSize = true;
-            //this.label4.Location = new System.Drawing.Point(20, 42);
-            //this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            //this.label4.Name = "label4";
-            //this.label4.Size = new System.Drawing.Size(85, 17);
-            //this.label4.TabIndex = 3;
-            //this.label4.Text = "Waktu Mulai";
-            // 
-            // textWaktuAkhir
-            // 
-            //this.textWaktuAkhir.Location = new System.Drawing.Point(216, 65);
-            //this.textWaktuAkhir.Margin = new System.Windows.Forms.Padding(4);
-            //this.textWaktuAkhir.Name = "textWaktuAkhir";
-            //this.textWaktuAkhir.Size = new System.Drawing.Size(132, 22);
-            //this.textWaktuAkhir.TabIndex = 2;
-            // 
-            // textWaktuMulai
-            // 
-            //this.textWaktuMulai.Location = new System.Drawing.Point(20, 65);
-            //this.textWaktuMulai.Margin = new System.Windows.Forms.Padding(4);
-            //this.textWaktuMulai.Name = "textWaktuMulai";
-            //this.textWaktuMulai.Size = new System.Drawing.Size(132, 22);
-            //this.textWaktuMulai.TabIndex = 1;
-            //this.textWaktuMulai.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label2
-            // 
-            //this.label2.AutoSize = true;
-            //this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            //this.label2.Location = new System.Drawing.Point(16, 11);
-            //this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            //this.label2.Name = "label2";
-            //this.label2.Size = new System.Drawing.Size(264, 20);
-            //this.label2.TabIndex = 0;
-            //this.label2.Text = "Custom Jam Operasional Vending";
             // 
             // flowLayoutPanel4
             // 
@@ -299,47 +239,6 @@
             this.Status.Text = "Operational";
             this.Status.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // idTransaksi
-            // 
-            this.idTransaksi.HeaderText = "Tanggal";
-            this.idTransaksi.MinimumWidth = 6;
-            this.idTransaksi.Name = "idTransaksi";
-            this.idTransaksi.ReadOnly = true;
-            this.idTransaksi.Width = 125;
-            // 
-            // namaProduk
-            // 
-            this.namaProduk.HeaderText = "List Produk";
-            this.namaProduk.MinimumWidth = 6;
-            this.namaProduk.Name = "namaProduk";
-            this.namaProduk.Width = 125;
-            // 
-            // banyakProduk
-            // 
-            this.banyakProduk.HeaderText = "Total Bayar";
-            this.banyakProduk.MinimumWidth = 6;
-            this.banyakProduk.Name = "banyakProduk";
-            this.banyakProduk.Width = 125;
-            //this.label8.AutoSize = true;
-            //this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            //this.label8.Location = new System.Drawing.Point(16, 7);
-            //this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            //this.label8.Name = "label8";
-            //this.label8.Size = new System.Drawing.Size(238, 20);
-            //this.label8.TabIndex = 1;
-            //this.label8.Text = "Pilih Jam Operasional Vending";
-            //this.label8.Click += new System.EventHandler(this.label8_Click);
-            // 
-            // btnSave
-            // 
-            this.btnSave.Location = new System.Drawing.Point(377, 403);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
-            this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(100, 28);
-            this.btnSave.TabIndex = 22;
-            this.btnSave.Text = "Save";
-            this.btnSave.UseVisualStyleBackColor = true;
-            // 
             // AddProduct
             // 
             this.AddProduct.Location = new System.Drawing.Point(499, 403);
@@ -354,12 +253,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 304);
             this.ClientSize = new System.Drawing.Size(1067, 444);
             this.Controls.Add(this.AddProduct);
-            this.Controls.Add(this.btnSave);
-            //this.Controls.Add(this.panel4);
-            //this.Controls.Add(this.btnBack);
             this.Controls.Add(this.flowLayoutPanel4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
@@ -397,7 +292,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn namaProduk;
         private System.Windows.Forms.DataGridViewTextBoxColumn banyakProduk;
         private System.Windows.Forms.DataGridViewTextBoxColumn waktuTransaksi;
-        private System.Windows.Forms.Button btnSave;
         //private System.Windows.Forms.RadioButton radioYEN;
         private System.Windows.Forms.Button AddProduct;
     }

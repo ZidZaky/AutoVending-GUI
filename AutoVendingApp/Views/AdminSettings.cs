@@ -23,31 +23,26 @@ namespace AutoVendingApp
 
         private void LoadTransactionHistory()
         {
-            // Asumsi Anda punya DataGridView bernama 'dataGridViewHistory' di desain
             var service = new TransactionService();
             var transactions = service.GetAllTransactions();
 
-            // Kosongkan tabel sebelum mengisi
             dataGridViewHistory.Rows.Clear();
 
-            // Urutkan dari yang terbaru ke terlama
             foreach (var trx in transactions.OrderByDescending(t => t.Timestamp))
             {
-                // Gabungkan nama produk menjadi satu string
                 string productDetails = string.Join(", ", trx.Items.Select(item => $"{item.ProductName} (x{item.Quantity})"));
 
                 // Tambahkan baris baru ke tabel
                 dataGridViewHistory.Rows.Add(
-                    trx.Timestamp.ToString("dd-MM-yyyy HH:mm"), // Kolom 1: Waktu
-                    productDetails,                             // Kolom 2: Detail Produk
-                    trx.TotalPrice.ToString("N0")               // Kolom 3: Total
+                    trx.Timestamp.ToString("dd-MM-yyyy HH:mm"), 
+                    productDetails,                             
+                    trx.TotalPrice.ToString("N0")              
                 );
             }
         }
 
         private void InitializeCurrencyRadioButtons()
         {
-            // Set radio button checked based on current/default currency
             string currentCurrency = CurrencyAppState.SelectedCurrency;
             switch (currentCurrency)
             {

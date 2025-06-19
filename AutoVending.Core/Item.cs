@@ -9,7 +9,6 @@ namespace AutoVending.Core
         public decimal Harga { get; set; }
         public int Stok { get; set; }
 
-        // --- TAMBAHKAN KONSTRUKTOR INI ---
         public Item(int id, string namaProduk, decimal harga, int stok)
         {
             Id = id;
@@ -17,7 +16,6 @@ namespace AutoVending.Core
             Harga = harga;
             Stok = stok;
         }
-        // --- Akhir penambahan konstruktor ---
 
         public override bool Equals(object obj)
         {

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using AutoVending.Core; 
@@ -40,11 +41,16 @@ namespace AutoVendingApp
             SetState(VendingState.Idle);
             CurrencyEvents.CurrencyChanged += UpdateCurrencyDisplay;
             UpdateCurrencyDisplay();
+            ProductEvents.OnProductsChanged += InisialisasiProduk;
         }
+
+        
+        
 
         protected override void OnFormClosed(FormClosedEventArgs e)
         {
             LanguageManager.LanguageChanged -= ApplyLanguage;
+            ProductEvents.OnProductsChanged -= InisialisasiProduk;
             base.OnFormClosed(e);
         }
 
@@ -88,23 +94,40 @@ namespace AutoVendingApp
 
         private void InisialisasiProduk()
         {
+            
             this.daftarProduk = productService.GetProducts();
-
             string selectedCurrency = CurrencyAppState.SelectedCurrency;
             string symbol = CurrencyManager.GetSymbol(selectedCurrency);
 
-
-            for (int i = 0; i < daftarProduk.Count; i++)
+            for (int i = 0; i < tombolProduk.Count; i++)
             {
-                if (i >= tombolProduk.Count) break;
+                if (i < daftarProduk.Count)
+                {
+                    tombolProduk[i].Visible = true;
+                    labelHarga[i].Visible = true;
 
-                Item produk = daftarProduk[i];
+                    Item produk = daftarProduk[i];
+                    decimal hargaConverted = CurrencyManager.Convert("IDR", selectedCurrency, produk.Harga);
 
-                decimal hargaConverted = CurrencyManager.Convert("IDR", selectedCurrency, produk.Harga);
+                    labelHarga[i].Text = $"{symbol} {hargaConverted:N2}";
+                    tombolProduk[i].Tag = produk;
 
-                labelHarga[i].Text = $"{symbol} {hargaConverted:N2}";
-                tombolProduk[i].Tag = produk;
-                tombolProduk[i].Text = produk.NamaProduk;
+                    if (produk.Stok > 0)
+                    {
+                        tombolProduk[i].Text = produk.NamaProduk;
+                        tombolProduk[i].Enabled = true;
+                    }
+                    else
+                    {
+                        tombolProduk[i].Text = $"{produk.NamaProduk} ({LanguageManager.GetString("OutOfStock")})";
+                        tombolProduk[i].Enabled = false;
+                    }
+                }
+                else
+                {
+                    tombolProduk[i].Visible = false;
+                    labelHarga[i].Visible = false;
+                }
             }
         }
 
@@ -126,6 +149,32 @@ namespace AutoVendingApp
         public void TambahProdukKeKeranjang(Item produk)
         {
             if (produk == null) return;
+
+            if (produk.Stok <= 0)
+            {
+                MessageBox.Show(
+                    string.Format(LanguageManager.GetString("ProductOutOfStockError"), produk.NamaProduk),
+                    LanguageManager.GetString("ErrorTitle"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
+                return;
+            }
+
+            int jumlahDiKeranjang = 0;
+            if (keranjangBelanja.ContainsKey(produk))
+            {
+                jumlahDiKeranjang = keranjangBelanja[produk];
+            }
+
+            if (jumlahDiKeranjang >= produk.Stok)
+            {
+                MessageBox.Show(
+                    string.Format(LanguageManager.GetString("MaxStockInCartError"), produk.NamaProduk),
+                    LanguageManager.GetString("InfoTitle"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+                return;
+            }
 
             if (keranjangBelanja.ContainsKey(produk))
             {
@@ -150,8 +199,25 @@ namespace AutoVendingApp
                 using (Payment formBayar = new Payment(keranjangBelanja))
                 {
                     formBayar.ShowDialog();
+
                     if (formBayar.TransaksiBerhasil)
                     {
+                        var masterProductList = productService.GetProducts();
+                        foreach (var entry in keranjangBelanja)
+                        {
+                            Item itemDiKeranjang = entry.Key;
+                            int jumlahDibeli = entry.Value;
+
+                            var productToUpdate = masterProductList.FirstOrDefault(p => p.Id == itemDiKeranjang.Id);
+
+                            if (productToUpdate != null)
+                            {
+                                productToUpdate.Stok -= jumlahDibeli;
+                            }
+                        }
+
+                        productService.SaveProducts(masterProductList);
+
                         var transactionService = new TransactionService();
                         var newTransaction = new Transaction
                         {
@@ -167,11 +233,13 @@ namespace AutoVendingApp
                             Currency = CurrencyAppState.SelectedCurrency
                         };
                         transactionService.AddTransaction(newTransaction);
-                      
                     }
                 }
+
                 keranjangBelanja.Clear();
                 UpdateTampilanKeranjang();
+                InisialisasiProduk();
+
                 SetState(VendingState.Idle);
             }
         }

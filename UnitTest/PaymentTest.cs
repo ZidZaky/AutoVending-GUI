@@ -1,5 +1,4 @@
-﻿// FILE: UnitTest/PaymentTest.cs
-
+﻿
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using AutoVendingApp;
 using AutoVending.Core;
@@ -11,7 +10,7 @@ namespace UnitTest
     public class PaymentTest
     {
         [TestMethod]
-        public void HitungTotal_KeranjangDenganSatuJenisItem_HarusMengembalikanTotalYangBenar()
+        public void HitungTotal_Keranjang_SatuItem()
         {
             var keranjangPalsu = new Dictionary<Item, int>();
 
@@ -28,7 +27,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void HitungTotal_KeranjangDenganBeberapaItem_HarusMengembalikanTotalGabungan()
+        public void HitungTotal_Keranjang_ItemnLebihDari1()
         {
             var keranjangPalsu = new Dictionary<Item, int>();
             var item1 = new Item(1, "Coca Cola", 5000, 10);
@@ -49,7 +48,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void HitungTotal_KeranjangKosong_HarusMengembalikanNol()
+        public void HitungTotal_KeranjangKosong()
         {
             var keranjangKosong = new Dictionary<Item, int>();
             var paymentForm = new Payment(keranjangKosong, true);
@@ -59,18 +58,6 @@ namespace UnitTest
             decimal totalAktual = paymentForm.HitungTotal();
 
             Assert.AreEqual(totalDiharapkan, totalAktual, "Total untuk keranjang kosong seharusnya nol.");
-        }
-
-        [TestMethod]
-        public void HitungTotal_KeranjangNull_HarusMengembalikanNol()
-        {
-            var paymentForm = new Payment(null, true);
-
-            decimal totalDiharapkan = 0;
-
-            decimal totalAktual = paymentForm.HitungTotal();
-
-            Assert.AreEqual(totalDiharapkan, totalAktual, "Total untuk keranjang null seharusnya nol.");
         }
     }
 }

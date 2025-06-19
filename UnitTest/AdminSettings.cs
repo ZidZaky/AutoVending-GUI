@@ -1,7 +1,7 @@
-﻿// FILE: UnitTest/CurrencyManagerTest.cs
+﻿
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AutoVendingApp; // Namespace utama Anda
+using AutoVendingApp;
 using System.Collections.Generic;
 
 namespace UnitTest

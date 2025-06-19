@@ -1,4 +1,4 @@
-﻿// FILE: UnitTest/VendingTests.cs
+﻿
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
@@ -22,7 +22,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void TambahProdukKeKeranjang_ProdukBaru_HarusMenambahkanProdukDenganJumlahSatu()
+        public void TambahProdukKeKeranjang()
         {
             var produkTes = new Item(1, "Coca Cola", 5000, 10);
 
@@ -35,7 +35,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void TambahProdukKeKeranjang_ProdukYangSamaDuaKali_HarusMenambahJumlahProdukMenjadiDua()
+        public void TambahProdukKeKeranjang_ProdukYangSama()
         {
             var produkTes = new Item(1, "Coca Cola", 5000, 10);
 
@@ -48,7 +48,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void TambahProdukKeKeranjang_DuaProdukBerbeda_HarusAdaDuaJenisItemDiKeranjang()
+        public void TambahProdukKeKeranjang_DuaProdukBerbeda()
         {
             var produkTes1 = new Item(1, "Coca Cola", 5000, 10); 
             var produkTes2 = new Item(2, "Pepsi", 4500, 5);   
@@ -63,7 +63,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void TambahProdukKeKeranjang_InputProdukNull_KeranjangHarusTetapKosong()
+        public void TambahProdukKeKeranjang_InputProdukNull()
         {
           
             vendingForm.TambahProdukKeKeranjang(null);

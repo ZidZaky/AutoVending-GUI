@@ -51,7 +51,6 @@ namespace AutoVendingApp
 
         private void AddProduct_FormClosing(object sender, FormClosingEventArgs e)
         {
-            // Saat form ditutup, anggap selalu save
             SaveAllData_Click(sender, e);
         }
 
@@ -77,13 +76,15 @@ namespace AutoVendingApp
             dgvProduk_SelectionChanged(this, EventArgs.Empty);
         }
 
-        private void SaveAllData_Click(object sender, EventArgs e)
+        public void SaveAllData_Click(object sender, EventArgs e)
         {
             dgvProduk.EndEdit();
-
             _productService.SaveProducts(_products.ToList());
             MessageBox.Show("Data produk berhasil disimpan!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             SetState(FormState.Idle);
+
+            MessageBox.Show("1. SEKARANG memicu event OnProductsChanged...");
+            ProductEvents.TriggerProductsChanged();
         }
 
         public void buttonAddNewProduct_Click(object sender, EventArgs e)
@@ -153,7 +154,6 @@ namespace AutoVendingApp
             }
             else if (columnName == "Stok")
             {
-                // Coba konversi nilai baru ke integer
                 if (!int.TryParse(e.FormattedValue.ToString(), out int stokValue) || stokValue < 0)
                 {
 

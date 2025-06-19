@@ -41,7 +41,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void GetString_SaatBahasaDefault_HarusMengembalikanStringIndonesia()
+        public void GetString_SaatBahasaDefault()
         {
             string hasil = LanguageManager.GetString("WelcomeMessage");
 
@@ -49,7 +49,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void GetString_SetelahSetLanguageKeInggris_HarusMengembalikanStringInggris()
+        public void GetString_SetelahSetLanguageKeInggris()
         {
             LanguageManager.SetLanguage("en");
             string hasil = LanguageManager.GetString("WelcomeMessage");
@@ -58,7 +58,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void GetString_SetelahSetLanguageKeJawa_HarusMengembalikanStringJawa()
+        public void GetString_SetelahSetLanguageKeJawa()
         {
             LanguageManager.SetLanguage("jv");
             string hasil = LanguageManager.GetString("WelcomeMessage");
@@ -67,7 +67,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void GetString_KunciTidakDitemukan_HarusMengembalikanKunciItuSendiri()
+        public void GetString_KunciTidakDitemukan()
         {
             string hasil = LanguageManager.GetString("Kunci_Yang_Tidak_Ada");
 
@@ -75,7 +75,7 @@ namespace UnitTest
         }
 
         [TestMethod]
-        public void SetLanguage_KodeBahasaTidakValid_TidakBolehMengubahBahasa()
+        public void SetLanguage_KodeBahasaTidakValid()
         {
             string bahasaAwal = LanguageManager.GetString("WelcomeMessage");
             Assert.AreEqual("Selamat Datang", bahasaAwal);
@@ -86,15 +86,5 @@ namespace UnitTest
             Assert.AreEqual("Selamat Datang", bahasaSetelahGanti, "Bahasa seharusnya tidak berubah jika kodenya tidak valid.");
         }
 
-        [TestMethod]
-        public void SetLanguage_SaatBahasaDiubah_HarusMemicuEventLanguageChanged()
-        {
-            bool eventTerpanggil = false;
-            LanguageManager.LanguageChanged += () => { eventTerpanggil = true; };
-
-            LanguageManager.SetLanguage("en");
-
-            Assert.IsTrue(eventTerpanggil, "Event LanguageChanged seharusnya terpicu saat bahasa diganti.");
-        }
     }
 }

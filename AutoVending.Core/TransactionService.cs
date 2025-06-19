@@ -12,7 +12,7 @@ namespace AutoVending.Core
 
         public TransactionService()
         {
-            // Muat transaksi dari file saat service dibuat
+            
             _transactions = LoadTransactions();
         }
 
@@ -20,7 +20,7 @@ namespace AutoVending.Core
         {
             if (!File.Exists(_filePath))
             {
-                return new List<Transaction>(); // Jika file belum ada, mulai dengan list kosong
+                return new List<Transaction>();
             }
             string json = File.ReadAllText(_filePath);
             return JsonConvert.DeserializeObject<List<Transaction>>(json) ?? new List<Transaction>();
@@ -33,9 +33,7 @@ namespace AutoVending.Core
 
         public void AddTransaction(Transaction transaction)
         {
-            // Tambahkan transaksi baru ke daftar di memori
             _transactions.Add(transaction);
-            // Tulis kembali seluruh daftar ke file JSON
             SaveChanges();
         }
 
