@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\unittest\\addproducttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\addproducttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\unittest\\adminsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\adminsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\unittest\\languagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\languagesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\unittest\\paymenttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\paymenttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|d:\\semester_6\\konstruksi pl - fwp\\uas\\autovending-gui\\unittest\\vendingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73CB0D06-6B88-40BF-9659-3AE7FF1F7F6B}|UnitTest\\UnitTest.csproj|solutionrelative:unittest\\vendingtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +39,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddProductTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AddProductTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AddProductTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AddProductTest.cs",
+              "RelativeToolTip": "UnitTest\\AddProductTest.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwDIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:55:31.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminSettings.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AdminSettings.cs",
+              "RelativeDocumentMoniker": "UnitTest\\AdminSettings.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\AdminSettings.cs",
+              "RelativeToolTip": "UnitTest\\AdminSettings.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:54:33.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LanguageSettings.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\LanguageSettings.cs",
+              "RelativeDocumentMoniker": "UnitTest\\LanguageSettings.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\LanguageSettings.cs",
+              "RelativeToolTip": "UnitTest\\LanguageSettings.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:53:24.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\PaymentTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\PaymentTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\PaymentTest.cs",
+              "RelativeToolTip": "UnitTest\\PaymentTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:52:40.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VendingTest.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\VendingTest.cs",
+              "RelativeDocumentMoniker": "UnitTest\\VendingTest.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\UAS\\AutoVending-GUI\\UnitTest\\VendingTest.cs",
+              "RelativeToolTip": "UnitTest\\VendingTest.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:51:54.592Z",
+              "EditorCaption": ""
             }
           ]
         }
